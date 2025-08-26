@@ -1,0 +1,1001 @@
+OrderID,OrderDate,DeliveryTime(Days),DelayReason,Fulfilled
+1,2025-01-01,2.6,Courier Issue,Yes
+2,2025-01-02,2.1,None,Yes
+3,2025-01-03,3.2,None,Yes
+4,2025-01-04,2.2,None,Yes
+5,2025-01-05,2.1,None,Yes
+6,2025-01-06,1.8,None,Yes
+7,2025-01-07,2.1,Weather,Yes
+8,2025-01-08,1.9,Courier Issue,No
+9,2025-01-09,2.4,None,Yes
+10,2025-01-10,2.5,None,Yes
+11,2025-01-11,1.6,Weather,Yes
+12,2025-01-12,1.3,Supplier Delay,Yes
+13,2025-01-13,1.1,None,Yes
+14,2025-01-14,2.3,None,Yes
+15,2025-01-15,1.4,None,Yes
+16,2025-01-16,1.0,Weather,Yes
+17,2025-01-17,2.2,Supplier Delay,Yes
+18,2025-01-18,3.2,None,Yes
+19,2025-01-19,2.0,None,Yes
+20,2025-01-20,2.4,Courier Issue,Yes
+21,2025-01-21,2.0,Supplier Delay,Yes
+22,2025-01-22,2.0,Courier Issue,Yes
+23,2025-01-23,2.5,Weather,Yes
+24,2025-01-24,1.9,None,Yes
+25,2025-01-25,2.1,None,Yes
+26,2025-01-26,2.2,None,Yes
+27,2025-01-27,1.7,None,Yes
+28,2025-01-28,2.5,None,Yes
+29,2025-01-29,1.9,Weather,Yes
+30,2025-01-30,1.6,None,Yes
+31,2025-01-31,2.3,Weather,Yes
+32,2025-02-01,1.6,None,Yes
+33,2025-02-02,2.0,Courier Issue,Yes
+34,2025-02-03,2.0,None,Yes
+35,2025-02-04,2.5,None,Yes
+36,2025-02-05,2.2,None,Yes
+37,2025-02-06,2.0,None,Yes
+38,2025-02-07,2.4,Weather,Yes
+39,2025-02-08,2.7,Weather,Yes
+40,2025-02-09,2.3,None,Yes
+41,2025-02-10,2.0,None,Yes
+42,2025-02-11,1.3,None,Yes
+43,2025-02-12,1.5,None,Yes
+44,2025-02-13,1.8,Courier Issue,Yes
+45,2025-02-14,1.7,Supplier Delay,Yes
+46,2025-02-15,1.9,None,Yes
+47,2025-02-16,2.0,Weather,No
+48,2025-02-17,2.3,None,Yes
+49,2025-02-18,2.0,Courier Issue,Yes
+50,2025-02-19,2.2,None,Yes
+51,2025-02-20,2.0,Weather,No
+52,2025-02-21,1.0,Supplier Delay,Yes
+53,2025-02-22,1.5,None,Yes
+54,2025-02-23,1.9,Supplier Delay,Yes
+55,2025-02-24,1.4,None,Yes
+56,2025-02-25,2.3,None,Yes
+57,2025-02-26,2.8,None,Yes
+58,2025-02-27,2.6,Courier Issue,Yes
+59,2025-02-28,1.9,Supplier Delay,Yes
+60,2025-03-01,2.7,Weather,Yes
+61,2025-03-02,2.1,Weather,Yes
+62,2025-03-03,1.8,None,Yes
+63,2025-03-04,1.7,Courier Issue,Yes
+64,2025-03-05,1.8,None,Yes
+65,2025-03-06,1.8,None,Yes
+66,2025-03-07,2.1,None,Yes
+67,2025-03-08,2.1,Weather,Yes
+68,2025-03-09,2.0,Weather,Yes
+69,2025-03-10,2.2,None,Yes
+70,2025-03-11,2.6,None,Yes
+71,2025-03-12,2.5,Supplier Delay,Yes
+72,2025-03-13,1.3,None,Yes
+73,2025-03-14,1.0,Weather,Yes
+74,2025-03-15,2.5,Courier Issue,Yes
+75,2025-03-16,1.3,None,Yes
+76,2025-03-17,1.9,None,Yes
+77,2025-03-18,1.4,Weather,Yes
+78,2025-03-19,1.1,Supplier Delay,Yes
+79,2025-03-20,2.3,None,Yes
+80,2025-03-21,2.4,Courier Issue,No
+81,2025-03-22,1.7,None,Yes
+82,2025-03-23,1.0,None,Yes
+83,2025-03-24,1.7,Weather,Yes
+84,2025-03-25,2.2,Supplier Delay,No
+85,2025-03-26,1.3,None,Yes
+86,2025-03-27,2.1,Supplier Delay,Yes
+87,2025-03-28,2.0,None,Yes
+88,2025-03-29,2.3,None,Yes
+89,2025-03-30,2.1,None,Yes
+90,2025-03-31,1.5,Supplier Delay,Yes
+91,2025-04-01,2.6,None,Yes
+92,2025-04-02,1.9,None,Yes
+93,2025-04-03,2.0,None,Yes
+94,2025-04-04,1.5,Supplier Delay,Yes
+95,2025-04-05,1.8,None,Yes
+96,2025-04-06,1.6,Weather,No
+97,2025-04-07,1.9,None,Yes
+98,2025-04-08,2.9,None,Yes
+99,2025-04-09,1.3,None,Yes
+100,2025-04-10,1.2,Supplier Delay,Yes
+101,2025-04-11,2.7,Courier Issue,Yes
+102,2025-04-12,1.9,None,Yes
+103,2025-04-13,1.7,None,Yes
+104,2025-04-14,2.5,None,Yes
+105,2025-04-15,1.7,None,Yes
+106,2025-04-16,2.9,None,Yes
+107,2025-04-17,2.3,None,Yes
+108,2025-04-18,1.8,None,Yes
+109,2025-04-19,3.1,None,Yes
+110,2025-04-20,1.7,None,Yes
+111,2025-04-21,2.4,Weather,No
+112,2025-04-22,2.1,None,Yes
+113,2025-04-23,2.7,None,Yes
+114,2025-04-24,2.8,Weather,Yes
+115,2025-04-25,2.0,None,Yes
+116,2025-04-26,1.6,None,Yes
+117,2025-04-27,2.2,None,Yes
+118,2025-04-28,1.7,None,Yes
+119,2025-04-29,3.0,None,Yes
+120,2025-04-30,2.1,None,Yes
+121,2025-05-01,1.8,Courier Issue,Yes
+122,2025-05-02,2.1,None,Yes
+123,2025-05-03,1.3,None,Yes
+124,2025-05-04,1.5,None,Yes
+125,2025-05-05,2.6,None,Yes
+126,2025-05-06,1.7,None,Yes
+127,2025-05-07,1.5,Weather,Yes
+128,2025-05-08,2.3,None,Yes
+129,2025-05-09,2.6,None,Yes
+130,2025-05-10,2.4,None,Yes
+131,2025-05-11,2.5,None,Yes
+132,2025-05-12,1.6,Courier Issue,Yes
+133,2025-05-13,1.3,None,Yes
+134,2025-05-14,2.8,None,Yes
+135,2025-05-15,1.8,None,Yes
+136,2025-05-16,1.9,Courier Issue,Yes
+137,2025-05-17,2.7,None,Yes
+138,2025-05-18,2.3,None,Yes
+139,2025-05-19,2.2,Weather,Yes
+140,2025-05-20,3.1,Weather,Yes
+141,2025-05-21,1.7,None,Yes
+142,2025-05-22,2.5,None,Yes
+143,2025-05-23,2.0,None,Yes
+144,2025-05-24,2.1,None,Yes
+145,2025-05-25,2.8,None,Yes
+146,2025-05-26,2.3,None,Yes
+147,2025-05-27,2.3,None,Yes
+148,2025-05-28,2.5,None,Yes
+149,2025-05-29,1.8,None,Yes
+150,2025-05-30,1.6,Courier Issue,Yes
+151,2025-05-31,1.5,None,Yes
+152,2025-06-01,1.0,None,Yes
+153,2025-06-02,3.0,None,Yes
+154,2025-06-03,1.4,Courier Issue,No
+155,2025-06-04,1.9,None,Yes
+156,2025-06-05,1.9,None,Yes
+157,2025-06-06,2.2,None,Yes
+158,2025-06-07,2.4,None,Yes
+159,2025-06-08,2.4,None,Yes
+160,2025-06-09,1.7,None,Yes
+161,2025-06-10,1.9,None,Yes
+162,2025-06-11,2.1,Courier Issue,No
+163,2025-06-12,1.9,None,Yes
+164,2025-06-13,2.8,None,Yes
+165,2025-06-14,2.2,Weather,Yes
+166,2025-06-15,2.4,None,Yes
+167,2025-06-16,2.3,None,Yes
+168,2025-06-17,2.6,None,Yes
+169,2025-06-18,2.1,None,Yes
+170,2025-06-19,1.4,Supplier Delay,Yes
+171,2025-06-20,2.2,Courier Issue,Yes
+172,2025-06-21,1.7,None,Yes
+173,2025-06-22,1.7,None,Yes
+174,2025-06-23,2.3,Courier Issue,Yes
+175,2025-06-24,2.6,Weather,Yes
+176,2025-06-25,2.0,Supplier Delay,Yes
+177,2025-06-26,2.2,None,Yes
+178,2025-06-27,2.9,None,Yes
+179,2025-06-28,2.1,Weather,Yes
+180,2025-06-29,3.3,None,Yes
+181,2025-06-30,2.3,None,Yes
+182,2025-07-01,1.1,None,Yes
+183,2025-07-02,2.4,None,Yes
+184,2025-07-03,2.2,None,Yes
+185,2025-07-04,2.6,None,Yes
+186,2025-07-05,2.3,Courier Issue,Yes
+187,2025-07-06,1.9,None,Yes
+188,2025-07-07,1.4,Supplier Delay,No
+189,2025-07-08,1.9,None,Yes
+190,2025-07-09,1.6,None,Yes
+191,2025-07-10,1.7,Courier Issue,Yes
+192,2025-07-11,2.3,None,Yes
+193,2025-07-12,2.8,None,Yes
+194,2025-07-13,2.2,None,Yes
+195,2025-07-14,1.4,None,Yes
+196,2025-07-15,2.2,Weather,Yes
+197,2025-07-16,2.6,Courier Issue,Yes
+198,2025-07-17,1.7,None,Yes
+199,2025-07-18,1.9,None,Yes
+200,2025-07-19,2.0,None,Yes
+201,2025-07-20,1.6,Weather,No
+202,2025-07-21,2.3,None,Yes
+203,2025-07-22,1.9,None,Yes
+204,2025-07-23,2.2,None,Yes
+205,2025-07-24,1.6,None,Yes
+206,2025-07-25,1.8,None,Yes
+207,2025-07-26,2.4,Weather,Yes
+208,2025-07-27,1.8,None,Yes
+209,2025-07-28,2.9,None,Yes
+210,2025-07-29,1.8,Supplier Delay,Yes
+211,2025-07-30,2.1,Weather,No
+212,2025-07-31,2.5,None,Yes
+213,2025-08-01,1.3,None,Yes
+214,2025-08-02,1.1,None,Yes
+215,2025-08-03,1.2,None,Yes
+216,2025-08-04,2.6,None,Yes
+217,2025-08-05,1.7,None,Yes
+218,2025-08-06,3.3,None,Yes
+219,2025-08-07,1.7,Weather,Yes
+220,2025-08-08,2.1,None,Yes
+221,2025-08-09,2.8,None,Yes
+222,2025-08-10,3.0,None,Yes
+223,2025-08-11,3.0,Courier Issue,Yes
+224,2025-08-12,2.6,Supplier Delay,Yes
+225,2025-08-13,2.5,Supplier Delay,Yes
+226,2025-08-14,2.3,Supplier Delay,Yes
+227,2025-08-15,2.4,Courier Issue,Yes
+228,2025-08-16,1.7,None,Yes
+229,2025-08-17,1.6,None,Yes
+230,2025-08-18,2.0,None,Yes
+231,2025-08-19,1.9,Weather,Yes
+232,2025-08-20,1.8,Weather,Yes
+233,2025-08-21,2.3,None,Yes
+234,2025-08-22,2.5,None,Yes
+235,2025-08-23,2.0,None,Yes
+236,2025-08-24,2.7,Courier Issue,Yes
+237,2025-08-25,1.4,None,Yes
+238,2025-08-26,1.9,None,Yes
+239,2025-08-27,1.6,None,Yes
+240,2025-08-28,1.1,None,Yes
+241,2025-08-29,2.0,Supplier Delay,Yes
+242,2025-08-30,1.9,None,Yes
+243,2025-08-31,2.8,Weather,Yes
+244,2025-09-01,2.3,None,Yes
+245,2025-09-02,1.5,None,Yes
+246,2025-09-03,2.9,None,Yes
+247,2025-09-04,2.6,Weather,Yes
+248,2025-09-05,2.3,None,Yes
+249,2025-09-06,1.9,None,Yes
+250,2025-09-07,1.5,None,Yes
+251,2025-09-08,1.8,Courier Issue,Yes
+252,2025-09-09,2.5,None,Yes
+253,2025-09-10,2.9,Supplier Delay,No
+254,2025-09-11,2.8,None,Yes
+255,2025-09-12,1.8,None,Yes
+256,2025-09-13,1.4,None,Yes
+257,2025-09-14,2.1,None,Yes
+258,2025-09-15,1.1,None,Yes
+259,2025-09-16,2.2,None,Yes
+260,2025-09-17,1.9,None,Yes
+261,2025-09-18,1.8,Courier Issue,Yes
+262,2025-09-19,1.2,None,Yes
+263,2025-09-20,2.3,Weather,Yes
+264,2025-09-21,1.7,None,Yes
+265,2025-09-22,1.4,None,Yes
+266,2025-09-23,1.0,None,Yes
+267,2025-09-24,2.0,None,Yes
+268,2025-09-25,2.9,None,Yes
+269,2025-09-26,2.8,None,Yes
+270,2025-09-27,1.8,None,Yes
+271,2025-09-28,1.7,None,Yes
+272,2025-09-29,2.2,Supplier Delay,No
+273,2025-09-30,1.5,Supplier Delay,Yes
+274,2025-10-01,2.2,None,Yes
+275,2025-10-02,2.4,None,Yes
+276,2025-10-03,2.6,None,Yes
+277,2025-10-04,1.9,None,Yes
+278,2025-10-05,1.9,None,Yes
+279,2025-10-06,1.6,None,Yes
+280,2025-10-07,1.6,None,Yes
+281,2025-10-08,1.9,None,Yes
+282,2025-10-09,2.2,None,Yes
+283,2025-10-10,2.5,Supplier Delay,Yes
+284,2025-10-11,1.6,Weather,Yes
+285,2025-10-12,2.7,None,Yes
+286,2025-10-13,1.9,Courier Issue,No
+287,2025-10-14,2.0,Courier Issue,Yes
+288,2025-10-15,1.6,None,Yes
+289,2025-10-16,1.0,None,Yes
+290,2025-10-17,2.4,None,Yes
+291,2025-10-18,2.4,Courier Issue,Yes
+292,2025-10-19,1.9,Supplier Delay,Yes
+293,2025-10-20,2.0,None,Yes
+294,2025-10-21,2.3,None,Yes
+295,2025-10-22,1.2,None,Yes
+296,2025-10-23,1.7,None,Yes
+297,2025-10-24,2.4,None,Yes
+298,2025-10-25,1.4,Supplier Delay,No
+299,2025-10-26,2.1,None,Yes
+300,2025-10-27,1.3,Supplier Delay,Yes
+301,2025-10-28,2.2,Supplier Delay,Yes
+302,2025-10-29,2.0,Weather,Yes
+303,2025-10-30,1.2,None,Yes
+304,2025-10-31,2.6,None,Yes
+305,2025-11-01,1.6,None,Yes
+306,2025-11-02,1.6,None,Yes
+307,2025-11-03,2.1,None,Yes
+308,2025-11-04,2.6,None,Yes
+309,2025-11-05,1.5,None,Yes
+310,2025-11-06,2.0,None,Yes
+311,2025-11-07,2.2,None,Yes
+312,2025-11-08,2.3,None,Yes
+313,2025-11-09,2.1,Weather,Yes
+314,2025-11-10,1.8,Weather,Yes
+315,2025-11-11,1.6,None,Yes
+316,2025-11-12,2.0,None,Yes
+317,2025-11-13,1.5,None,Yes
+318,2025-11-14,1.0,None,Yes
+319,2025-11-15,2.2,None,Yes
+320,2025-11-16,2.5,Supplier Delay,Yes
+321,2025-11-17,1.0,None,Yes
+322,2025-11-18,1.5,None,Yes
+323,2025-11-19,2.3,None,Yes
+324,2025-11-20,3.0,None,Yes
+325,2025-11-21,2.0,None,Yes
+326,2025-11-22,1.6,None,Yes
+327,2025-11-23,1.9,None,Yes
+328,2025-11-24,2.7,None,Yes
+329,2025-11-25,1.7,None,Yes
+330,2025-11-26,1.6,None,Yes
+331,2025-11-27,1.8,None,Yes
+332,2025-11-28,1.5,Courier Issue,Yes
+333,2025-11-29,2.1,None,Yes
+334,2025-11-30,2.8,None,Yes
+335,2025-12-01,2.2,None,Yes
+336,2025-12-02,1.9,None,Yes
+337,2025-12-03,1.9,None,Yes
+338,2025-12-04,1.2,None,Yes
+339,2025-12-05,2.4,Weather,Yes
+340,2025-12-06,2.0,None,Yes
+341,2025-12-07,1.9,None,Yes
+342,2025-12-08,3.6,None,Yes
+343,2025-12-09,2.1,Supplier Delay,Yes
+344,2025-12-10,1.6,None,Yes
+345,2025-12-11,1.8,None,Yes
+346,2025-12-12,2.6,None,Yes
+347,2025-12-13,2.1,None,Yes
+348,2025-12-14,1.3,None,Yes
+349,2025-12-15,2.5,None,Yes
+350,2025-12-16,1.7,None,Yes
+351,2025-12-17,2.9,None,Yes
+352,2025-12-18,2.5,None,Yes
+353,2025-12-19,1.8,None,Yes
+354,2025-12-20,2.6,Supplier Delay,Yes
+355,2025-12-21,2.0,None,Yes
+356,2025-12-22,2.4,None,Yes
+357,2025-12-23,2.2,None,Yes
+358,2025-12-24,1.6,None,Yes
+359,2025-12-25,1.7,Weather,Yes
+360,2025-12-26,2.5,None,Yes
+361,2025-12-27,1.8,None,Yes
+362,2025-12-28,1.8,None,Yes
+363,2025-12-29,1.5,None,Yes
+364,2025-12-30,2.2,None,Yes
+365,2025-12-31,3.0,None,Yes
+366,2026-01-01,1.5,None,Yes
+367,2026-01-02,2.0,Weather,Yes
+368,2026-01-03,2.7,None,Yes
+369,2026-01-04,2.0,Supplier Delay,Yes
+370,2026-01-05,2.2,Supplier Delay,Yes
+371,2026-01-06,1.5,Supplier Delay,Yes
+372,2026-01-07,2.2,None,Yes
+373,2026-01-08,1.9,None,Yes
+374,2026-01-09,2.5,Weather,Yes
+375,2026-01-10,2.6,None,Yes
+376,2026-01-11,3.3,None,Yes
+377,2026-01-12,2.3,Supplier Delay,Yes
+378,2026-01-13,2.2,Supplier Delay,Yes
+379,2026-01-14,2.1,None,Yes
+380,2026-01-15,1.8,None,Yes
+381,2026-01-16,2.2,None,Yes
+382,2026-01-17,1.9,Supplier Delay,Yes
+383,2026-01-18,2.1,Courier Issue,Yes
+384,2026-01-19,2.7,None,Yes
+385,2026-01-20,1.5,None,Yes
+386,2026-01-21,2.6,Supplier Delay,Yes
+387,2026-01-22,2.7,None,Yes
+388,2026-01-23,1.9,None,Yes
+389,2026-01-24,1.0,Courier Issue,Yes
+390,2026-01-25,1.7,None,Yes
+391,2026-01-26,2.6,None,Yes
+392,2026-01-27,2.0,None,Yes
+393,2026-01-28,1.5,None,Yes
+394,2026-01-29,1.7,Supplier Delay,Yes
+395,2026-01-30,2.4,None,Yes
+396,2026-01-31,2.3,Courier Issue,No
+397,2026-02-01,1.9,None,Yes
+398,2026-02-02,1.8,None,Yes
+399,2026-02-03,1.8,None,Yes
+400,2026-02-04,1.5,None,Yes
+401,2026-02-05,2.8,None,Yes
+402,2026-02-06,1.8,None,Yes
+403,2026-02-07,2.6,None,Yes
+404,2026-02-08,2.8,None,Yes
+405,2026-02-09,2.5,Weather,Yes
+406,2026-02-10,1.8,None,Yes
+407,2026-02-11,2.2,Weather,Yes
+408,2026-02-12,2.0,None,Yes
+409,2026-02-13,1.5,None,Yes
+410,2026-02-14,2.2,None,Yes
+411,2026-02-15,1.4,None,Yes
+412,2026-02-16,2.6,None,Yes
+413,2026-02-17,1.8,Supplier Delay,Yes
+414,2026-02-18,2.1,Weather,Yes
+415,2026-02-19,2.1,None,Yes
+416,2026-02-20,1.9,None,Yes
+417,2026-02-21,2.3,Weather,Yes
+418,2026-02-22,1.8,None,Yes
+419,2026-02-23,2.4,Weather,No
+420,2026-02-24,1.3,Weather,No
+421,2026-02-25,2.1,Supplier Delay,Yes
+422,2026-02-26,3.0,None,Yes
+423,2026-02-27,1.5,None,Yes
+424,2026-02-28,1.7,None,Yes
+425,2026-03-01,2.3,None,Yes
+426,2026-03-02,2.1,Weather,Yes
+427,2026-03-03,2.2,None,Yes
+428,2026-03-04,2.2,None,Yes
+429,2026-03-05,2.3,Supplier Delay,Yes
+430,2026-03-06,2.6,Weather,Yes
+431,2026-03-07,2.2,Courier Issue,Yes
+432,2026-03-08,1.9,Weather,No
+433,2026-03-09,2.3,None,Yes
+434,2026-03-10,2.9,None,Yes
+435,2026-03-11,1.9,Supplier Delay,Yes
+436,2026-03-12,1.5,None,Yes
+437,2026-03-13,2.6,None,Yes
+438,2026-03-14,1.9,None,Yes
+439,2026-03-15,1.0,None,Yes
+440,2026-03-16,2.4,Weather,Yes
+441,2026-03-17,1.7,None,Yes
+442,2026-03-18,2.0,None,Yes
+443,2026-03-19,2.2,None,Yes
+444,2026-03-20,2.1,None,Yes
+445,2026-03-21,2.4,None,Yes
+446,2026-03-22,1.8,None,Yes
+447,2026-03-23,2.3,Courier Issue,Yes
+448,2026-03-24,1.9,None,Yes
+449,2026-03-25,2.4,None,Yes
+450,2026-03-26,2.3,None,Yes
+451,2026-03-27,1.5,None,Yes
+452,2026-03-28,2.5,None,Yes
+453,2026-03-29,1.7,Supplier Delay,Yes
+454,2026-03-30,2.4,None,Yes
+455,2026-03-31,2.2,Weather,Yes
+456,2026-04-01,2.9,None,Yes
+457,2026-04-02,1.9,None,Yes
+458,2026-04-03,1.8,None,Yes
+459,2026-04-04,2.0,Courier Issue,Yes
+460,2026-04-05,1.8,None,Yes
+461,2026-04-06,2.4,None,Yes
+462,2026-04-07,1.2,None,Yes
+463,2026-04-08,1.5,None,Yes
+464,2026-04-09,1.5,None,Yes
+465,2026-04-10,2.5,None,Yes
+466,2026-04-11,2.9,None,Yes
+467,2026-04-12,1.9,None,Yes
+468,2026-04-13,1.9,None,Yes
+469,2026-04-14,2.0,Supplier Delay,Yes
+470,2026-04-15,2.6,Weather,Yes
+471,2026-04-16,1.5,Weather,Yes
+472,2026-04-17,2.1,None,Yes
+473,2026-04-18,2.5,None,Yes
+474,2026-04-19,2.3,None,Yes
+475,2026-04-20,2.1,None,Yes
+476,2026-04-21,2.5,None,Yes
+477,2026-04-22,1.0,None,Yes
+478,2026-04-23,2.3,None,Yes
+479,2026-04-24,1.7,None,Yes
+480,2026-04-25,1.1,Supplier Delay,Yes
+481,2026-04-26,2.3,None,Yes
+482,2026-04-27,2.7,None,Yes
+483,2026-04-28,1.9,None,Yes
+484,2026-04-29,2.5,None,Yes
+485,2026-04-30,2.8,None,Yes
+486,2026-05-01,2.7,Supplier Delay,Yes
+487,2026-05-02,2.8,Supplier Delay,Yes
+488,2026-05-03,2.4,None,Yes
+489,2026-05-04,2.0,Courier Issue,No
+490,2026-05-05,1.2,Courier Issue,No
+491,2026-05-06,1.9,Supplier Delay,Yes
+492,2026-05-07,1.6,Supplier Delay,Yes
+493,2026-05-08,3.1,None,Yes
+494,2026-05-09,1.9,None,Yes
+495,2026-05-10,2.1,None,Yes
+496,2026-05-11,2.3,None,Yes
+497,2026-05-12,2.0,Courier Issue,Yes
+498,2026-05-13,2.8,None,Yes
+499,2026-05-14,1.7,Weather,No
+500,2026-05-15,2.1,Supplier Delay,Yes
+501,2026-05-16,1.6,Supplier Delay,No
+502,2026-05-17,1.3,Courier Issue,Yes
+503,2026-05-18,1.7,None,Yes
+504,2026-05-19,2.0,None,Yes
+505,2026-05-20,1.8,None,Yes
+506,2026-05-21,1.7,None,Yes
+507,2026-05-22,1.3,None,Yes
+508,2026-05-23,2.0,None,Yes
+509,2026-05-24,1.2,Weather,Yes
+510,2026-05-25,2.4,None,Yes
+511,2026-05-26,2.0,None,Yes
+512,2026-05-27,1.3,None,Yes
+513,2026-05-28,1.8,None,Yes
+514,2026-05-29,1.6,None,Yes
+515,2026-05-30,2.2,Weather,Yes
+516,2026-05-31,2.7,None,Yes
+517,2026-06-01,1.1,Weather,Yes
+518,2026-06-02,2.1,None,Yes
+519,2026-06-03,1.9,Supplier Delay,Yes
+520,2026-06-04,2.3,None,Yes
+521,2026-06-05,2.1,None,Yes
+522,2026-06-06,1.6,None,Yes
+523,2026-06-07,1.8,Supplier Delay,Yes
+524,2026-06-08,1.6,None,Yes
+525,2026-06-09,2.5,None,Yes
+526,2026-06-10,2.0,Courier Issue,Yes
+527,2026-06-11,3.0,Weather,Yes
+528,2026-06-12,2.0,None,Yes
+529,2026-06-13,1.6,Weather,Yes
+530,2026-06-14,1.2,None,Yes
+531,2026-06-15,1.1,None,Yes
+532,2026-06-16,1.2,None,Yes
+533,2026-06-17,2.1,Courier Issue,No
+534,2026-06-18,2.3,Courier Issue,Yes
+535,2026-06-19,1.2,None,Yes
+536,2026-06-20,2.4,None,Yes
+537,2026-06-21,1.8,None,Yes
+538,2026-06-22,2.1,Courier Issue,Yes
+539,2026-06-23,2.8,Courier Issue,Yes
+540,2026-06-24,2.4,None,Yes
+541,2026-06-25,1.9,Supplier Delay,Yes
+542,2026-06-26,1.6,Weather,Yes
+543,2026-06-27,1.0,None,Yes
+544,2026-06-28,1.6,None,Yes
+545,2026-06-29,1.9,None,Yes
+546,2026-06-30,1.5,None,Yes
+547,2026-07-01,1.9,None,Yes
+548,2026-07-02,2.0,None,Yes
+549,2026-07-03,1.9,Courier Issue,No
+550,2026-07-04,1.7,None,Yes
+551,2026-07-05,2.1,None,Yes
+552,2026-07-06,2.2,None,Yes
+553,2026-07-07,1.5,None,Yes
+554,2026-07-08,2.7,None,Yes
+555,2026-07-09,2.0,None,Yes
+556,2026-07-10,2.0,None,Yes
+557,2026-07-11,2.4,None,Yes
+558,2026-07-12,2.1,None,Yes
+559,2026-07-13,2.5,None,Yes
+560,2026-07-14,2.1,Weather,Yes
+561,2026-07-15,1.7,None,Yes
+562,2026-07-16,2.2,None,Yes
+563,2026-07-17,1.4,Supplier Delay,No
+564,2026-07-18,2.1,None,Yes
+565,2026-07-19,2.0,None,Yes
+566,2026-07-20,1.9,Weather,No
+567,2026-07-21,1.9,None,Yes
+568,2026-07-22,1.1,None,Yes
+569,2026-07-23,1.7,Supplier Delay,Yes
+570,2026-07-24,2.0,Supplier Delay,Yes
+571,2026-07-25,2.1,Courier Issue,Yes
+572,2026-07-26,1.5,None,Yes
+573,2026-07-27,2.6,None,Yes
+574,2026-07-28,1.6,None,Yes
+575,2026-07-29,2.5,None,Yes
+576,2026-07-30,2.2,None,Yes
+577,2026-07-31,1.7,None,Yes
+578,2026-08-01,2.9,Courier Issue,Yes
+579,2026-08-02,1.4,None,Yes
+580,2026-08-03,2.5,None,Yes
+581,2026-08-04,2.5,None,Yes
+582,2026-08-05,1.7,None,Yes
+583,2026-08-06,2.7,None,Yes
+584,2026-08-07,1.9,None,Yes
+585,2026-08-08,2.1,None,Yes
+586,2026-08-09,2.1,None,Yes
+587,2026-08-10,1.9,Supplier Delay,Yes
+588,2026-08-11,2.4,Supplier Delay,Yes
+589,2026-08-12,2.4,None,Yes
+590,2026-08-13,1.1,None,Yes
+591,2026-08-14,2.7,Supplier Delay,Yes
+592,2026-08-15,1.2,Supplier Delay,Yes
+593,2026-08-16,2.5,None,Yes
+594,2026-08-17,2.6,Weather,Yes
+595,2026-08-18,1.5,None,Yes
+596,2026-08-19,1.8,Supplier Delay,Yes
+597,2026-08-20,1.4,Courier Issue,Yes
+598,2026-08-21,1.9,None,Yes
+599,2026-08-22,1.8,Supplier Delay,Yes
+600,2026-08-23,2.4,None,Yes
+601,2026-08-24,2.7,Courier Issue,Yes
+602,2026-08-25,2.7,None,Yes
+603,2026-08-26,1.7,Supplier Delay,Yes
+604,2026-08-27,1.9,None,Yes
+605,2026-08-28,1.2,None,Yes
+606,2026-08-29,1.6,None,Yes
+607,2026-08-30,2.5,Courier Issue,Yes
+608,2026-08-31,2.8,Supplier Delay,Yes
+609,2026-09-01,1.4,Supplier Delay,Yes
+610,2026-09-02,1.7,Courier Issue,Yes
+611,2026-09-03,2.0,None,Yes
+612,2026-09-04,2.1,None,Yes
+613,2026-09-05,1.6,None,Yes
+614,2026-09-06,2.2,None,Yes
+615,2026-09-07,1.8,None,Yes
+616,2026-09-08,2.0,None,Yes
+617,2026-09-09,2.3,None,Yes
+618,2026-09-10,2.0,None,Yes
+619,2026-09-11,1.8,None,Yes
+620,2026-09-12,1.9,None,Yes
+621,2026-09-13,2.0,Courier Issue,Yes
+622,2026-09-14,1.8,Weather,No
+623,2026-09-15,1.9,Courier Issue,Yes
+624,2026-09-16,2.8,None,Yes
+625,2026-09-17,2.3,None,Yes
+626,2026-09-18,1.9,Weather,Yes
+627,2026-09-19,2.3,None,Yes
+628,2026-09-20,1.8,None,Yes
+629,2026-09-21,2.6,None,Yes
+630,2026-09-22,2.2,None,Yes
+631,2026-09-23,1.9,None,Yes
+632,2026-09-24,2.2,None,Yes
+633,2026-09-25,1.2,None,Yes
+634,2026-09-26,1.4,None,Yes
+635,2026-09-27,1.4,None,Yes
+636,2026-09-28,2.1,Supplier Delay,Yes
+637,2026-09-29,2.9,None,Yes
+638,2026-09-30,3.1,None,Yes
+639,2026-10-01,2.3,Supplier Delay,Yes
+640,2026-10-02,2.3,None,Yes
+641,2026-10-03,1.1,None,Yes
+642,2026-10-04,1.7,None,Yes
+643,2026-10-05,1.6,None,Yes
+644,2026-10-06,1.7,None,Yes
+645,2026-10-07,1.9,Supplier Delay,No
+646,2026-10-08,1.8,None,Yes
+647,2026-10-09,1.0,None,Yes
+648,2026-10-10,2.4,None,Yes
+649,2026-10-11,1.5,None,Yes
+650,2026-10-12,2.1,None,Yes
+651,2026-10-13,3.0,None,Yes
+652,2026-10-14,1.5,None,Yes
+653,2026-10-15,1.0,None,Yes
+654,2026-10-16,1.9,None,Yes
+655,2026-10-17,2.6,None,Yes
+656,2026-10-18,3.0,Supplier Delay,Yes
+657,2026-10-19,1.4,None,Yes
+658,2026-10-20,2.2,None,Yes
+659,2026-10-21,1.8,None,Yes
+660,2026-10-22,1.9,Weather,No
+661,2026-10-23,3.3,None,Yes
+662,2026-10-24,1.2,None,Yes
+663,2026-10-25,2.1,Weather,Yes
+664,2026-10-26,2.2,Supplier Delay,No
+665,2026-10-27,2.5,None,Yes
+666,2026-10-28,2.0,None,Yes
+667,2026-10-29,2.2,Supplier Delay,Yes
+668,2026-10-30,1.8,Courier Issue,Yes
+669,2026-10-31,2.1,Supplier Delay,Yes
+670,2026-11-01,1.8,None,Yes
+671,2026-11-02,2.3,None,Yes
+672,2026-11-03,1.8,None,Yes
+673,2026-11-04,2.2,Weather,No
+674,2026-11-05,2.0,None,Yes
+675,2026-11-06,2.6,None,Yes
+676,2026-11-07,2.0,Supplier Delay,Yes
+677,2026-11-08,1.1,None,Yes
+678,2026-11-09,2.6,Supplier Delay,Yes
+679,2026-11-10,1.5,None,Yes
+680,2026-11-11,1.7,None,Yes
+681,2026-11-12,1.7,None,Yes
+682,2026-11-13,2.7,Weather,Yes
+683,2026-11-14,1.0,None,Yes
+684,2026-11-15,3.6,None,Yes
+685,2026-11-16,2.5,Courier Issue,Yes
+686,2026-11-17,2.1,None,Yes
+687,2026-11-18,2.0,None,Yes
+688,2026-11-19,2.1,None,Yes
+689,2026-11-20,2.3,None,Yes
+690,2026-11-21,2.3,None,Yes
+691,2026-11-22,2.3,None,Yes
+692,2026-11-23,2.0,None,Yes
+693,2026-11-24,1.9,None,Yes
+694,2026-11-25,1.9,None,Yes
+695,2026-11-26,1.9,None,Yes
+696,2026-11-27,2.6,None,Yes
+697,2026-11-28,2.3,None,Yes
+698,2026-11-29,1.0,None,Yes
+699,2026-11-30,2.3,None,Yes
+700,2026-12-01,2.1,None,Yes
+701,2026-12-02,2.0,Supplier Delay,No
+702,2026-12-03,1.8,None,Yes
+703,2026-12-04,2.6,Courier Issue,No
+704,2026-12-05,2.5,Courier Issue,Yes
+705,2026-12-06,1.6,None,Yes
+706,2026-12-07,2.2,None,Yes
+707,2026-12-08,1.5,None,Yes
+708,2026-12-09,1.3,Weather,Yes
+709,2026-12-10,1.7,None,Yes
+710,2026-12-11,2.4,None,Yes
+711,2026-12-12,2.5,None,Yes
+712,2026-12-13,2.3,Supplier Delay,No
+713,2026-12-14,2.4,Weather,Yes
+714,2026-12-15,2.3,None,Yes
+715,2026-12-16,1.7,None,Yes
+716,2026-12-17,2.2,None,Yes
+717,2026-12-18,2.4,None,Yes
+718,2026-12-19,2.4,Supplier Delay,Yes
+719,2026-12-20,2.6,None,Yes
+720,2026-12-21,2.4,None,Yes
+721,2026-12-22,2.2,None,Yes
+722,2026-12-23,2.5,Supplier Delay,Yes
+723,2026-12-24,2.0,Weather,Yes
+724,2026-12-25,1.6,None,Yes
+725,2026-12-26,1.9,Weather,Yes
+726,2026-12-27,1.6,None,Yes
+727,2026-12-28,1.7,None,Yes
+728,2026-12-29,1.9,None,Yes
+729,2026-12-30,1.6,None,Yes
+730,2026-12-31,1.8,None,Yes
+731,2027-01-01,1.1,Courier Issue,Yes
+732,2027-01-02,2.1,None,Yes
+733,2027-01-03,2.0,None,Yes
+734,2027-01-04,1.6,None,Yes
+735,2027-01-05,2.3,None,Yes
+736,2027-01-06,2.5,Courier Issue,Yes
+737,2027-01-07,1.2,None,Yes
+738,2027-01-08,1.6,None,Yes
+739,2027-01-09,1.6,Weather,Yes
+740,2027-01-10,1.5,None,Yes
+741,2027-01-11,2.4,None,Yes
+742,2027-01-12,1.9,None,Yes
+743,2027-01-13,1.9,None,Yes
+744,2027-01-14,1.0,Courier Issue,Yes
+745,2027-01-15,2.3,Weather,Yes
+746,2027-01-16,1.4,None,Yes
+747,2027-01-17,2.0,Supplier Delay,Yes
+748,2027-01-18,2.1,None,Yes
+749,2027-01-19,2.7,None,Yes
+750,2027-01-20,1.3,None,Yes
+751,2027-01-21,1.0,None,Yes
+752,2027-01-22,2.1,None,Yes
+753,2027-01-23,2.9,None,Yes
+754,2027-01-24,2.6,Courier Issue,Yes
+755,2027-01-25,2.1,None,Yes
+756,2027-01-26,1.8,None,Yes
+757,2027-01-27,2.4,None,Yes
+758,2027-01-28,1.5,None,Yes
+759,2027-01-29,2.2,None,Yes
+760,2027-01-30,2.3,None,Yes
+761,2027-01-31,2.5,Supplier Delay,Yes
+762,2027-02-01,3.4,None,Yes
+763,2027-02-02,2.2,None,Yes
+764,2027-02-03,1.7,None,Yes
+765,2027-02-04,2.0,None,Yes
+766,2027-02-05,1.1,None,Yes
+767,2027-02-06,1.7,Weather,Yes
+768,2027-02-07,1.8,None,Yes
+769,2027-02-08,1.7,None,Yes
+770,2027-02-09,2.1,None,Yes
+771,2027-02-10,1.6,None,Yes
+772,2027-02-11,2.6,None,Yes
+773,2027-02-12,2.0,Supplier Delay,Yes
+774,2027-02-13,2.0,None,Yes
+775,2027-02-14,1.8,Weather,Yes
+776,2027-02-15,2.1,None,Yes
+777,2027-02-16,2.4,Weather,No
+778,2027-02-17,1.6,None,Yes
+779,2027-02-18,1.7,None,Yes
+780,2027-02-19,1.8,None,Yes
+781,2027-02-20,1.3,Courier Issue,Yes
+782,2027-02-21,1.6,None,Yes
+783,2027-02-22,1.8,None,Yes
+784,2027-02-23,2.4,None,Yes
+785,2027-02-24,2.1,Supplier Delay,Yes
+786,2027-02-25,2.1,None,Yes
+787,2027-02-26,2.4,Weather,Yes
+788,2027-02-27,1.9,None,Yes
+789,2027-02-28,2.2,None,Yes
+790,2027-03-01,1.9,None,Yes
+791,2027-03-02,2.1,Courier Issue,Yes
+792,2027-03-03,1.7,None,Yes
+793,2027-03-04,1.0,Courier Issue,Yes
+794,2027-03-05,1.9,None,Yes
+795,2027-03-06,2.7,None,Yes
+796,2027-03-07,2.5,None,Yes
+797,2027-03-08,2.5,None,Yes
+798,2027-03-09,2.6,Supplier Delay,Yes
+799,2027-03-10,2.0,Courier Issue,Yes
+800,2027-03-11,2.1,Supplier Delay,Yes
+801,2027-03-12,1.7,Weather,Yes
+802,2027-03-13,1.8,None,Yes
+803,2027-03-14,2.3,None,Yes
+804,2027-03-15,2.6,Courier Issue,Yes
+805,2027-03-16,1.9,None,Yes
+806,2027-03-17,1.8,Weather,Yes
+807,2027-03-18,2.0,Weather,Yes
+808,2027-03-19,2.3,None,Yes
+809,2027-03-20,1.3,Courier Issue,Yes
+810,2027-03-21,1.0,None,Yes
+811,2027-03-22,1.7,None,Yes
+812,2027-03-23,1.4,None,Yes
+813,2027-03-24,1.7,None,Yes
+814,2027-03-25,1.9,None,Yes
+815,2027-03-26,1.8,None,Yes
+816,2027-03-27,2.7,Supplier Delay,Yes
+817,2027-03-28,2.2,Courier Issue,Yes
+818,2027-03-29,2.2,None,Yes
+819,2027-03-30,2.3,None,Yes
+820,2027-03-31,1.4,Courier Issue,Yes
+821,2027-04-01,2.5,None,Yes
+822,2027-04-02,2.0,None,Yes
+823,2027-04-03,2.3,None,Yes
+824,2027-04-04,1.5,None,Yes
+825,2027-04-05,1.2,None,Yes
+826,2027-04-06,2.4,Courier Issue,Yes
+827,2027-04-07,2.2,None,Yes
+828,2027-04-08,1.5,None,Yes
+829,2027-04-09,1.6,None,Yes
+830,2027-04-10,2.6,None,Yes
+831,2027-04-11,1.4,None,Yes
+832,2027-04-12,2.8,Weather,Yes
+833,2027-04-13,1.5,Weather,Yes
+834,2027-04-14,2.3,None,Yes
+835,2027-04-15,1.8,Courier Issue,Yes
+836,2027-04-16,2.3,Supplier Delay,Yes
+837,2027-04-17,1.7,Weather,Yes
+838,2027-04-18,1.9,None,Yes
+839,2027-04-19,2.0,None,Yes
+840,2027-04-20,1.5,None,Yes
+841,2027-04-21,2.4,None,Yes
+842,2027-04-22,1.7,None,Yes
+843,2027-04-23,1.9,None,Yes
+844,2027-04-24,1.5,Supplier Delay,No
+845,2027-04-25,1.0,Supplier Delay,Yes
+846,2027-04-26,1.9,Courier Issue,Yes
+847,2027-04-27,3.2,None,Yes
+848,2027-04-28,2.4,None,Yes
+849,2027-04-29,2.0,None,Yes
+850,2027-04-30,1.9,None,Yes
+851,2027-05-01,2.0,None,Yes
+852,2027-05-02,2.3,None,Yes
+853,2027-05-03,1.4,None,Yes
+854,2027-05-04,2.6,Supplier Delay,No
+855,2027-05-05,2.4,None,Yes
+856,2027-05-06,2.4,Weather,No
+857,2027-05-07,2.2,None,Yes
+858,2027-05-08,2.0,None,Yes
+859,2027-05-09,2.3,None,Yes
+860,2027-05-10,2.3,None,Yes
+861,2027-05-11,1.8,None,Yes
+862,2027-05-12,1.7,None,Yes
+863,2027-05-13,2.1,None,Yes
+864,2027-05-14,2.8,None,Yes
+865,2027-05-15,1.4,None,Yes
+866,2027-05-16,1.3,Courier Issue,Yes
+867,2027-05-17,2.1,None,Yes
+868,2027-05-18,2.0,Weather,No
+869,2027-05-19,2.1,None,Yes
+870,2027-05-20,2.1,Courier Issue,No
+871,2027-05-21,1.9,Supplier Delay,Yes
+872,2027-05-22,2.7,None,Yes
+873,2027-05-23,1.2,None,Yes
+874,2027-05-24,1.6,Supplier Delay,Yes
+875,2027-05-25,1.9,None,Yes
+876,2027-05-26,1.2,None,Yes
+877,2027-05-27,1.9,None,Yes
+878,2027-05-28,2.8,Supplier Delay,Yes
+879,2027-05-29,2.0,Supplier Delay,Yes
+880,2027-05-30,2.1,None,Yes
+881,2027-05-31,1.4,None,Yes
+882,2027-06-01,1.7,None,Yes
+883,2027-06-02,1.8,None,Yes
+884,2027-06-03,1.8,Courier Issue,Yes
+885,2027-06-04,2.6,None,Yes
+886,2027-06-05,2.3,None,Yes
+887,2027-06-06,1.4,None,Yes
+888,2027-06-07,2.1,Weather,Yes
+889,2027-06-08,2.2,None,Yes
+890,2027-06-09,2.6,None,Yes
+891,2027-06-10,2.8,None,Yes
+892,2027-06-11,1.5,None,Yes
+893,2027-06-12,1.6,None,Yes
+894,2027-06-13,1.4,None,Yes
+895,2027-06-14,1.9,None,Yes
+896,2027-06-15,2.2,Courier Issue,Yes
+897,2027-06-16,2.5,Supplier Delay,No
+898,2027-06-17,2.0,Courier Issue,Yes
+899,2027-06-18,1.8,None,Yes
+900,2027-06-19,2.1,Courier Issue,Yes
+901,2027-06-20,1.6,None,Yes
+902,2027-06-21,3.0,None,Yes
+903,2027-06-22,1.2,None,Yes
+904,2027-06-23,2.1,None,Yes
+905,2027-06-24,3.0,None,Yes
+906,2027-06-25,2.0,None,Yes
+907,2027-06-26,1.9,None,Yes
+908,2027-06-27,1.8,None,Yes
+909,2027-06-28,1.9,None,Yes
+910,2027-06-29,2.7,None,Yes
+911,2027-06-30,1.0,None,Yes
+912,2027-07-01,2.8,Supplier Delay,No
+913,2027-07-02,1.3,Supplier Delay,No
+914,2027-07-03,1.9,None,Yes
+915,2027-07-04,1.8,None,Yes
+916,2027-07-05,2.3,None,Yes
+917,2027-07-06,1.2,Supplier Delay,Yes
+918,2027-07-07,2.2,None,Yes
+919,2027-07-08,3.0,None,Yes
+920,2027-07-09,1.3,None,Yes
+921,2027-07-10,2.1,None,Yes
+922,2027-07-11,1.7,None,Yes
+923,2027-07-12,2.2,Supplier Delay,Yes
+924,2027-07-13,2.0,None,Yes
+925,2027-07-14,1.7,None,Yes
+926,2027-07-15,2.2,Supplier Delay,Yes
+927,2027-07-16,2.9,Supplier Delay,Yes
+928,2027-07-17,1.9,None,Yes
+929,2027-07-18,2.4,None,Yes
+930,2027-07-19,1.4,None,Yes
+931,2027-07-20,1.5,Courier Issue,Yes
+932,2027-07-21,2.2,None,Yes
+933,2027-07-22,2.7,Courier Issue,Yes
+934,2027-07-23,2.2,None,Yes
+935,2027-07-24,1.8,None,Yes
+936,2027-07-25,2.0,None,Yes
+937,2027-07-26,1.4,None,Yes
+938,2027-07-27,2.3,None,Yes
+939,2027-07-28,2.4,None,Yes
+940,2027-07-29,1.8,None,Yes
+941,2027-07-30,1.8,Courier Issue,No
+942,2027-07-31,2.1,None,Yes
+943,2027-08-01,1.8,Weather,Yes
+944,2027-08-02,2.0,None,Yes
+945,2027-08-03,3.0,None,Yes
+946,2027-08-04,1.9,None,Yes
+947,2027-08-05,1.8,None,Yes
+948,2027-08-06,1.7,Courier Issue,Yes
+949,2027-08-07,2.4,None,Yes
+950,2027-08-08,1.9,None,Yes
+951,2027-08-09,1.7,None,Yes
+952,2027-08-10,2.7,None,Yes
+953,2027-08-11,2.7,None,Yes
+954,2027-08-12,1.7,Supplier Delay,No
+955,2027-08-13,1.1,Supplier Delay,Yes
+956,2027-08-14,2.5,None,Yes
+957,2027-08-15,1.7,None,Yes
+958,2027-08-16,2.4,None,Yes
+959,2027-08-17,1.0,None,Yes
+960,2027-08-18,2.4,None,Yes
+961,2027-08-19,1.4,None,Yes
+962,2027-08-20,2.4,None,Yes
+963,2027-08-21,2.0,None,Yes
+964,2027-08-22,1.5,None,Yes
+965,2027-08-23,1.8,None,Yes
+966,2027-08-24,2.3,None,Yes
+967,2027-08-25,2.1,None,Yes
+968,2027-08-26,2.3,Supplier Delay,Yes
+969,2027-08-27,3.0,None,Yes
+970,2027-08-28,1.2,None,Yes
+971,2027-08-29,2.8,None,Yes
+972,2027-08-30,2.1,Supplier Delay,Yes
+973,2027-08-31,1.6,None,Yes
+974,2027-09-01,1.3,None,Yes
+975,2027-09-02,1.9,None,Yes
+976,2027-09-03,2.5,Weather,Yes
+977,2027-09-04,1.9,Courier Issue,No
+978,2027-09-05,2.8,None,Yes
+979,2027-09-06,1.3,Supplier Delay,Yes
+980,2027-09-07,2.0,Courier Issue,No
+981,2027-09-08,1.4,Courier Issue,Yes
+982,2027-09-09,2.2,None,Yes
+983,2027-09-10,2.4,None,Yes
+984,2027-09-11,1.8,None,Yes
+985,2027-09-12,1.0,Weather,Yes
+986,2027-09-13,2.1,None,Yes
+987,2027-09-14,2.2,None,Yes
+988,2027-09-15,2.2,None,Yes
+989,2027-09-16,2.6,Weather,Yes
+990,2027-09-17,1.5,Supplier Delay,Yes
+991,2027-09-18,2.3,None,Yes
+992,2027-09-19,2.6,Supplier Delay,Yes
+993,2027-09-20,1.1,None,Yes
+994,2027-09-21,2.2,Supplier Delay,No
+995,2027-09-22,1.7,None,Yes
+996,2027-09-23,2.0,None,Yes
+997,2027-09-24,2.2,Courier Issue,Yes
+998,2027-09-25,1.8,None,Yes
+999,2027-09-26,1.7,Supplier Delay,No
+1000,2027-09-27,2.0,None,Yes
