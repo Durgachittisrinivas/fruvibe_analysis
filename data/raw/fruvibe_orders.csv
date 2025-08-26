@@ -1,1001 +1,891 @@
-OrderID,OrderDate,DeliveryTime(Days),DelayReason,Fulfilled
-1,2025-01-01,2.6,Courier Issue,Yes
-2,2025-01-02,2.1,None,Yes
-3,2025-01-03,3.2,None,Yes
-4,2025-01-04,2.2,None,Yes
-5,2025-01-05,2.1,None,Yes
-6,2025-01-06,1.8,None,Yes
-7,2025-01-07,2.1,Weather,Yes
-8,2025-01-08,1.9,Courier Issue,No
-9,2025-01-09,2.4,None,Yes
-10,2025-01-10,2.5,None,Yes
-11,2025-01-11,1.6,Weather,Yes
-12,2025-01-12,1.3,Supplier Delay,Yes
-13,2025-01-13,1.1,None,Yes
-14,2025-01-14,2.3,None,Yes
-15,2025-01-15,1.4,None,Yes
-16,2025-01-16,1.0,Weather,Yes
-17,2025-01-17,2.2,Supplier Delay,Yes
-18,2025-01-18,3.2,None,Yes
-19,2025-01-19,2.0,None,Yes
-20,2025-01-20,2.4,Courier Issue,Yes
-21,2025-01-21,2.0,Supplier Delay,Yes
-22,2025-01-22,2.0,Courier Issue,Yes
-23,2025-01-23,2.5,Weather,Yes
-24,2025-01-24,1.9,None,Yes
-25,2025-01-25,2.1,None,Yes
-26,2025-01-26,2.2,None,Yes
-27,2025-01-27,1.7,None,Yes
-28,2025-01-28,2.5,None,Yes
-29,2025-01-29,1.9,Weather,Yes
-30,2025-01-30,1.6,None,Yes
-31,2025-01-31,2.3,Weather,Yes
-32,2025-02-01,1.6,None,Yes
-33,2025-02-02,2.0,Courier Issue,Yes
-34,2025-02-03,2.0,None,Yes
-35,2025-02-04,2.5,None,Yes
-36,2025-02-05,2.2,None,Yes
-37,2025-02-06,2.0,None,Yes
-38,2025-02-07,2.4,Weather,Yes
-39,2025-02-08,2.7,Weather,Yes
-40,2025-02-09,2.3,None,Yes
-41,2025-02-10,2.0,None,Yes
-42,2025-02-11,1.3,None,Yes
-43,2025-02-12,1.5,None,Yes
-44,2025-02-13,1.8,Courier Issue,Yes
-45,2025-02-14,1.7,Supplier Delay,Yes
-46,2025-02-15,1.9,None,Yes
-47,2025-02-16,2.0,Weather,No
-48,2025-02-17,2.3,None,Yes
-49,2025-02-18,2.0,Courier Issue,Yes
-50,2025-02-19,2.2,None,Yes
-51,2025-02-20,2.0,Weather,No
-52,2025-02-21,1.0,Supplier Delay,Yes
-53,2025-02-22,1.5,None,Yes
-54,2025-02-23,1.9,Supplier Delay,Yes
-55,2025-02-24,1.4,None,Yes
-56,2025-02-25,2.3,None,Yes
-57,2025-02-26,2.8,None,Yes
-58,2025-02-27,2.6,Courier Issue,Yes
-59,2025-02-28,1.9,Supplier Delay,Yes
-60,2025-03-01,2.7,Weather,Yes
-61,2025-03-02,2.1,Weather,Yes
-62,2025-03-03,1.8,None,Yes
-63,2025-03-04,1.7,Courier Issue,Yes
-64,2025-03-05,1.8,None,Yes
-65,2025-03-06,1.8,None,Yes
-66,2025-03-07,2.1,None,Yes
-67,2025-03-08,2.1,Weather,Yes
-68,2025-03-09,2.0,Weather,Yes
-69,2025-03-10,2.2,None,Yes
-70,2025-03-11,2.6,None,Yes
-71,2025-03-12,2.5,Supplier Delay,Yes
-72,2025-03-13,1.3,None,Yes
-73,2025-03-14,1.0,Weather,Yes
-74,2025-03-15,2.5,Courier Issue,Yes
-75,2025-03-16,1.3,None,Yes
-76,2025-03-17,1.9,None,Yes
-77,2025-03-18,1.4,Weather,Yes
-78,2025-03-19,1.1,Supplier Delay,Yes
-79,2025-03-20,2.3,None,Yes
-80,2025-03-21,2.4,Courier Issue,No
-81,2025-03-22,1.7,None,Yes
-82,2025-03-23,1.0,None,Yes
-83,2025-03-24,1.7,Weather,Yes
-84,2025-03-25,2.2,Supplier Delay,No
-85,2025-03-26,1.3,None,Yes
-86,2025-03-27,2.1,Supplier Delay,Yes
-87,2025-03-28,2.0,None,Yes
-88,2025-03-29,2.3,None,Yes
-89,2025-03-30,2.1,None,Yes
-90,2025-03-31,1.5,Supplier Delay,Yes
-91,2025-04-01,2.6,None,Yes
-92,2025-04-02,1.9,None,Yes
-93,2025-04-03,2.0,None,Yes
-94,2025-04-04,1.5,Supplier Delay,Yes
-95,2025-04-05,1.8,None,Yes
-96,2025-04-06,1.6,Weather,No
-97,2025-04-07,1.9,None,Yes
-98,2025-04-08,2.9,None,Yes
-99,2025-04-09,1.3,None,Yes
-100,2025-04-10,1.2,Supplier Delay,Yes
-101,2025-04-11,2.7,Courier Issue,Yes
-102,2025-04-12,1.9,None,Yes
-103,2025-04-13,1.7,None,Yes
-104,2025-04-14,2.5,None,Yes
-105,2025-04-15,1.7,None,Yes
-106,2025-04-16,2.9,None,Yes
-107,2025-04-17,2.3,None,Yes
-108,2025-04-18,1.8,None,Yes
-109,2025-04-19,3.1,None,Yes
-110,2025-04-20,1.7,None,Yes
-111,2025-04-21,2.4,Weather,No
-112,2025-04-22,2.1,None,Yes
-113,2025-04-23,2.7,None,Yes
-114,2025-04-24,2.8,Weather,Yes
-115,2025-04-25,2.0,None,Yes
-116,2025-04-26,1.6,None,Yes
-117,2025-04-27,2.2,None,Yes
-118,2025-04-28,1.7,None,Yes
-119,2025-04-29,3.0,None,Yes
-120,2025-04-30,2.1,None,Yes
-121,2025-05-01,1.8,Courier Issue,Yes
-122,2025-05-02,2.1,None,Yes
-123,2025-05-03,1.3,None,Yes
-124,2025-05-04,1.5,None,Yes
-125,2025-05-05,2.6,None,Yes
-126,2025-05-06,1.7,None,Yes
-127,2025-05-07,1.5,Weather,Yes
-128,2025-05-08,2.3,None,Yes
-129,2025-05-09,2.6,None,Yes
-130,2025-05-10,2.4,None,Yes
-131,2025-05-11,2.5,None,Yes
-132,2025-05-12,1.6,Courier Issue,Yes
-133,2025-05-13,1.3,None,Yes
-134,2025-05-14,2.8,None,Yes
-135,2025-05-15,1.8,None,Yes
-136,2025-05-16,1.9,Courier Issue,Yes
-137,2025-05-17,2.7,None,Yes
-138,2025-05-18,2.3,None,Yes
-139,2025-05-19,2.2,Weather,Yes
-140,2025-05-20,3.1,Weather,Yes
-141,2025-05-21,1.7,None,Yes
-142,2025-05-22,2.5,None,Yes
-143,2025-05-23,2.0,None,Yes
-144,2025-05-24,2.1,None,Yes
-145,2025-05-25,2.8,None,Yes
-146,2025-05-26,2.3,None,Yes
-147,2025-05-27,2.3,None,Yes
-148,2025-05-28,2.5,None,Yes
-149,2025-05-29,1.8,None,Yes
-150,2025-05-30,1.6,Courier Issue,Yes
-151,2025-05-31,1.5,None,Yes
-152,2025-06-01,1.0,None,Yes
-153,2025-06-02,3.0,None,Yes
-154,2025-06-03,1.4,Courier Issue,No
-155,2025-06-04,1.9,None,Yes
-156,2025-06-05,1.9,None,Yes
-157,2025-06-06,2.2,None,Yes
-158,2025-06-07,2.4,None,Yes
-159,2025-06-08,2.4,None,Yes
-160,2025-06-09,1.7,None,Yes
-161,2025-06-10,1.9,None,Yes
-162,2025-06-11,2.1,Courier Issue,No
-163,2025-06-12,1.9,None,Yes
-164,2025-06-13,2.8,None,Yes
-165,2025-06-14,2.2,Weather,Yes
-166,2025-06-15,2.4,None,Yes
-167,2025-06-16,2.3,None,Yes
-168,2025-06-17,2.6,None,Yes
-169,2025-06-18,2.1,None,Yes
-170,2025-06-19,1.4,Supplier Delay,Yes
-171,2025-06-20,2.2,Courier Issue,Yes
-172,2025-06-21,1.7,None,Yes
-173,2025-06-22,1.7,None,Yes
-174,2025-06-23,2.3,Courier Issue,Yes
-175,2025-06-24,2.6,Weather,Yes
-176,2025-06-25,2.0,Supplier Delay,Yes
-177,2025-06-26,2.2,None,Yes
-178,2025-06-27,2.9,None,Yes
-179,2025-06-28,2.1,Weather,Yes
-180,2025-06-29,3.3,None,Yes
-181,2025-06-30,2.3,None,Yes
-182,2025-07-01,1.1,None,Yes
-183,2025-07-02,2.4,None,Yes
-184,2025-07-03,2.2,None,Yes
-185,2025-07-04,2.6,None,Yes
-186,2025-07-05,2.3,Courier Issue,Yes
-187,2025-07-06,1.9,None,Yes
-188,2025-07-07,1.4,Supplier Delay,No
-189,2025-07-08,1.9,None,Yes
-190,2025-07-09,1.6,None,Yes
-191,2025-07-10,1.7,Courier Issue,Yes
-192,2025-07-11,2.3,None,Yes
-193,2025-07-12,2.8,None,Yes
-194,2025-07-13,2.2,None,Yes
-195,2025-07-14,1.4,None,Yes
-196,2025-07-15,2.2,Weather,Yes
-197,2025-07-16,2.6,Courier Issue,Yes
-198,2025-07-17,1.7,None,Yes
-199,2025-07-18,1.9,None,Yes
-200,2025-07-19,2.0,None,Yes
-201,2025-07-20,1.6,Weather,No
-202,2025-07-21,2.3,None,Yes
-203,2025-07-22,1.9,None,Yes
-204,2025-07-23,2.2,None,Yes
-205,2025-07-24,1.6,None,Yes
-206,2025-07-25,1.8,None,Yes
-207,2025-07-26,2.4,Weather,Yes
-208,2025-07-27,1.8,None,Yes
-209,2025-07-28,2.9,None,Yes
-210,2025-07-29,1.8,Supplier Delay,Yes
-211,2025-07-30,2.1,Weather,No
-212,2025-07-31,2.5,None,Yes
-213,2025-08-01,1.3,None,Yes
-214,2025-08-02,1.1,None,Yes
-215,2025-08-03,1.2,None,Yes
-216,2025-08-04,2.6,None,Yes
-217,2025-08-05,1.7,None,Yes
-218,2025-08-06,3.3,None,Yes
-219,2025-08-07,1.7,Weather,Yes
-220,2025-08-08,2.1,None,Yes
-221,2025-08-09,2.8,None,Yes
-222,2025-08-10,3.0,None,Yes
-223,2025-08-11,3.0,Courier Issue,Yes
-224,2025-08-12,2.6,Supplier Delay,Yes
-225,2025-08-13,2.5,Supplier Delay,Yes
-226,2025-08-14,2.3,Supplier Delay,Yes
-227,2025-08-15,2.4,Courier Issue,Yes
-228,2025-08-16,1.7,None,Yes
-229,2025-08-17,1.6,None,Yes
-230,2025-08-18,2.0,None,Yes
-231,2025-08-19,1.9,Weather,Yes
-232,2025-08-20,1.8,Weather,Yes
-233,2025-08-21,2.3,None,Yes
-234,2025-08-22,2.5,None,Yes
-235,2025-08-23,2.0,None,Yes
-236,2025-08-24,2.7,Courier Issue,Yes
-237,2025-08-25,1.4,None,Yes
-238,2025-08-26,1.9,None,Yes
-239,2025-08-27,1.6,None,Yes
-240,2025-08-28,1.1,None,Yes
-241,2025-08-29,2.0,Supplier Delay,Yes
-242,2025-08-30,1.9,None,Yes
-243,2025-08-31,2.8,Weather,Yes
-244,2025-09-01,2.3,None,Yes
-245,2025-09-02,1.5,None,Yes
-246,2025-09-03,2.9,None,Yes
-247,2025-09-04,2.6,Weather,Yes
-248,2025-09-05,2.3,None,Yes
-249,2025-09-06,1.9,None,Yes
-250,2025-09-07,1.5,None,Yes
-251,2025-09-08,1.8,Courier Issue,Yes
-252,2025-09-09,2.5,None,Yes
-253,2025-09-10,2.9,Supplier Delay,No
-254,2025-09-11,2.8,None,Yes
-255,2025-09-12,1.8,None,Yes
-256,2025-09-13,1.4,None,Yes
-257,2025-09-14,2.1,None,Yes
-258,2025-09-15,1.1,None,Yes
-259,2025-09-16,2.2,None,Yes
-260,2025-09-17,1.9,None,Yes
-261,2025-09-18,1.8,Courier Issue,Yes
-262,2025-09-19,1.2,None,Yes
-263,2025-09-20,2.3,Weather,Yes
-264,2025-09-21,1.7,None,Yes
-265,2025-09-22,1.4,None,Yes
-266,2025-09-23,1.0,None,Yes
-267,2025-09-24,2.0,None,Yes
-268,2025-09-25,2.9,None,Yes
-269,2025-09-26,2.8,None,Yes
-270,2025-09-27,1.8,None,Yes
-271,2025-09-28,1.7,None,Yes
-272,2025-09-29,2.2,Supplier Delay,No
-273,2025-09-30,1.5,Supplier Delay,Yes
-274,2025-10-01,2.2,None,Yes
-275,2025-10-02,2.4,None,Yes
-276,2025-10-03,2.6,None,Yes
-277,2025-10-04,1.9,None,Yes
-278,2025-10-05,1.9,None,Yes
-279,2025-10-06,1.6,None,Yes
-280,2025-10-07,1.6,None,Yes
-281,2025-10-08,1.9,None,Yes
-282,2025-10-09,2.2,None,Yes
-283,2025-10-10,2.5,Supplier Delay,Yes
-284,2025-10-11,1.6,Weather,Yes
-285,2025-10-12,2.7,None,Yes
-286,2025-10-13,1.9,Courier Issue,No
-287,2025-10-14,2.0,Courier Issue,Yes
-288,2025-10-15,1.6,None,Yes
-289,2025-10-16,1.0,None,Yes
-290,2025-10-17,2.4,None,Yes
-291,2025-10-18,2.4,Courier Issue,Yes
-292,2025-10-19,1.9,Supplier Delay,Yes
-293,2025-10-20,2.0,None,Yes
-294,2025-10-21,2.3,None,Yes
-295,2025-10-22,1.2,None,Yes
-296,2025-10-23,1.7,None,Yes
-297,2025-10-24,2.4,None,Yes
-298,2025-10-25,1.4,Supplier Delay,No
-299,2025-10-26,2.1,None,Yes
-300,2025-10-27,1.3,Supplier Delay,Yes
-301,2025-10-28,2.2,Supplier Delay,Yes
-302,2025-10-29,2.0,Weather,Yes
-303,2025-10-30,1.2,None,Yes
-304,2025-10-31,2.6,None,Yes
-305,2025-11-01,1.6,None,Yes
-306,2025-11-02,1.6,None,Yes
-307,2025-11-03,2.1,None,Yes
-308,2025-11-04,2.6,None,Yes
-309,2025-11-05,1.5,None,Yes
-310,2025-11-06,2.0,None,Yes
-311,2025-11-07,2.2,None,Yes
-312,2025-11-08,2.3,None,Yes
-313,2025-11-09,2.1,Weather,Yes
-314,2025-11-10,1.8,Weather,Yes
-315,2025-11-11,1.6,None,Yes
-316,2025-11-12,2.0,None,Yes
-317,2025-11-13,1.5,None,Yes
-318,2025-11-14,1.0,None,Yes
-319,2025-11-15,2.2,None,Yes
-320,2025-11-16,2.5,Supplier Delay,Yes
-321,2025-11-17,1.0,None,Yes
-322,2025-11-18,1.5,None,Yes
-323,2025-11-19,2.3,None,Yes
-324,2025-11-20,3.0,None,Yes
-325,2025-11-21,2.0,None,Yes
-326,2025-11-22,1.6,None,Yes
-327,2025-11-23,1.9,None,Yes
-328,2025-11-24,2.7,None,Yes
-329,2025-11-25,1.7,None,Yes
-330,2025-11-26,1.6,None,Yes
-331,2025-11-27,1.8,None,Yes
-332,2025-11-28,1.5,Courier Issue,Yes
-333,2025-11-29,2.1,None,Yes
-334,2025-11-30,2.8,None,Yes
-335,2025-12-01,2.2,None,Yes
-336,2025-12-02,1.9,None,Yes
-337,2025-12-03,1.9,None,Yes
-338,2025-12-04,1.2,None,Yes
-339,2025-12-05,2.4,Weather,Yes
-340,2025-12-06,2.0,None,Yes
-341,2025-12-07,1.9,None,Yes
-342,2025-12-08,3.6,None,Yes
-343,2025-12-09,2.1,Supplier Delay,Yes
-344,2025-12-10,1.6,None,Yes
-345,2025-12-11,1.8,None,Yes
-346,2025-12-12,2.6,None,Yes
-347,2025-12-13,2.1,None,Yes
-348,2025-12-14,1.3,None,Yes
-349,2025-12-15,2.5,None,Yes
-350,2025-12-16,1.7,None,Yes
-351,2025-12-17,2.9,None,Yes
-352,2025-12-18,2.5,None,Yes
-353,2025-12-19,1.8,None,Yes
-354,2025-12-20,2.6,Supplier Delay,Yes
-355,2025-12-21,2.0,None,Yes
-356,2025-12-22,2.4,None,Yes
-357,2025-12-23,2.2,None,Yes
-358,2025-12-24,1.6,None,Yes
-359,2025-12-25,1.7,Weather,Yes
-360,2025-12-26,2.5,None,Yes
-361,2025-12-27,1.8,None,Yes
-362,2025-12-28,1.8,None,Yes
-363,2025-12-29,1.5,None,Yes
-364,2025-12-30,2.2,None,Yes
-365,2025-12-31,3.0,None,Yes
-366,2026-01-01,1.5,None,Yes
-367,2026-01-02,2.0,Weather,Yes
-368,2026-01-03,2.7,None,Yes
-369,2026-01-04,2.0,Supplier Delay,Yes
-370,2026-01-05,2.2,Supplier Delay,Yes
-371,2026-01-06,1.5,Supplier Delay,Yes
-372,2026-01-07,2.2,None,Yes
-373,2026-01-08,1.9,None,Yes
-374,2026-01-09,2.5,Weather,Yes
-375,2026-01-10,2.6,None,Yes
-376,2026-01-11,3.3,None,Yes
-377,2026-01-12,2.3,Supplier Delay,Yes
-378,2026-01-13,2.2,Supplier Delay,Yes
-379,2026-01-14,2.1,None,Yes
-380,2026-01-15,1.8,None,Yes
-381,2026-01-16,2.2,None,Yes
-382,2026-01-17,1.9,Supplier Delay,Yes
-383,2026-01-18,2.1,Courier Issue,Yes
-384,2026-01-19,2.7,None,Yes
-385,2026-01-20,1.5,None,Yes
-386,2026-01-21,2.6,Supplier Delay,Yes
-387,2026-01-22,2.7,None,Yes
-388,2026-01-23,1.9,None,Yes
-389,2026-01-24,1.0,Courier Issue,Yes
-390,2026-01-25,1.7,None,Yes
-391,2026-01-26,2.6,None,Yes
-392,2026-01-27,2.0,None,Yes
-393,2026-01-28,1.5,None,Yes
-394,2026-01-29,1.7,Supplier Delay,Yes
-395,2026-01-30,2.4,None,Yes
-396,2026-01-31,2.3,Courier Issue,No
-397,2026-02-01,1.9,None,Yes
-398,2026-02-02,1.8,None,Yes
-399,2026-02-03,1.8,None,Yes
-400,2026-02-04,1.5,None,Yes
-401,2026-02-05,2.8,None,Yes
-402,2026-02-06,1.8,None,Yes
-403,2026-02-07,2.6,None,Yes
-404,2026-02-08,2.8,None,Yes
-405,2026-02-09,2.5,Weather,Yes
-406,2026-02-10,1.8,None,Yes
-407,2026-02-11,2.2,Weather,Yes
-408,2026-02-12,2.0,None,Yes
-409,2026-02-13,1.5,None,Yes
-410,2026-02-14,2.2,None,Yes
-411,2026-02-15,1.4,None,Yes
-412,2026-02-16,2.6,None,Yes
-413,2026-02-17,1.8,Supplier Delay,Yes
-414,2026-02-18,2.1,Weather,Yes
-415,2026-02-19,2.1,None,Yes
-416,2026-02-20,1.9,None,Yes
-417,2026-02-21,2.3,Weather,Yes
-418,2026-02-22,1.8,None,Yes
-419,2026-02-23,2.4,Weather,No
-420,2026-02-24,1.3,Weather,No
-421,2026-02-25,2.1,Supplier Delay,Yes
-422,2026-02-26,3.0,None,Yes
-423,2026-02-27,1.5,None,Yes
-424,2026-02-28,1.7,None,Yes
-425,2026-03-01,2.3,None,Yes
-426,2026-03-02,2.1,Weather,Yes
-427,2026-03-03,2.2,None,Yes
-428,2026-03-04,2.2,None,Yes
-429,2026-03-05,2.3,Supplier Delay,Yes
-430,2026-03-06,2.6,Weather,Yes
-431,2026-03-07,2.2,Courier Issue,Yes
-432,2026-03-08,1.9,Weather,No
-433,2026-03-09,2.3,None,Yes
-434,2026-03-10,2.9,None,Yes
-435,2026-03-11,1.9,Supplier Delay,Yes
-436,2026-03-12,1.5,None,Yes
-437,2026-03-13,2.6,None,Yes
-438,2026-03-14,1.9,None,Yes
-439,2026-03-15,1.0,None,Yes
-440,2026-03-16,2.4,Weather,Yes
-441,2026-03-17,1.7,None,Yes
-442,2026-03-18,2.0,None,Yes
-443,2026-03-19,2.2,None,Yes
-444,2026-03-20,2.1,None,Yes
-445,2026-03-21,2.4,None,Yes
-446,2026-03-22,1.8,None,Yes
-447,2026-03-23,2.3,Courier Issue,Yes
-448,2026-03-24,1.9,None,Yes
-449,2026-03-25,2.4,None,Yes
-450,2026-03-26,2.3,None,Yes
-451,2026-03-27,1.5,None,Yes
-452,2026-03-28,2.5,None,Yes
-453,2026-03-29,1.7,Supplier Delay,Yes
-454,2026-03-30,2.4,None,Yes
-455,2026-03-31,2.2,Weather,Yes
-456,2026-04-01,2.9,None,Yes
-457,2026-04-02,1.9,None,Yes
-458,2026-04-03,1.8,None,Yes
-459,2026-04-04,2.0,Courier Issue,Yes
-460,2026-04-05,1.8,None,Yes
-461,2026-04-06,2.4,None,Yes
-462,2026-04-07,1.2,None,Yes
-463,2026-04-08,1.5,None,Yes
-464,2026-04-09,1.5,None,Yes
-465,2026-04-10,2.5,None,Yes
-466,2026-04-11,2.9,None,Yes
-467,2026-04-12,1.9,None,Yes
-468,2026-04-13,1.9,None,Yes
-469,2026-04-14,2.0,Supplier Delay,Yes
-470,2026-04-15,2.6,Weather,Yes
-471,2026-04-16,1.5,Weather,Yes
-472,2026-04-17,2.1,None,Yes
-473,2026-04-18,2.5,None,Yes
-474,2026-04-19,2.3,None,Yes
-475,2026-04-20,2.1,None,Yes
-476,2026-04-21,2.5,None,Yes
-477,2026-04-22,1.0,None,Yes
-478,2026-04-23,2.3,None,Yes
-479,2026-04-24,1.7,None,Yes
-480,2026-04-25,1.1,Supplier Delay,Yes
-481,2026-04-26,2.3,None,Yes
-482,2026-04-27,2.7,None,Yes
-483,2026-04-28,1.9,None,Yes
-484,2026-04-29,2.5,None,Yes
-485,2026-04-30,2.8,None,Yes
-486,2026-05-01,2.7,Supplier Delay,Yes
-487,2026-05-02,2.8,Supplier Delay,Yes
-488,2026-05-03,2.4,None,Yes
-489,2026-05-04,2.0,Courier Issue,No
-490,2026-05-05,1.2,Courier Issue,No
-491,2026-05-06,1.9,Supplier Delay,Yes
-492,2026-05-07,1.6,Supplier Delay,Yes
-493,2026-05-08,3.1,None,Yes
-494,2026-05-09,1.9,None,Yes
-495,2026-05-10,2.1,None,Yes
-496,2026-05-11,2.3,None,Yes
-497,2026-05-12,2.0,Courier Issue,Yes
-498,2026-05-13,2.8,None,Yes
-499,2026-05-14,1.7,Weather,No
-500,2026-05-15,2.1,Supplier Delay,Yes
-501,2026-05-16,1.6,Supplier Delay,No
-502,2026-05-17,1.3,Courier Issue,Yes
-503,2026-05-18,1.7,None,Yes
-504,2026-05-19,2.0,None,Yes
-505,2026-05-20,1.8,None,Yes
-506,2026-05-21,1.7,None,Yes
-507,2026-05-22,1.3,None,Yes
-508,2026-05-23,2.0,None,Yes
-509,2026-05-24,1.2,Weather,Yes
-510,2026-05-25,2.4,None,Yes
-511,2026-05-26,2.0,None,Yes
-512,2026-05-27,1.3,None,Yes
-513,2026-05-28,1.8,None,Yes
-514,2026-05-29,1.6,None,Yes
-515,2026-05-30,2.2,Weather,Yes
-516,2026-05-31,2.7,None,Yes
-517,2026-06-01,1.1,Weather,Yes
-518,2026-06-02,2.1,None,Yes
-519,2026-06-03,1.9,Supplier Delay,Yes
-520,2026-06-04,2.3,None,Yes
-521,2026-06-05,2.1,None,Yes
-522,2026-06-06,1.6,None,Yes
-523,2026-06-07,1.8,Supplier Delay,Yes
-524,2026-06-08,1.6,None,Yes
-525,2026-06-09,2.5,None,Yes
-526,2026-06-10,2.0,Courier Issue,Yes
-527,2026-06-11,3.0,Weather,Yes
-528,2026-06-12,2.0,None,Yes
-529,2026-06-13,1.6,Weather,Yes
-530,2026-06-14,1.2,None,Yes
-531,2026-06-15,1.1,None,Yes
-532,2026-06-16,1.2,None,Yes
-533,2026-06-17,2.1,Courier Issue,No
-534,2026-06-18,2.3,Courier Issue,Yes
-535,2026-06-19,1.2,None,Yes
-536,2026-06-20,2.4,None,Yes
-537,2026-06-21,1.8,None,Yes
-538,2026-06-22,2.1,Courier Issue,Yes
-539,2026-06-23,2.8,Courier Issue,Yes
-540,2026-06-24,2.4,None,Yes
-541,2026-06-25,1.9,Supplier Delay,Yes
-542,2026-06-26,1.6,Weather,Yes
-543,2026-06-27,1.0,None,Yes
-544,2026-06-28,1.6,None,Yes
-545,2026-06-29,1.9,None,Yes
-546,2026-06-30,1.5,None,Yes
-547,2026-07-01,1.9,None,Yes
-548,2026-07-02,2.0,None,Yes
-549,2026-07-03,1.9,Courier Issue,No
-550,2026-07-04,1.7,None,Yes
-551,2026-07-05,2.1,None,Yes
-552,2026-07-06,2.2,None,Yes
-553,2026-07-07,1.5,None,Yes
-554,2026-07-08,2.7,None,Yes
-555,2026-07-09,2.0,None,Yes
-556,2026-07-10,2.0,None,Yes
-557,2026-07-11,2.4,None,Yes
-558,2026-07-12,2.1,None,Yes
-559,2026-07-13,2.5,None,Yes
-560,2026-07-14,2.1,Weather,Yes
-561,2026-07-15,1.7,None,Yes
-562,2026-07-16,2.2,None,Yes
-563,2026-07-17,1.4,Supplier Delay,No
-564,2026-07-18,2.1,None,Yes
-565,2026-07-19,2.0,None,Yes
-566,2026-07-20,1.9,Weather,No
-567,2026-07-21,1.9,None,Yes
-568,2026-07-22,1.1,None,Yes
-569,2026-07-23,1.7,Supplier Delay,Yes
-570,2026-07-24,2.0,Supplier Delay,Yes
-571,2026-07-25,2.1,Courier Issue,Yes
-572,2026-07-26,1.5,None,Yes
-573,2026-07-27,2.6,None,Yes
-574,2026-07-28,1.6,None,Yes
-575,2026-07-29,2.5,None,Yes
-576,2026-07-30,2.2,None,Yes
-577,2026-07-31,1.7,None,Yes
-578,2026-08-01,2.9,Courier Issue,Yes
-579,2026-08-02,1.4,None,Yes
-580,2026-08-03,2.5,None,Yes
-581,2026-08-04,2.5,None,Yes
-582,2026-08-05,1.7,None,Yes
-583,2026-08-06,2.7,None,Yes
-584,2026-08-07,1.9,None,Yes
-585,2026-08-08,2.1,None,Yes
-586,2026-08-09,2.1,None,Yes
-587,2026-08-10,1.9,Supplier Delay,Yes
-588,2026-08-11,2.4,Supplier Delay,Yes
-589,2026-08-12,2.4,None,Yes
-590,2026-08-13,1.1,None,Yes
-591,2026-08-14,2.7,Supplier Delay,Yes
-592,2026-08-15,1.2,Supplier Delay,Yes
-593,2026-08-16,2.5,None,Yes
-594,2026-08-17,2.6,Weather,Yes
-595,2026-08-18,1.5,None,Yes
-596,2026-08-19,1.8,Supplier Delay,Yes
-597,2026-08-20,1.4,Courier Issue,Yes
-598,2026-08-21,1.9,None,Yes
-599,2026-08-22,1.8,Supplier Delay,Yes
-600,2026-08-23,2.4,None,Yes
-601,2026-08-24,2.7,Courier Issue,Yes
-602,2026-08-25,2.7,None,Yes
-603,2026-08-26,1.7,Supplier Delay,Yes
-604,2026-08-27,1.9,None,Yes
-605,2026-08-28,1.2,None,Yes
-606,2026-08-29,1.6,None,Yes
-607,2026-08-30,2.5,Courier Issue,Yes
-608,2026-08-31,2.8,Supplier Delay,Yes
-609,2026-09-01,1.4,Supplier Delay,Yes
-610,2026-09-02,1.7,Courier Issue,Yes
-611,2026-09-03,2.0,None,Yes
-612,2026-09-04,2.1,None,Yes
-613,2026-09-05,1.6,None,Yes
-614,2026-09-06,2.2,None,Yes
-615,2026-09-07,1.8,None,Yes
-616,2026-09-08,2.0,None,Yes
-617,2026-09-09,2.3,None,Yes
-618,2026-09-10,2.0,None,Yes
-619,2026-09-11,1.8,None,Yes
-620,2026-09-12,1.9,None,Yes
-621,2026-09-13,2.0,Courier Issue,Yes
-622,2026-09-14,1.8,Weather,No
-623,2026-09-15,1.9,Courier Issue,Yes
-624,2026-09-16,2.8,None,Yes
-625,2026-09-17,2.3,None,Yes
-626,2026-09-18,1.9,Weather,Yes
-627,2026-09-19,2.3,None,Yes
-628,2026-09-20,1.8,None,Yes
-629,2026-09-21,2.6,None,Yes
-630,2026-09-22,2.2,None,Yes
-631,2026-09-23,1.9,None,Yes
-632,2026-09-24,2.2,None,Yes
-633,2026-09-25,1.2,None,Yes
-634,2026-09-26,1.4,None,Yes
-635,2026-09-27,1.4,None,Yes
-636,2026-09-28,2.1,Supplier Delay,Yes
-637,2026-09-29,2.9,None,Yes
-638,2026-09-30,3.1,None,Yes
-639,2026-10-01,2.3,Supplier Delay,Yes
-640,2026-10-02,2.3,None,Yes
-641,2026-10-03,1.1,None,Yes
-642,2026-10-04,1.7,None,Yes
-643,2026-10-05,1.6,None,Yes
-644,2026-10-06,1.7,None,Yes
-645,2026-10-07,1.9,Supplier Delay,No
-646,2026-10-08,1.8,None,Yes
-647,2026-10-09,1.0,None,Yes
-648,2026-10-10,2.4,None,Yes
-649,2026-10-11,1.5,None,Yes
-650,2026-10-12,2.1,None,Yes
-651,2026-10-13,3.0,None,Yes
-652,2026-10-14,1.5,None,Yes
-653,2026-10-15,1.0,None,Yes
-654,2026-10-16,1.9,None,Yes
-655,2026-10-17,2.6,None,Yes
-656,2026-10-18,3.0,Supplier Delay,Yes
-657,2026-10-19,1.4,None,Yes
-658,2026-10-20,2.2,None,Yes
-659,2026-10-21,1.8,None,Yes
-660,2026-10-22,1.9,Weather,No
-661,2026-10-23,3.3,None,Yes
-662,2026-10-24,1.2,None,Yes
-663,2026-10-25,2.1,Weather,Yes
-664,2026-10-26,2.2,Supplier Delay,No
-665,2026-10-27,2.5,None,Yes
-666,2026-10-28,2.0,None,Yes
-667,2026-10-29,2.2,Supplier Delay,Yes
-668,2026-10-30,1.8,Courier Issue,Yes
-669,2026-10-31,2.1,Supplier Delay,Yes
-670,2026-11-01,1.8,None,Yes
-671,2026-11-02,2.3,None,Yes
-672,2026-11-03,1.8,None,Yes
-673,2026-11-04,2.2,Weather,No
-674,2026-11-05,2.0,None,Yes
-675,2026-11-06,2.6,None,Yes
-676,2026-11-07,2.0,Supplier Delay,Yes
-677,2026-11-08,1.1,None,Yes
-678,2026-11-09,2.6,Supplier Delay,Yes
-679,2026-11-10,1.5,None,Yes
-680,2026-11-11,1.7,None,Yes
-681,2026-11-12,1.7,None,Yes
-682,2026-11-13,2.7,Weather,Yes
-683,2026-11-14,1.0,None,Yes
-684,2026-11-15,3.6,None,Yes
-685,2026-11-16,2.5,Courier Issue,Yes
-686,2026-11-17,2.1,None,Yes
-687,2026-11-18,2.0,None,Yes
-688,2026-11-19,2.1,None,Yes
-689,2026-11-20,2.3,None,Yes
-690,2026-11-21,2.3,None,Yes
-691,2026-11-22,2.3,None,Yes
-692,2026-11-23,2.0,None,Yes
-693,2026-11-24,1.9,None,Yes
-694,2026-11-25,1.9,None,Yes
-695,2026-11-26,1.9,None,Yes
-696,2026-11-27,2.6,None,Yes
-697,2026-11-28,2.3,None,Yes
-698,2026-11-29,1.0,None,Yes
-699,2026-11-30,2.3,None,Yes
-700,2026-12-01,2.1,None,Yes
-701,2026-12-02,2.0,Supplier Delay,No
-702,2026-12-03,1.8,None,Yes
-703,2026-12-04,2.6,Courier Issue,No
-704,2026-12-05,2.5,Courier Issue,Yes
-705,2026-12-06,1.6,None,Yes
-706,2026-12-07,2.2,None,Yes
-707,2026-12-08,1.5,None,Yes
-708,2026-12-09,1.3,Weather,Yes
-709,2026-12-10,1.7,None,Yes
-710,2026-12-11,2.4,None,Yes
-711,2026-12-12,2.5,None,Yes
-712,2026-12-13,2.3,Supplier Delay,No
-713,2026-12-14,2.4,Weather,Yes
-714,2026-12-15,2.3,None,Yes
-715,2026-12-16,1.7,None,Yes
-716,2026-12-17,2.2,None,Yes
-717,2026-12-18,2.4,None,Yes
-718,2026-12-19,2.4,Supplier Delay,Yes
-719,2026-12-20,2.6,None,Yes
-720,2026-12-21,2.4,None,Yes
-721,2026-12-22,2.2,None,Yes
-722,2026-12-23,2.5,Supplier Delay,Yes
-723,2026-12-24,2.0,Weather,Yes
-724,2026-12-25,1.6,None,Yes
-725,2026-12-26,1.9,Weather,Yes
-726,2026-12-27,1.6,None,Yes
-727,2026-12-28,1.7,None,Yes
-728,2026-12-29,1.9,None,Yes
-729,2026-12-30,1.6,None,Yes
-730,2026-12-31,1.8,None,Yes
-731,2027-01-01,1.1,Courier Issue,Yes
-732,2027-01-02,2.1,None,Yes
-733,2027-01-03,2.0,None,Yes
-734,2027-01-04,1.6,None,Yes
-735,2027-01-05,2.3,None,Yes
-736,2027-01-06,2.5,Courier Issue,Yes
-737,2027-01-07,1.2,None,Yes
-738,2027-01-08,1.6,None,Yes
-739,2027-01-09,1.6,Weather,Yes
-740,2027-01-10,1.5,None,Yes
-741,2027-01-11,2.4,None,Yes
-742,2027-01-12,1.9,None,Yes
-743,2027-01-13,1.9,None,Yes
-744,2027-01-14,1.0,Courier Issue,Yes
-745,2027-01-15,2.3,Weather,Yes
-746,2027-01-16,1.4,None,Yes
-747,2027-01-17,2.0,Supplier Delay,Yes
-748,2027-01-18,2.1,None,Yes
-749,2027-01-19,2.7,None,Yes
-750,2027-01-20,1.3,None,Yes
-751,2027-01-21,1.0,None,Yes
-752,2027-01-22,2.1,None,Yes
-753,2027-01-23,2.9,None,Yes
-754,2027-01-24,2.6,Courier Issue,Yes
-755,2027-01-25,2.1,None,Yes
-756,2027-01-26,1.8,None,Yes
-757,2027-01-27,2.4,None,Yes
-758,2027-01-28,1.5,None,Yes
-759,2027-01-29,2.2,None,Yes
-760,2027-01-30,2.3,None,Yes
-761,2027-01-31,2.5,Supplier Delay,Yes
-762,2027-02-01,3.4,None,Yes
-763,2027-02-02,2.2,None,Yes
-764,2027-02-03,1.7,None,Yes
-765,2027-02-04,2.0,None,Yes
-766,2027-02-05,1.1,None,Yes
-767,2027-02-06,1.7,Weather,Yes
-768,2027-02-07,1.8,None,Yes
-769,2027-02-08,1.7,None,Yes
-770,2027-02-09,2.1,None,Yes
-771,2027-02-10,1.6,None,Yes
-772,2027-02-11,2.6,None,Yes
-773,2027-02-12,2.0,Supplier Delay,Yes
-774,2027-02-13,2.0,None,Yes
-775,2027-02-14,1.8,Weather,Yes
-776,2027-02-15,2.1,None,Yes
-777,2027-02-16,2.4,Weather,No
-778,2027-02-17,1.6,None,Yes
-779,2027-02-18,1.7,None,Yes
-780,2027-02-19,1.8,None,Yes
-781,2027-02-20,1.3,Courier Issue,Yes
-782,2027-02-21,1.6,None,Yes
-783,2027-02-22,1.8,None,Yes
-784,2027-02-23,2.4,None,Yes
-785,2027-02-24,2.1,Supplier Delay,Yes
-786,2027-02-25,2.1,None,Yes
-787,2027-02-26,2.4,Weather,Yes
-788,2027-02-27,1.9,None,Yes
-789,2027-02-28,2.2,None,Yes
-790,2027-03-01,1.9,None,Yes
-791,2027-03-02,2.1,Courier Issue,Yes
-792,2027-03-03,1.7,None,Yes
-793,2027-03-04,1.0,Courier Issue,Yes
-794,2027-03-05,1.9,None,Yes
-795,2027-03-06,2.7,None,Yes
-796,2027-03-07,2.5,None,Yes
-797,2027-03-08,2.5,None,Yes
-798,2027-03-09,2.6,Supplier Delay,Yes
-799,2027-03-10,2.0,Courier Issue,Yes
-800,2027-03-11,2.1,Supplier Delay,Yes
-801,2027-03-12,1.7,Weather,Yes
-802,2027-03-13,1.8,None,Yes
-803,2027-03-14,2.3,None,Yes
-804,2027-03-15,2.6,Courier Issue,Yes
-805,2027-03-16,1.9,None,Yes
-806,2027-03-17,1.8,Weather,Yes
-807,2027-03-18,2.0,Weather,Yes
-808,2027-03-19,2.3,None,Yes
-809,2027-03-20,1.3,Courier Issue,Yes
-810,2027-03-21,1.0,None,Yes
-811,2027-03-22,1.7,None,Yes
-812,2027-03-23,1.4,None,Yes
-813,2027-03-24,1.7,None,Yes
-814,2027-03-25,1.9,None,Yes
-815,2027-03-26,1.8,None,Yes
-816,2027-03-27,2.7,Supplier Delay,Yes
-817,2027-03-28,2.2,Courier Issue,Yes
-818,2027-03-29,2.2,None,Yes
-819,2027-03-30,2.3,None,Yes
-820,2027-03-31,1.4,Courier Issue,Yes
-821,2027-04-01,2.5,None,Yes
-822,2027-04-02,2.0,None,Yes
-823,2027-04-03,2.3,None,Yes
-824,2027-04-04,1.5,None,Yes
-825,2027-04-05,1.2,None,Yes
-826,2027-04-06,2.4,Courier Issue,Yes
-827,2027-04-07,2.2,None,Yes
-828,2027-04-08,1.5,None,Yes
-829,2027-04-09,1.6,None,Yes
-830,2027-04-10,2.6,None,Yes
-831,2027-04-11,1.4,None,Yes
-832,2027-04-12,2.8,Weather,Yes
-833,2027-04-13,1.5,Weather,Yes
-834,2027-04-14,2.3,None,Yes
-835,2027-04-15,1.8,Courier Issue,Yes
-836,2027-04-16,2.3,Supplier Delay,Yes
-837,2027-04-17,1.7,Weather,Yes
-838,2027-04-18,1.9,None,Yes
-839,2027-04-19,2.0,None,Yes
-840,2027-04-20,1.5,None,Yes
-841,2027-04-21,2.4,None,Yes
-842,2027-04-22,1.7,None,Yes
-843,2027-04-23,1.9,None,Yes
-844,2027-04-24,1.5,Supplier Delay,No
-845,2027-04-25,1.0,Supplier Delay,Yes
-846,2027-04-26,1.9,Courier Issue,Yes
-847,2027-04-27,3.2,None,Yes
-848,2027-04-28,2.4,None,Yes
-849,2027-04-29,2.0,None,Yes
-850,2027-04-30,1.9,None,Yes
-851,2027-05-01,2.0,None,Yes
-852,2027-05-02,2.3,None,Yes
-853,2027-05-03,1.4,None,Yes
-854,2027-05-04,2.6,Supplier Delay,No
-855,2027-05-05,2.4,None,Yes
-856,2027-05-06,2.4,Weather,No
-857,2027-05-07,2.2,None,Yes
-858,2027-05-08,2.0,None,Yes
-859,2027-05-09,2.3,None,Yes
-860,2027-05-10,2.3,None,Yes
-861,2027-05-11,1.8,None,Yes
-862,2027-05-12,1.7,None,Yes
-863,2027-05-13,2.1,None,Yes
-864,2027-05-14,2.8,None,Yes
-865,2027-05-15,1.4,None,Yes
-866,2027-05-16,1.3,Courier Issue,Yes
-867,2027-05-17,2.1,None,Yes
-868,2027-05-18,2.0,Weather,No
-869,2027-05-19,2.1,None,Yes
-870,2027-05-20,2.1,Courier Issue,No
-871,2027-05-21,1.9,Supplier Delay,Yes
-872,2027-05-22,2.7,None,Yes
-873,2027-05-23,1.2,None,Yes
-874,2027-05-24,1.6,Supplier Delay,Yes
-875,2027-05-25,1.9,None,Yes
-876,2027-05-26,1.2,None,Yes
-877,2027-05-27,1.9,None,Yes
-878,2027-05-28,2.8,Supplier Delay,Yes
-879,2027-05-29,2.0,Supplier Delay,Yes
-880,2027-05-30,2.1,None,Yes
-881,2027-05-31,1.4,None,Yes
-882,2027-06-01,1.7,None,Yes
-883,2027-06-02,1.8,None,Yes
-884,2027-06-03,1.8,Courier Issue,Yes
-885,2027-06-04,2.6,None,Yes
-886,2027-06-05,2.3,None,Yes
-887,2027-06-06,1.4,None,Yes
-888,2027-06-07,2.1,Weather,Yes
-889,2027-06-08,2.2,None,Yes
-890,2027-06-09,2.6,None,Yes
-891,2027-06-10,2.8,None,Yes
-892,2027-06-11,1.5,None,Yes
-893,2027-06-12,1.6,None,Yes
-894,2027-06-13,1.4,None,Yes
-895,2027-06-14,1.9,None,Yes
-896,2027-06-15,2.2,Courier Issue,Yes
-897,2027-06-16,2.5,Supplier Delay,No
-898,2027-06-17,2.0,Courier Issue,Yes
-899,2027-06-18,1.8,None,Yes
-900,2027-06-19,2.1,Courier Issue,Yes
-901,2027-06-20,1.6,None,Yes
-902,2027-06-21,3.0,None,Yes
-903,2027-06-22,1.2,None,Yes
-904,2027-06-23,2.1,None,Yes
-905,2027-06-24,3.0,None,Yes
-906,2027-06-25,2.0,None,Yes
-907,2027-06-26,1.9,None,Yes
-908,2027-06-27,1.8,None,Yes
-909,2027-06-28,1.9,None,Yes
-910,2027-06-29,2.7,None,Yes
-911,2027-06-30,1.0,None,Yes
-912,2027-07-01,2.8,Supplier Delay,No
-913,2027-07-02,1.3,Supplier Delay,No
-914,2027-07-03,1.9,None,Yes
-915,2027-07-04,1.8,None,Yes
-916,2027-07-05,2.3,None,Yes
-917,2027-07-06,1.2,Supplier Delay,Yes
-918,2027-07-07,2.2,None,Yes
-919,2027-07-08,3.0,None,Yes
-920,2027-07-09,1.3,None,Yes
-921,2027-07-10,2.1,None,Yes
-922,2027-07-11,1.7,None,Yes
-923,2027-07-12,2.2,Supplier Delay,Yes
-924,2027-07-13,2.0,None,Yes
-925,2027-07-14,1.7,None,Yes
-926,2027-07-15,2.2,Supplier Delay,Yes
-927,2027-07-16,2.9,Supplier Delay,Yes
-928,2027-07-17,1.9,None,Yes
-929,2027-07-18,2.4,None,Yes
-930,2027-07-19,1.4,None,Yes
-931,2027-07-20,1.5,Courier Issue,Yes
-932,2027-07-21,2.2,None,Yes
-933,2027-07-22,2.7,Courier Issue,Yes
-934,2027-07-23,2.2,None,Yes
-935,2027-07-24,1.8,None,Yes
-936,2027-07-25,2.0,None,Yes
-937,2027-07-26,1.4,None,Yes
-938,2027-07-27,2.3,None,Yes
-939,2027-07-28,2.4,None,Yes
-940,2027-07-29,1.8,None,Yes
-941,2027-07-30,1.8,Courier Issue,No
-942,2027-07-31,2.1,None,Yes
-943,2027-08-01,1.8,Weather,Yes
-944,2027-08-02,2.0,None,Yes
-945,2027-08-03,3.0,None,Yes
-946,2027-08-04,1.9,None,Yes
-947,2027-08-05,1.8,None,Yes
-948,2027-08-06,1.7,Courier Issue,Yes
-949,2027-08-07,2.4,None,Yes
-950,2027-08-08,1.9,None,Yes
-951,2027-08-09,1.7,None,Yes
-952,2027-08-10,2.7,None,Yes
-953,2027-08-11,2.7,None,Yes
-954,2027-08-12,1.7,Supplier Delay,No
-955,2027-08-13,1.1,Supplier Delay,Yes
-956,2027-08-14,2.5,None,Yes
-957,2027-08-15,1.7,None,Yes
-958,2027-08-16,2.4,None,Yes
-959,2027-08-17,1.0,None,Yes
-960,2027-08-18,2.4,None,Yes
-961,2027-08-19,1.4,None,Yes
-962,2027-08-20,2.4,None,Yes
-963,2027-08-21,2.0,None,Yes
-964,2027-08-22,1.5,None,Yes
-965,2027-08-23,1.8,None,Yes
-966,2027-08-24,2.3,None,Yes
-967,2027-08-25,2.1,None,Yes
-968,2027-08-26,2.3,Supplier Delay,Yes
-969,2027-08-27,3.0,None,Yes
-970,2027-08-28,1.2,None,Yes
-971,2027-08-29,2.8,None,Yes
-972,2027-08-30,2.1,Supplier Delay,Yes
-973,2027-08-31,1.6,None,Yes
-974,2027-09-01,1.3,None,Yes
-975,2027-09-02,1.9,None,Yes
-976,2027-09-03,2.5,Weather,Yes
-977,2027-09-04,1.9,Courier Issue,No
-978,2027-09-05,2.8,None,Yes
-979,2027-09-06,1.3,Supplier Delay,Yes
-980,2027-09-07,2.0,Courier Issue,No
-981,2027-09-08,1.4,Courier Issue,Yes
-982,2027-09-09,2.2,None,Yes
-983,2027-09-10,2.4,None,Yes
-984,2027-09-11,1.8,None,Yes
-985,2027-09-12,1.0,Weather,Yes
-986,2027-09-13,2.1,None,Yes
-987,2027-09-14,2.2,None,Yes
-988,2027-09-15,2.2,None,Yes
-989,2027-09-16,2.6,Weather,Yes
-990,2027-09-17,1.5,Supplier Delay,Yes
-991,2027-09-18,2.3,None,Yes
-992,2027-09-19,2.6,Supplier Delay,Yes
-993,2027-09-20,1.1,None,Yes
-994,2027-09-21,2.2,Supplier Delay,No
-995,2027-09-22,1.7,None,Yes
-996,2027-09-23,2.0,None,Yes
-997,2027-09-24,2.2,Courier Issue,Yes
-998,2027-09-25,1.8,None,Yes
-999,2027-09-26,1.7,Supplier Delay,No
-1000,2027-09-27,2.0,None,Yes
+OrderID,OrderDate,PostcodeDistrict,AreaGroup,OrderType,Plan,Product,UnitPrice,Quantity,Revenue,DeliverySlot,OnTime,Fulfilled
+1,2025-03-16,IG6,Ilford-Redbridge,OneTime,,Immunity Booster Platter,6.65,1,6.65,Evening,Yes,Yes
+2,2025-03-16,E12,Stratford-EastHam,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Morning,Yes,Yes
+3,2025-03-16,IG2,Ilford-Redbridge,Subscription,Elevate,Elevate,39.75,1,39.75,Morning,Yes,Yes
+4,2025-03-16,E13,Stratford-EastHam,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,Yes,Yes
+5,2025-03-17,E6,Stratford-EastHam,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,Yes,Yes
+6,2025-03-17,E6,Stratford-EastHam,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,No,Yes
+7,2025-03-17,E9,Hackney-BethnalGreen,Subscription,Essence,Essence,32.95,1,32.95,Morning,Yes,Yes
+8,2025-03-17,E2,Hackney-BethnalGreen,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Morning,Yes,Yes
+9,2025-03-17,E3,Docklands,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,Yes,Yes
+10,2025-03-17,RM8,Barking-Dagenham,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Evening,Yes,Yes
+11,2025-03-17,E10,Stratford-EastHam,Subscription,Everjoy,Everjoy,18.99,1,18.99,Morning,Yes,Yes
+12,2025-03-17,E6,Stratford-EastHam,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Evening,Yes,Yes
+13,2025-03-17,E3,Docklands,Subscription,Elevate,Elevate,39.75,1,39.75,Evening,Yes,Yes
+14,2025-03-17,E11,Stratford-EastHam,Subscription,Elevate,Elevate,39.75,1,39.75,Morning,Yes,Yes
+15,2025-03-18,E10,Stratford-EastHam,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,Yes,Yes
+16,2025-03-18,E11,Stratford-EastHam,OneTime,,Immunity Booster Platter,6.65,1,6.65,Evening,No,Yes
+17,2025-03-18,E3,Docklands,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,Yes,Yes
+18,2025-03-18,RM6,Barking-Dagenham,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Morning,Yes,Yes
+19,2025-03-18,E14,Docklands,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Morning,Yes,Yes
+20,2025-03-18,E9,Hackney-BethnalGreen,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Morning,Yes,Yes
+21,2025-03-18,E3,Docklands,Subscription,Essence,Essence,32.95,1,32.95,Morning,Yes,Yes
+22,2025-03-19,E3,Docklands,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Morning,Yes,Yes
+23,2025-03-19,E6,Stratford-EastHam,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Morning,Yes,Yes
+24,2025-03-19,IG11,Ilford-Redbridge,Subscription,Essence,Essence,32.95,1,32.95,Morning,Yes,Yes
+25,2025-03-19,IG6,Ilford-Redbridge,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Morning,Yes,Yes
+26,2025-03-19,E16,Docklands,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,Yes,Yes
+27,2025-03-19,IG1,Ilford-Redbridge,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,Yes,Yes
+28,2025-03-19,IG6,Ilford-Redbridge,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,Yes,Yes
+29,2025-03-19,IG11,Ilford-Redbridge,Subscription,Elevate,Elevate,39.75,1,39.75,Morning,Yes,Yes
+30,2025-03-19,E14,Docklands,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Morning,Yes,Yes
+31,2025-03-20,IG1,Ilford-Redbridge,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,Yes,Yes
+32,2025-03-20,E1,Docklands,Subscription,Essence,Essence,32.95,1,32.95,Morning,Yes,Yes
+33,2025-03-20,E10,Stratford-EastHam,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Morning,Yes,Yes
+34,2025-03-20,E8,Hackney-BethnalGreen,Subscription,Essence,Essence,32.95,1,32.95,Evening,Yes,Yes
+35,2025-03-20,IG11,Ilford-Redbridge,Subscription,Essence,Essence,32.95,1,32.95,Morning,Yes,Yes
+36,2025-03-20,E14,Docklands,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,No,Yes
+37,2025-03-20,IG11,Ilford-Redbridge,Subscription,Everjoy,Everjoy,18.99,1,18.99,Morning,Yes,Yes
+38,2025-03-20,IG2,Ilford-Redbridge,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Morning,Yes,Yes
+39,2025-03-20,E3,Docklands,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,Yes,Yes
+40,2025-03-20,E1,Docklands,OneTime,,Immunity Booster Platter,6.65,1,6.65,Evening,Yes,Yes
+41,2025-03-20,IG1,Ilford-Redbridge,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Evening,Yes,Yes
+42,2025-03-20,IG3,Ilford-Redbridge,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Morning,Yes,Yes
+43,2025-03-20,E9,Hackney-BethnalGreen,Subscription,Everjoy,Everjoy,18.99,1,18.99,Morning,Yes,Yes
+44,2025-03-20,IG1,Ilford-Redbridge,Subscription,Essence,Essence,32.95,1,32.95,Morning,Yes,Yes
+45,2025-03-21,E3,Docklands,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Morning,No,Yes
+46,2025-03-21,E6,Stratford-EastHam,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Evening,Yes,Yes
+47,2025-03-21,IG1,Ilford-Redbridge,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Morning,Yes,Yes
+48,2025-03-21,E13,Stratford-EastHam,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Morning,Yes,Yes
+49,2025-03-21,RM6,Barking-Dagenham,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Morning,Yes,Yes
+50,2025-03-21,E13,Stratford-EastHam,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,Yes,Yes
+51,2025-03-21,E3,Docklands,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,Yes,Yes
+52,2025-03-21,E10,Stratford-EastHam,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Morning,Yes,Yes
+53,2025-03-22,E13,Stratford-EastHam,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,Yes,Yes
+54,2025-03-22,E11,Stratford-EastHam,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Morning,Yes,Yes
+55,2025-03-22,E7,Stratford-EastHam,Subscription,Essence,Essence,32.95,1,32.95,Morning,No,Yes
+56,2025-03-22,E13,Stratford-EastHam,Subscription,Essence,Essence,32.95,1,32.95,Morning,No,Yes
+57,2025-03-22,RM8,Barking-Dagenham,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,No,Yes
+58,2025-03-22,IG3,Ilford-Redbridge,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,Yes,Yes
+59,2025-03-22,IG4,Ilford-Redbridge,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,Yes,Yes
+60,2025-03-22,E13,Stratford-EastHam,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,Yes,Yes
+61,2025-03-23,E2,Hackney-BethnalGreen,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,Yes,Yes
+62,2025-03-23,E16,Docklands,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Morning,No,Yes
+63,2025-03-23,IG11,Ilford-Redbridge,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Morning,No,Yes
+64,2025-03-23,RM6,Barking-Dagenham,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Evening,No,Yes
+65,2025-03-24,IG2,Ilford-Redbridge,Subscription,Elevate,Elevate,39.75,1,39.75,Morning,Yes,Yes
+66,2025-03-24,E7,Stratford-EastHam,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,Yes,Yes
+67,2025-03-24,IG6,Ilford-Redbridge,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Morning,Yes,Yes
+68,2025-03-24,E13,Stratford-EastHam,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Morning,Yes,Yes
+69,2025-03-24,IG6,Ilford-Redbridge,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,Yes,Yes
+70,2025-03-24,E10,Stratford-EastHam,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Evening,Yes,Yes
+71,2025-03-25,IG11,Ilford-Redbridge,Subscription,Elevate,Elevate,39.75,1,39.75,Morning,Yes,Yes
+72,2025-03-25,E14,Docklands,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Morning,Yes,Yes
+73,2025-03-25,IG6,Ilford-Redbridge,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Morning,Yes,Yes
+74,2025-03-25,E16,Docklands,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,Yes,Yes
+75,2025-03-25,IG2,Ilford-Redbridge,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Evening,Yes,Yes
+76,2025-03-25,E3,Docklands,Subscription,Essence,Essence,32.95,1,32.95,Evening,Yes,Yes
+77,2025-03-25,RM8,Barking-Dagenham,Subscription,Elevate,Elevate,39.75,1,39.75,Morning,Yes,Yes
+78,2025-03-25,E16,Docklands,Subscription,Everjoy,Everjoy,18.99,1,18.99,Morning,Yes,Yes
+79,2025-03-26,E16,Docklands,Subscription,Elevate,Elevate,39.75,1,39.75,Evening,Yes,Yes
+80,2025-03-26,E10,Stratford-EastHam,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Evening,Yes,Yes
+81,2025-03-26,E14,Docklands,Subscription,Elevate,Elevate,39.75,1,39.75,Morning,No,Yes
+82,2025-03-26,E14,Docklands,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,Yes,Yes
+83,2025-03-26,RM6,Barking-Dagenham,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Morning,No,Yes
+84,2025-03-26,E1,Docklands,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Morning,Yes,Yes
+85,2025-03-26,RM9,Barking-Dagenham,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,Yes,Yes
+86,2025-03-26,E12,Stratford-EastHam,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Morning,Yes,Yes
+87,2025-03-26,E14,Docklands,Subscription,Essence,Essence,32.95,1,32.95,Morning,Yes,Yes
+88,2025-03-27,E9,Hackney-BethnalGreen,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Morning,Yes,Yes
+89,2025-03-27,E2,Hackney-BethnalGreen,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Morning,Yes,Yes
+90,2025-03-27,IG4,Ilford-Redbridge,Subscription,Essence,Essence,32.95,1,32.95,Morning,Yes,Yes
+91,2025-03-27,E11,Stratford-EastHam,Subscription,Essence,Essence,32.95,1,32.95,Evening,Yes,Yes
+92,2025-03-27,E1,Docklands,Subscription,Elevate,Elevate,39.75,1,39.75,Morning,Yes,Yes
+93,2025-03-27,E11,Stratford-EastHam,Subscription,Essence,Essence,32.95,1,32.95,Morning,Yes,Yes
+94,2025-03-27,E13,Stratford-EastHam,Subscription,Essence,Essence,32.95,1,32.95,Morning,Yes,Yes
+95,2025-03-27,E9,Hackney-BethnalGreen,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Evening,Yes,Yes
+96,2025-03-27,IG3,Ilford-Redbridge,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Morning,Yes,Yes
+97,2025-03-27,E10,Stratford-EastHam,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,Yes,Yes
+98,2025-03-28,IG11,Ilford-Redbridge,Subscription,Elevate,Elevate,39.75,1,39.75,Morning,Yes,Yes
+99,2025-03-28,E6,Stratford-EastHam,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,Yes,Yes
+100,2025-03-28,E12,Stratford-EastHam,Subscription,Elevate,Elevate,39.75,1,39.75,Morning,Yes,Yes
+101,2025-03-28,E8,Hackney-BethnalGreen,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,Yes,Yes
+102,2025-03-28,E1,Docklands,Subscription,Essence,Essence,32.95,1,32.95,Morning,Yes,Yes
+103,2025-03-28,IG2,Ilford-Redbridge,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Morning,Yes,Yes
+104,2025-03-28,RM9,Barking-Dagenham,Subscription,Elevate,Elevate,39.75,1,39.75,Morning,Yes,Yes
+105,2025-03-29,IG4,Ilford-Redbridge,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,Yes,Yes
+106,2025-03-29,E3,Docklands,Subscription,Everjoy,Everjoy,18.99,1,18.99,Morning,Yes,Yes
+107,2025-03-29,E9,Hackney-BethnalGreen,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Morning,Yes,Yes
+108,2025-03-29,E8,Hackney-BethnalGreen,Subscription,Elevate,Elevate,39.75,1,39.75,Morning,Yes,Yes
+109,2025-03-30,E1,Docklands,Subscription,Essence,Essence,32.95,1,32.95,Evening,Yes,Yes
+110,2025-03-30,IG6,Ilford-Redbridge,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,Yes,Yes
+111,2025-03-30,RM9,Barking-Dagenham,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Morning,Yes,Yes
+112,2025-03-30,IG4,Ilford-Redbridge,Subscription,Elevate,Elevate,39.75,1,39.75,Morning,Yes,Yes
+113,2025-03-30,IG11,Ilford-Redbridge,Subscription,Essence,Essence,32.95,1,32.95,Morning,Yes,Yes
+114,2025-03-30,E16,Docklands,Subscription,Everjoy,Everjoy,18.99,1,18.99,Morning,Yes,Yes
+115,2025-03-31,E3,Docklands,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Morning,Yes,Yes
+116,2025-03-31,E2,Hackney-BethnalGreen,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Morning,Yes,Yes
+117,2025-03-31,E11,Stratford-EastHam,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Morning,Yes,Yes
+118,2025-03-31,E7,Stratford-EastHam,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,Yes,Yes
+119,2025-03-31,E16,Docklands,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Morning,Yes,Yes
+120,2025-03-31,E16,Docklands,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,Yes,Yes
+121,2025-03-31,E9,Hackney-BethnalGreen,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Morning,Yes,Yes
+122,2025-03-31,E14,Docklands,Subscription,Essence,Essence,32.95,1,32.95,Morning,Yes,Yes
+123,2025-03-31,E11,Stratford-EastHam,Subscription,Elevate,Elevate,39.75,1,39.75,Morning,Yes,Yes
+124,2025-03-31,RM9,Barking-Dagenham,Subscription,Everjoy,Everjoy,18.99,1,18.99,Morning,Yes,Yes
+125,2025-03-31,E10,Stratford-EastHam,Subscription,Elevate,Elevate,39.75,1,39.75,Evening,Yes,Yes
+126,2025-03-31,E14,Docklands,Subscription,Essence,Essence,32.95,1,32.95,Morning,Yes,Yes
+127,2025-04-01,E16,Docklands,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,Yes,Yes
+128,2025-04-01,E13,Stratford-EastHam,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Morning,Yes,Yes
+129,2025-04-01,IG3,Ilford-Redbridge,Subscription,Elevate,Elevate,39.75,1,39.75,Morning,Yes,Yes
+130,2025-04-01,E11,Stratford-EastHam,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Morning,Yes,Yes
+131,2025-04-01,E6,Stratford-EastHam,Subscription,Essence,Essence,32.95,1,32.95,Morning,Yes,Yes
+132,2025-04-01,E1,Docklands,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Morning,Yes,Yes
+133,2025-04-02,IG6,Ilford-Redbridge,Subscription,Essence,Essence,32.95,1,32.95,Evening,Yes,Yes
+134,2025-04-02,E3,Docklands,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,Yes,Yes
+135,2025-04-02,E10,Stratford-EastHam,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Morning,Yes,Yes
+136,2025-04-02,E8,Hackney-BethnalGreen,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Morning,Yes,Yes
+137,2025-04-02,E12,Stratford-EastHam,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Morning,Yes,Yes
+138,2025-04-02,E12,Stratford-EastHam,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Morning,Yes,Yes
+139,2025-04-02,IG1,Ilford-Redbridge,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Morning,Yes,Yes
+140,2025-04-03,E2,Hackney-BethnalGreen,Subscription,Essence,Essence,32.95,1,32.95,Evening,Yes,Yes
+141,2025-04-03,RM6,Barking-Dagenham,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,No,Yes
+142,2025-04-03,IG6,Ilford-Redbridge,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Morning,Yes,Yes
+143,2025-04-03,E1,Docklands,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Morning,Yes,Yes
+144,2025-04-03,E10,Stratford-EastHam,OneTime,,Immunity Booster Platter,6.65,1,6.65,Evening,Yes,Yes
+145,2025-04-03,E10,Stratford-EastHam,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Morning,No,Yes
+146,2025-04-03,E7,Stratford-EastHam,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Morning,Yes,Yes
+147,2025-04-03,E8,Hackney-BethnalGreen,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Morning,Yes,Yes
+148,2025-04-03,RM6,Barking-Dagenham,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Morning,Yes,Yes
+149,2025-04-03,E16,Docklands,Subscription,Elevate,Elevate,39.75,1,39.75,Morning,Yes,Yes
+150,2025-04-03,E11,Stratford-EastHam,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Evening,Yes,Yes
+151,2025-04-03,E2,Hackney-BethnalGreen,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,Yes,Yes
+152,2025-04-04,E3,Docklands,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Morning,Yes,Yes
+153,2025-04-04,E13,Stratford-EastHam,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Morning,Yes,Yes
+154,2025-04-04,E8,Hackney-BethnalGreen,Subscription,Elevate,Elevate,39.75,1,39.75,Evening,Yes,Yes
+155,2025-04-05,E10,Stratford-EastHam,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Morning,Yes,Yes
+156,2025-04-05,E16,Docklands,Subscription,Elevate,Elevate,39.75,1,39.75,Evening,Yes,Yes
+157,2025-04-05,E14,Docklands,Subscription,Essence,Essence,32.95,1,32.95,Evening,Yes,Yes
+158,2025-04-05,IG1,Ilford-Redbridge,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Morning,Yes,Yes
+159,2025-04-05,E8,Hackney-BethnalGreen,Subscription,Elevate,Elevate,39.75,1,39.75,Morning,Yes,Yes
+160,2025-04-05,RM6,Barking-Dagenham,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Morning,Yes,Yes
+161,2025-04-05,E12,Stratford-EastHam,Subscription,Essence,Essence,32.95,1,32.95,Morning,Yes,Yes
+162,2025-04-05,RM6,Barking-Dagenham,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,Yes,Yes
+163,2025-04-06,IG6,Ilford-Redbridge,Subscription,Elevate,Elevate,39.75,1,39.75,Morning,Yes,Yes
+164,2025-04-06,RM9,Barking-Dagenham,Subscription,Essence,Essence,32.95,1,32.95,Morning,Yes,Yes
+165,2025-04-06,IG1,Ilford-Redbridge,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Morning,No,Yes
+166,2025-04-06,E8,Hackney-BethnalGreen,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Morning,Yes,Yes
+167,2025-04-06,E14,Docklands,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,Yes,Yes
+168,2025-04-06,RM6,Barking-Dagenham,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Morning,Yes,Yes
+169,2025-04-06,E12,Stratford-EastHam,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Morning,Yes,Yes
+170,2025-04-06,IG4,Ilford-Redbridge,OneTime,,Immunity Booster Platter,6.65,1,6.65,Evening,Yes,Yes
+171,2025-04-06,E11,Stratford-EastHam,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Morning,Yes,Yes
+172,2025-04-06,IG3,Ilford-Redbridge,Subscription,Elevate,Elevate,39.75,1,39.75,Morning,Yes,Yes
+173,2025-04-06,E6,Stratford-EastHam,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,No,Yes
+174,2025-04-06,E3,Docklands,Subscription,Everjoy,Everjoy,18.99,1,18.99,Morning,Yes,Yes
+175,2025-04-06,IG11,Ilford-Redbridge,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,Yes,Yes
+176,2025-04-07,IG3,Ilford-Redbridge,Subscription,Essence,Essence,32.95,1,32.95,Morning,Yes,Yes
+177,2025-04-07,IG11,Ilford-Redbridge,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Morning,Yes,Yes
+178,2025-04-07,IG11,Ilford-Redbridge,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Morning,Yes,Yes
+179,2025-04-07,IG4,Ilford-Redbridge,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Morning,Yes,Yes
+180,2025-04-07,IG4,Ilford-Redbridge,Subscription,Elevate,Elevate,39.75,1,39.75,Morning,Yes,Yes
+181,2025-04-07,E10,Stratford-EastHam,Subscription,Essence,Essence,32.95,1,32.95,Evening,Yes,Yes
+182,2025-04-08,E1,Docklands,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,Yes,Yes
+183,2025-04-08,E9,Hackney-BethnalGreen,Subscription,Everjoy,Everjoy,18.99,1,18.99,Morning,No,Yes
+184,2025-04-08,RM9,Barking-Dagenham,Subscription,Elevate,Elevate,39.75,1,39.75,Morning,Yes,Yes
+185,2025-04-08,IG4,Ilford-Redbridge,Subscription,Elevate,Elevate,39.75,1,39.75,Morning,Yes,Yes
+186,2025-04-08,E7,Stratford-EastHam,Subscription,Essence,Essence,32.95,1,32.95,Morning,Yes,Yes
+187,2025-04-08,E3,Docklands,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Morning,Yes,Yes
+188,2025-04-08,IG6,Ilford-Redbridge,Subscription,Elevate,Elevate,39.75,1,39.75,Morning,No,Yes
+189,2025-04-08,E10,Stratford-EastHam,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Morning,Yes,Yes
+190,2025-04-09,E13,Stratford-EastHam,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Morning,Yes,Yes
+191,2025-04-09,IG3,Ilford-Redbridge,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Morning,Yes,Yes
+192,2025-04-09,IG2,Ilford-Redbridge,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Evening,Yes,Yes
+193,2025-04-09,RM9,Barking-Dagenham,Subscription,Everjoy,Everjoy,18.99,1,18.99,Morning,Yes,Yes
+194,2025-04-09,E11,Stratford-EastHam,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Morning,Yes,Yes
+195,2025-04-09,IG1,Ilford-Redbridge,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,No,Yes
+196,2025-04-09,E14,Docklands,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Morning,Yes,Yes
+197,2025-04-09,E6,Stratford-EastHam,OneTime,,Immunity Booster Platter,6.65,1,6.65,Evening,Yes,Yes
+198,2025-04-09,IG6,Ilford-Redbridge,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,Yes,Yes
+199,2025-04-09,E12,Stratford-EastHam,Subscription,Everjoy,Everjoy,18.99,1,18.99,Morning,Yes,Yes
+200,2025-04-09,E10,Stratford-EastHam,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Morning,Yes,Yes
+201,2025-04-09,IG1,Ilford-Redbridge,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Morning,Yes,Yes
+202,2025-04-10,E11,Stratford-EastHam,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,No,Yes
+203,2025-04-10,E1,Docklands,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Morning,Yes,Yes
+204,2025-04-10,E16,Docklands,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Morning,Yes,Yes
+205,2025-04-10,E11,Stratford-EastHam,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Evening,Yes,Yes
+206,2025-04-10,E3,Docklands,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Morning,Yes,Yes
+207,2025-04-11,E1,Docklands,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,Yes,Yes
+208,2025-04-11,IG3,Ilford-Redbridge,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,Yes,Yes
+209,2025-04-11,E16,Docklands,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Morning,Yes,Yes
+210,2025-04-11,E9,Hackney-BethnalGreen,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,Yes,Yes
+211,2025-04-11,E1,Docklands,Subscription,Elevate,Elevate,39.75,1,39.75,Morning,Yes,Yes
+212,2025-04-11,E13,Stratford-EastHam,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Evening,Yes,Yes
+213,2025-04-11,IG4,Ilford-Redbridge,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,Yes,Yes
+214,2025-04-11,E9,Hackney-BethnalGreen,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Evening,Yes,Yes
+215,2025-04-12,IG1,Ilford-Redbridge,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Evening,No,Yes
+216,2025-04-12,IG2,Ilford-Redbridge,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Morning,Yes,Yes
+217,2025-04-12,E1,Docklands,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Morning,Yes,Yes
+218,2025-04-12,IG6,Ilford-Redbridge,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Morning,Yes,Yes
+219,2025-04-12,IG2,Ilford-Redbridge,Subscription,Everjoy,Everjoy,18.99,1,18.99,Evening,Yes,Yes
+220,2025-04-12,E12,Stratford-EastHam,Subscription,Elevate,Elevate,39.75,1,39.75,Evening,Yes,Yes
+221,2025-04-12,E9,Hackney-BethnalGreen,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,Yes,Yes
+222,2025-04-12,E12,Stratford-EastHam,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Morning,Yes,Yes
+223,2025-04-12,E1,Docklands,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,Yes,Yes
+224,2025-04-12,E10,Stratford-EastHam,Subscription,Everjoy,Everjoy,18.99,1,18.99,Morning,Yes,Yes
+225,2025-04-13,E10,Stratford-EastHam,Subscription,Essence,Essence,32.95,1,32.95,Morning,Yes,Yes
+226,2025-04-13,E12,Stratford-EastHam,Subscription,Elevate,Elevate,39.75,1,39.75,Morning,Yes,Yes
+227,2025-04-13,E3,Docklands,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,Yes,Yes
+228,2025-04-13,IG11,Ilford-Redbridge,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,Yes,Yes
+229,2025-04-13,E7,Stratford-EastHam,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Morning,Yes,Yes
+230,2025-04-13,E1,Docklands,Subscription,Elevate,Elevate,39.75,1,39.75,Morning,Yes,Yes
+231,2025-04-13,E6,Stratford-EastHam,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Morning,Yes,Yes
+232,2025-04-13,E6,Stratford-EastHam,Subscription,Essence,Essence,32.95,1,32.95,Morning,Yes,Yes
+233,2025-04-13,E9,Hackney-BethnalGreen,OneTime,,Immunity Booster Platter,6.65,1,6.65,Evening,Yes,Yes
+234,2025-04-14,E16,Docklands,Subscription,Everjoy,Everjoy,18.99,1,18.99,Morning,Yes,Yes
+235,2025-04-14,E16,Docklands,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Morning,Yes,Yes
+236,2025-04-14,E7,Stratford-EastHam,Subscription,Essence,Essence,32.95,1,32.95,Morning,Yes,Yes
+237,2025-04-14,E12,Stratford-EastHam,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Morning,Yes,Yes
+238,2025-04-14,E10,Stratford-EastHam,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Morning,Yes,Yes
+239,2025-04-14,E8,Hackney-BethnalGreen,Subscription,Everjoy,Everjoy,18.99,1,18.99,Morning,Yes,Yes
+240,2025-04-14,E1,Docklands,Subscription,Elevate,Elevate,39.75,1,39.75,Morning,Yes,Yes
+241,2025-04-15,E7,Stratford-EastHam,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Morning,Yes,Yes
+242,2025-04-15,RM8,Barking-Dagenham,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Morning,Yes,Yes
+243,2025-04-15,RM9,Barking-Dagenham,Subscription,Essence,Essence,32.95,1,32.95,Morning,Yes,Yes
+244,2025-04-15,IG11,Ilford-Redbridge,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Morning,Yes,Yes
+245,2025-04-15,IG3,Ilford-Redbridge,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,Yes,Yes
+246,2025-04-16,E12,Stratford-EastHam,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Evening,Yes,Yes
+247,2025-04-16,IG3,Ilford-Redbridge,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,Yes,Yes
+248,2025-04-16,E16,Docklands,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Morning,Yes,Yes
+249,2025-04-16,E8,Hackney-BethnalGreen,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Morning,Yes,Yes
+250,2025-04-16,IG4,Ilford-Redbridge,Subscription,Essence,Essence,32.95,1,32.95,Morning,Yes,Yes
+251,2025-04-16,IG11,Ilford-Redbridge,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Morning,Yes,Yes
+252,2025-04-16,E10,Stratford-EastHam,Subscription,Everjoy,Everjoy,18.99,1,18.99,Evening,Yes,Yes
+253,2025-04-16,E7,Stratford-EastHam,Subscription,Essence,Essence,32.95,1,32.95,Morning,Yes,Yes
+254,2025-04-17,E14,Docklands,Subscription,Everjoy,Everjoy,18.99,1,18.99,Morning,Yes,Yes
+255,2025-04-17,E3,Docklands,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,No,Yes
+256,2025-04-17,E14,Docklands,Subscription,Everjoy,Everjoy,18.99,1,18.99,Morning,Yes,Yes
+257,2025-04-17,E9,Hackney-BethnalGreen,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,Yes,Yes
+258,2025-04-17,RM8,Barking-Dagenham,Subscription,Elevate,Elevate,39.75,1,39.75,Morning,Yes,Yes
+259,2025-04-17,E12,Stratford-EastHam,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Morning,Yes,Yes
+260,2025-04-17,IG4,Ilford-Redbridge,Subscription,Everjoy,Everjoy,18.99,1,18.99,Morning,Yes,Yes
+261,2025-04-18,IG11,Ilford-Redbridge,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,Yes,Yes
+262,2025-04-18,E10,Stratford-EastHam,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Morning,Yes,Yes
+263,2025-04-18,E2,Hackney-BethnalGreen,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Morning,Yes,Yes
+264,2025-04-18,IG11,Ilford-Redbridge,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Morning,Yes,Yes
+265,2025-04-18,IG3,Ilford-Redbridge,Subscription,Essence,Essence,32.95,1,32.95,Morning,Yes,Yes
+266,2025-04-18,E9,Hackney-BethnalGreen,Subscription,Essence,Essence,32.95,1,32.95,Morning,Yes,Yes
+267,2025-04-18,IG3,Ilford-Redbridge,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,Yes,Yes
+268,2025-04-19,E13,Stratford-EastHam,Subscription,Everjoy,Everjoy,18.99,1,18.99,Morning,Yes,Yes
+269,2025-04-19,IG2,Ilford-Redbridge,Subscription,Elevate,Elevate,39.75,1,39.75,Morning,Yes,Yes
+270,2025-04-19,IG11,Ilford-Redbridge,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,Yes,Yes
+271,2025-04-19,E6,Stratford-EastHam,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Morning,Yes,Yes
+272,2025-04-19,IG3,Ilford-Redbridge,Subscription,Essence,Essence,32.95,1,32.95,Morning,Yes,Yes
+273,2025-04-19,IG1,Ilford-Redbridge,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Morning,Yes,Yes
+274,2025-04-19,RM6,Barking-Dagenham,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,Yes,Yes
+275,2025-04-20,E2,Hackney-BethnalGreen,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Morning,Yes,Yes
+276,2025-04-20,IG4,Ilford-Redbridge,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Morning,Yes,Yes
+277,2025-04-20,IG2,Ilford-Redbridge,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Evening,Yes,Yes
+278,2025-04-20,E11,Stratford-EastHam,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Evening,Yes,Yes
+279,2025-04-20,IG6,Ilford-Redbridge,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Morning,Yes,Yes
+280,2025-04-20,E10,Stratford-EastHam,Subscription,Essence,Essence,32.95,1,32.95,Morning,Yes,Yes
+281,2025-04-20,RM8,Barking-Dagenham,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Morning,No,Yes
+282,2025-04-20,IG3,Ilford-Redbridge,Subscription,Essence,Essence,32.95,1,32.95,Evening,Yes,Yes
+283,2025-04-20,E16,Docklands,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Morning,Yes,Yes
+284,2025-04-20,E2,Hackney-BethnalGreen,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Morning,Yes,Yes
+285,2025-04-20,E2,Hackney-BethnalGreen,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Morning,Yes,Yes
+286,2025-04-21,IG2,Ilford-Redbridge,Subscription,Essence,Essence,32.95,1,32.95,Morning,No,Yes
+287,2025-04-21,E14,Docklands,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Morning,Yes,Yes
+288,2025-04-21,E12,Stratford-EastHam,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,Yes,Yes
+289,2025-04-21,IG6,Ilford-Redbridge,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,Yes,Yes
+290,2025-04-21,E12,Stratford-EastHam,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Morning,Yes,Yes
+291,2025-04-21,IG1,Ilford-Redbridge,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,Yes,Yes
+292,2025-04-21,E1,Docklands,Subscription,Essence,Essence,32.95,1,32.95,Morning,Yes,Yes
+293,2025-04-21,RM9,Barking-Dagenham,Subscription,Elevate,Elevate,39.75,1,39.75,Morning,Yes,Yes
+294,2025-04-21,E13,Stratford-EastHam,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Morning,Yes,Yes
+295,2025-04-21,E13,Stratford-EastHam,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Evening,Yes,Yes
+296,2025-04-22,IG1,Ilford-Redbridge,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Morning,Yes,Yes
+297,2025-04-22,IG2,Ilford-Redbridge,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Morning,No,Yes
+298,2025-04-22,E14,Docklands,Subscription,Everjoy,Everjoy,18.99,1,18.99,Morning,Yes,Yes
+299,2025-04-22,E6,Stratford-EastHam,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,Yes,Yes
+300,2025-04-22,E2,Hackney-BethnalGreen,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,No,Yes
+301,2025-04-22,E10,Stratford-EastHam,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Morning,Yes,Yes
+302,2025-04-23,E6,Stratford-EastHam,Subscription,Everjoy,Everjoy,18.99,1,18.99,Morning,Yes,Yes
+303,2025-04-23,E1,Docklands,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Evening,Yes,Yes
+304,2025-04-23,RM9,Barking-Dagenham,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,Yes,Yes
+305,2025-04-23,IG1,Ilford-Redbridge,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,Yes,Yes
+306,2025-04-23,E10,Stratford-EastHam,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Morning,No,Yes
+307,2025-04-23,E12,Stratford-EastHam,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,Yes,Yes
+308,2025-04-23,E14,Docklands,Subscription,Elevate,Elevate,39.75,1,39.75,Morning,Yes,Yes
+309,2025-04-23,E2,Hackney-BethnalGreen,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Morning,Yes,Yes
+310,2025-04-24,E3,Docklands,OneTime,,Immunity Booster Platter,6.65,1,6.65,Evening,Yes,Yes
+311,2025-04-24,E1,Docklands,Subscription,Elevate,Elevate,39.75,1,39.75,Morning,Yes,Yes
+312,2025-04-24,E6,Stratford-EastHam,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Morning,Yes,Yes
+313,2025-04-24,IG6,Ilford-Redbridge,Subscription,Everjoy,Everjoy,18.99,1,18.99,Morning,Yes,Yes
+314,2025-04-24,IG6,Ilford-Redbridge,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Morning,Yes,Yes
+315,2025-04-24,IG1,Ilford-Redbridge,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Morning,Yes,Yes
+316,2025-04-25,E11,Stratford-EastHam,Subscription,Elevate,Elevate,39.75,1,39.75,Morning,Yes,Yes
+317,2025-04-25,E12,Stratford-EastHam,Subscription,Everjoy,Everjoy,18.99,1,18.99,Morning,Yes,Yes
+318,2025-04-25,E10,Stratford-EastHam,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Morning,Yes,Yes
+319,2025-04-25,IG11,Ilford-Redbridge,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Morning,Yes,Yes
+320,2025-04-25,RM6,Barking-Dagenham,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Morning,Yes,Yes
+321,2025-04-25,IG11,Ilford-Redbridge,Subscription,Everjoy,Everjoy,18.99,1,18.99,Morning,Yes,Yes
+322,2025-04-25,E1,Docklands,Subscription,Elevate,Elevate,39.75,1,39.75,Morning,Yes,Yes
+323,2025-04-26,E10,Stratford-EastHam,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Morning,Yes,Yes
+324,2025-04-26,E14,Docklands,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Morning,Yes,Yes
+325,2025-04-26,RM9,Barking-Dagenham,Subscription,Essence,Essence,32.95,1,32.95,Morning,Yes,Yes
+326,2025-04-26,IG3,Ilford-Redbridge,Subscription,Everjoy,Everjoy,18.99,1,18.99,Evening,Yes,Yes
+327,2025-04-26,RM8,Barking-Dagenham,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,Yes,Yes
+328,2025-04-26,IG3,Ilford-Redbridge,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,Yes,Yes
+329,2025-04-26,E1,Docklands,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,Yes,Yes
+330,2025-04-27,E7,Stratford-EastHam,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,Yes,Yes
+331,2025-04-27,IG1,Ilford-Redbridge,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Morning,Yes,Yes
+332,2025-04-27,E3,Docklands,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Morning,Yes,Yes
+333,2025-04-27,IG3,Ilford-Redbridge,Subscription,Essence,Essence,32.95,1,32.95,Morning,Yes,Yes
+334,2025-04-27,E12,Stratford-EastHam,Subscription,Everjoy,Everjoy,18.99,1,18.99,Evening,Yes,Yes
+335,2025-04-27,E8,Hackney-BethnalGreen,Subscription,Essence,Essence,32.95,1,32.95,Morning,Yes,Yes
+336,2025-04-27,E10,Stratford-EastHam,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Morning,Yes,Yes
+337,2025-04-27,E16,Docklands,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Morning,Yes,Yes
+338,2025-04-27,IG3,Ilford-Redbridge,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,Yes,Yes
+339,2025-04-28,E10,Stratford-EastHam,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,Yes,Yes
+340,2025-04-28,E6,Stratford-EastHam,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Morning,Yes,Yes
+341,2025-04-28,E13,Stratford-EastHam,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Morning,Yes,Yes
+342,2025-04-28,RM9,Barking-Dagenham,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,Yes,Yes
+343,2025-04-28,IG6,Ilford-Redbridge,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Morning,Yes,Yes
+344,2025-04-28,E6,Stratford-EastHam,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Evening,Yes,Yes
+345,2025-04-28,IG3,Ilford-Redbridge,Subscription,Elevate,Elevate,39.75,1,39.75,Morning,Yes,Yes
+346,2025-04-29,IG11,Ilford-Redbridge,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,Yes,Yes
+347,2025-04-29,IG1,Ilford-Redbridge,Subscription,Essence,Essence,32.95,1,32.95,Morning,Yes,Yes
+348,2025-04-29,E3,Docklands,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Morning,Yes,Yes
+349,2025-04-29,E6,Stratford-EastHam,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Morning,Yes,Yes
+350,2025-04-29,RM6,Barking-Dagenham,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Morning,Yes,Yes
+351,2025-04-29,E16,Docklands,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Morning,Yes,Yes
+352,2025-04-29,IG6,Ilford-Redbridge,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Morning,Yes,Yes
+353,2025-04-30,IG3,Ilford-Redbridge,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Morning,Yes,Yes
+354,2025-04-30,IG2,Ilford-Redbridge,Subscription,Elevate,Elevate,39.75,1,39.75,Morning,Yes,Yes
+355,2025-04-30,IG4,Ilford-Redbridge,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Morning,Yes,Yes
+356,2025-04-30,RM6,Barking-Dagenham,Subscription,Everjoy,Everjoy,18.99,1,18.99,Morning,Yes,Yes
+357,2025-04-30,E10,Stratford-EastHam,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Morning,No,Yes
+358,2025-04-30,IG4,Ilford-Redbridge,Subscription,Essence,Essence,32.95,1,32.95,Morning,Yes,Yes
+359,2025-04-30,IG2,Ilford-Redbridge,Subscription,Elevate,Elevate,39.75,1,39.75,Morning,Yes,Yes
+360,2025-04-30,E11,Stratford-EastHam,OneTime,,Immunity Booster Platter,6.65,1,6.65,Evening,Yes,Yes
+361,2025-04-30,E16,Docklands,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Evening,Yes,Yes
+362,2025-05-01,IG3,Ilford-Redbridge,Subscription,Everjoy,Everjoy,18.99,1,18.99,Morning,Yes,Yes
+363,2025-05-01,E9,Hackney-BethnalGreen,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,Yes,Yes
+364,2025-05-01,RM8,Barking-Dagenham,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Morning,Yes,Yes
+365,2025-05-01,RM8,Barking-Dagenham,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Morning,Yes,Yes
+366,2025-05-01,E7,Stratford-EastHam,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Morning,Yes,Yes
+367,2025-05-01,IG2,Ilford-Redbridge,OneTime,,Immunity Booster Platter,6.65,1,6.65,Evening,Yes,Yes
+368,2025-05-01,E6,Stratford-EastHam,Subscription,Elevate,Elevate,39.75,1,39.75,Morning,Yes,Yes
+369,2025-05-02,RM8,Barking-Dagenham,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Evening,Yes,Yes
+370,2025-05-02,E13,Stratford-EastHam,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Morning,Yes,Yes
+371,2025-05-02,E14,Docklands,Subscription,Elevate,Elevate,39.75,1,39.75,Morning,Yes,Yes
+372,2025-05-02,E10,Stratford-EastHam,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,Yes,Yes
+373,2025-05-02,E6,Stratford-EastHam,Subscription,Elevate,Elevate,39.75,1,39.75,Morning,Yes,Yes
+374,2025-05-02,E11,Stratford-EastHam,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,Yes,Yes
+375,2025-05-02,IG4,Ilford-Redbridge,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Evening,Yes,Yes
+376,2025-05-02,E9,Hackney-BethnalGreen,Subscription,Elevate,Elevate,39.75,1,39.75,Morning,Yes,Yes
+377,2025-05-02,E13,Stratford-EastHam,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Morning,Yes,Yes
+378,2025-05-02,E10,Stratford-EastHam,Subscription,Essence,Essence,32.95,1,32.95,Morning,Yes,Yes
+379,2025-05-02,E12,Stratford-EastHam,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Morning,Yes,Yes
+380,2025-05-02,IG11,Ilford-Redbridge,Subscription,Essence,Essence,32.95,1,32.95,Morning,Yes,Yes
+381,2025-05-03,E10,Stratford-EastHam,Subscription,Everjoy,Everjoy,18.99,1,18.99,Morning,No,Yes
+382,2025-05-03,E1,Docklands,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Morning,Yes,Yes
+383,2025-05-03,IG4,Ilford-Redbridge,Subscription,Essence,Essence,32.95,1,32.95,Morning,No,Yes
+384,2025-05-03,E10,Stratford-EastHam,Subscription,Essence,Essence,32.95,1,32.95,Morning,Yes,Yes
+385,2025-05-03,E14,Docklands,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Morning,Yes,Yes
+386,2025-05-04,RM9,Barking-Dagenham,Subscription,Elevate,Elevate,39.75,1,39.75,Morning,Yes,Yes
+387,2025-05-04,E1,Docklands,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,Yes,Yes
+388,2025-05-04,RM8,Barking-Dagenham,Subscription,Essence,Essence,32.95,1,32.95,Morning,Yes,Yes
+389,2025-05-04,E1,Docklands,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,Yes,Yes
+390,2025-05-04,IG3,Ilford-Redbridge,Subscription,Everjoy,Everjoy,18.99,1,18.99,Morning,Yes,Yes
+391,2025-05-04,E10,Stratford-EastHam,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Morning,Yes,Yes
+392,2025-05-04,E1,Docklands,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Morning,No,Yes
+393,2025-05-04,RM9,Barking-Dagenham,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Morning,Yes,Yes
+394,2025-05-04,E13,Stratford-EastHam,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,Yes,Yes
+395,2025-05-05,E16,Docklands,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Morning,No,Yes
+396,2025-05-05,E3,Docklands,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Morning,Yes,Yes
+397,2025-05-05,IG11,Ilford-Redbridge,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Morning,Yes,Yes
+398,2025-05-05,E16,Docklands,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Morning,No,Yes
+399,2025-05-05,E16,Docklands,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Morning,Yes,Yes
+400,2025-05-05,E1,Docklands,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Morning,Yes,Yes
+401,2025-05-05,IG1,Ilford-Redbridge,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,Yes,Yes
+402,2025-05-06,IG3,Ilford-Redbridge,Subscription,Essence,Essence,32.95,1,32.95,Morning,Yes,Yes
+403,2025-05-06,E14,Docklands,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Morning,Yes,Yes
+404,2025-05-06,E16,Docklands,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Morning,Yes,Yes
+405,2025-05-06,E1,Docklands,Subscription,Essence,Essence,32.95,1,32.95,Morning,Yes,Yes
+406,2025-05-06,E3,Docklands,Subscription,Elevate,Elevate,39.75,1,39.75,Morning,Yes,Yes
+407,2025-05-06,IG6,Ilford-Redbridge,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Morning,Yes,Yes
+408,2025-05-06,E16,Docklands,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,Yes,Yes
+409,2025-05-07,IG4,Ilford-Redbridge,Subscription,Essence,Essence,32.95,1,32.95,Morning,Yes,Yes
+410,2025-05-07,RM6,Barking-Dagenham,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,No,Yes
+411,2025-05-07,IG3,Ilford-Redbridge,Subscription,Essence,Essence,32.95,1,32.95,Morning,Yes,Yes
+412,2025-05-07,IG1,Ilford-Redbridge,Subscription,Elevate,Elevate,39.75,1,39.75,Morning,Yes,Yes
+413,2025-05-07,IG3,Ilford-Redbridge,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Morning,Yes,Yes
+414,2025-05-07,IG3,Ilford-Redbridge,Subscription,Essence,Essence,32.95,1,32.95,Morning,Yes,Yes
+415,2025-05-07,E13,Stratford-EastHam,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Evening,Yes,Yes
+416,2025-05-07,IG11,Ilford-Redbridge,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Morning,Yes,Yes
+417,2025-05-07,IG3,Ilford-Redbridge,Subscription,Elevate,Elevate,39.75,1,39.75,Morning,Yes,Yes
+418,2025-05-08,IG1,Ilford-Redbridge,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Morning,Yes,Yes
+419,2025-05-08,E12,Stratford-EastHam,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,Yes,Yes
+420,2025-05-08,IG1,Ilford-Redbridge,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,Yes,Yes
+421,2025-05-08,E3,Docklands,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,Yes,Yes
+422,2025-05-08,E10,Stratford-EastHam,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Morning,Yes,Yes
+423,2025-05-08,E6,Stratford-EastHam,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,Yes,Yes
+424,2025-05-08,E1,Docklands,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Morning,Yes,Yes
+425,2025-05-08,E14,Docklands,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Morning,Yes,Yes
+426,2025-05-09,IG11,Ilford-Redbridge,Subscription,Elevate,Elevate,39.75,1,39.75,Morning,Yes,Yes
+427,2025-05-09,IG2,Ilford-Redbridge,Subscription,Essence,Essence,32.95,1,32.95,Morning,Yes,Yes
+428,2025-05-09,E7,Stratford-EastHam,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Morning,Yes,Yes
+429,2025-05-09,E7,Stratford-EastHam,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Morning,Yes,Yes
+430,2025-05-09,E1,Docklands,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Morning,Yes,Yes
+431,2025-05-09,E3,Docklands,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,Yes,Yes
+432,2025-05-09,E14,Docklands,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,Yes,Yes
+433,2025-05-10,E10,Stratford-EastHam,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Morning,Yes,Yes
+434,2025-05-11,IG3,Ilford-Redbridge,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,Yes,Yes
+435,2025-05-11,E7,Stratford-EastHam,Subscription,Everjoy,Everjoy,18.99,1,18.99,Morning,Yes,Yes
+436,2025-05-11,E3,Docklands,Subscription,Essence,Essence,32.95,1,32.95,Morning,Yes,Yes
+437,2025-05-11,E2,Hackney-BethnalGreen,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Morning,Yes,Yes
+438,2025-05-12,RM9,Barking-Dagenham,Subscription,Essence,Essence,32.95,1,32.95,Morning,Yes,Yes
+439,2025-05-12,E3,Docklands,Subscription,Elevate,Elevate,39.75,1,39.75,Morning,Yes,Yes
+440,2025-05-12,E6,Stratford-EastHam,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,Yes,Yes
+441,2025-05-12,E6,Stratford-EastHam,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Morning,Yes,Yes
+442,2025-05-12,E3,Docklands,Subscription,Essence,Essence,32.95,1,32.95,Morning,No,Yes
+443,2025-05-12,RM9,Barking-Dagenham,Subscription,Essence,Essence,32.95,1,32.95,Morning,Yes,Yes
+444,2025-05-12,E2,Hackney-BethnalGreen,Subscription,Essence,Essence,32.95,1,32.95,Evening,Yes,Yes
+445,2025-05-12,E13,Stratford-EastHam,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Morning,No,Yes
+446,2025-05-12,E2,Hackney-BethnalGreen,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,No,Yes
+447,2025-05-13,E13,Stratford-EastHam,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Morning,Yes,Yes
+448,2025-05-13,E3,Docklands,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,No,Yes
+449,2025-05-13,IG11,Ilford-Redbridge,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,No,Yes
+450,2025-05-13,IG6,Ilford-Redbridge,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Evening,Yes,Yes
+451,2025-05-13,E8,Hackney-BethnalGreen,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Morning,Yes,Yes
+452,2025-05-13,E9,Hackney-BethnalGreen,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Morning,Yes,Yes
+453,2025-05-13,E10,Stratford-EastHam,Subscription,Elevate,Elevate,39.75,1,39.75,Morning,Yes,Yes
+454,2025-05-13,E11,Stratford-EastHam,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Morning,No,Yes
+455,2025-05-14,E7,Stratford-EastHam,Subscription,Essence,Essence,32.95,1,32.95,Morning,No,Yes
+456,2025-05-14,E10,Stratford-EastHam,Subscription,Everjoy,Everjoy,18.99,1,18.99,Morning,Yes,Yes
+457,2025-05-14,IG4,Ilford-Redbridge,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Morning,Yes,Yes
+458,2025-05-14,IG3,Ilford-Redbridge,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Morning,Yes,Yes
+459,2025-05-14,E16,Docklands,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Morning,Yes,Yes
+460,2025-05-14,IG6,Ilford-Redbridge,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Morning,Yes,Yes
+461,2025-05-14,IG2,Ilford-Redbridge,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,Yes,Yes
+462,2025-05-14,RM6,Barking-Dagenham,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,Yes,Yes
+463,2025-05-14,E16,Docklands,Subscription,Essence,Essence,32.95,1,32.95,Morning,Yes,Yes
+464,2025-05-15,RM8,Barking-Dagenham,Subscription,Everjoy,Everjoy,18.99,1,18.99,Morning,No,Yes
+465,2025-05-15,E13,Stratford-EastHam,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Morning,Yes,Yes
+466,2025-05-15,IG3,Ilford-Redbridge,Subscription,Elevate,Elevate,39.75,1,39.75,Morning,Yes,Yes
+467,2025-05-15,IG6,Ilford-Redbridge,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Morning,Yes,Yes
+468,2025-05-15,IG6,Ilford-Redbridge,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Evening,Yes,Yes
+469,2025-05-15,RM8,Barking-Dagenham,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Morning,Yes,Yes
+470,2025-05-15,E8,Hackney-BethnalGreen,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,Yes,Yes
+471,2025-05-15,IG3,Ilford-Redbridge,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Morning,Yes,Yes
+472,2025-05-15,E14,Docklands,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Morning,Yes,Yes
+473,2025-05-15,E14,Docklands,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Morning,Yes,Yes
+474,2025-05-15,IG4,Ilford-Redbridge,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Morning,Yes,Yes
+475,2025-05-15,RM9,Barking-Dagenham,Subscription,Essence,Essence,32.95,1,32.95,Morning,Yes,Yes
+476,2025-05-15,E16,Docklands,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,Yes,Yes
+477,2025-05-16,E11,Stratford-EastHam,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Morning,Yes,Yes
+478,2025-05-16,IG6,Ilford-Redbridge,Subscription,Elevate,Elevate,39.75,1,39.75,Morning,Yes,Yes
+479,2025-05-16,E3,Docklands,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,Yes,Yes
+480,2025-05-16,IG4,Ilford-Redbridge,Subscription,Essence,Essence,32.95,1,32.95,Morning,Yes,Yes
+481,2025-05-16,E6,Stratford-EastHam,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,Yes,Yes
+482,2025-05-16,IG2,Ilford-Redbridge,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Morning,Yes,Yes
+483,2025-05-16,E13,Stratford-EastHam,Subscription,Essence,Essence,32.95,1,32.95,Morning,Yes,Yes
+484,2025-05-16,IG4,Ilford-Redbridge,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Morning,Yes,Yes
+485,2025-05-16,IG4,Ilford-Redbridge,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,Yes,Yes
+486,2025-05-17,E10,Stratford-EastHam,Subscription,Everjoy,Everjoy,18.99,1,18.99,Morning,Yes,Yes
+487,2025-05-17,E10,Stratford-EastHam,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Evening,Yes,Yes
+488,2025-05-17,IG1,Ilford-Redbridge,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,Yes,Yes
+489,2025-05-17,E1,Docklands,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,Yes,Yes
+490,2025-05-18,IG11,Ilford-Redbridge,Subscription,Essence,Essence,32.95,1,32.95,Morning,Yes,Yes
+491,2025-05-18,IG2,Ilford-Redbridge,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Evening,Yes,Yes
+492,2025-05-18,E9,Hackney-BethnalGreen,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Morning,Yes,Yes
+493,2025-05-18,E12,Stratford-EastHam,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Morning,Yes,Yes
+494,2025-05-18,E13,Stratford-EastHam,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Morning,Yes,Yes
+495,2025-05-18,E11,Stratford-EastHam,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,Yes,Yes
+496,2025-05-19,IG2,Ilford-Redbridge,Subscription,Elevate,Elevate,39.75,1,39.75,Evening,Yes,Yes
+497,2025-05-19,IG2,Ilford-Redbridge,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Morning,Yes,Yes
+498,2025-05-19,E9,Hackney-BethnalGreen,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Morning,Yes,Yes
+499,2025-05-19,IG11,Ilford-Redbridge,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Morning,Yes,Yes
+500,2025-05-19,IG11,Ilford-Redbridge,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Morning,Yes,Yes
+501,2025-05-19,E12,Stratford-EastHam,Subscription,Everjoy,Everjoy,18.99,1,18.99,Morning,Yes,Yes
+502,2025-05-19,E14,Docklands,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Morning,Yes,Yes
+503,2025-05-19,IG1,Ilford-Redbridge,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,Yes,Yes
+504,2025-05-20,E6,Stratford-EastHam,OneTime,,Immunity Booster Platter,6.65,1,6.65,Evening,Yes,Yes
+505,2025-05-20,IG6,Ilford-Redbridge,Subscription,Everjoy,Everjoy,18.99,1,18.99,Morning,Yes,Yes
+506,2025-05-20,IG6,Ilford-Redbridge,Subscription,Elevate,Elevate,39.75,1,39.75,Evening,No,Yes
+507,2025-05-20,E11,Stratford-EastHam,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,Yes,Yes
+508,2025-05-20,E14,Docklands,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Evening,Yes,Yes
+509,2025-05-20,IG1,Ilford-Redbridge,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,Yes,Yes
+510,2025-05-21,E12,Stratford-EastHam,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Morning,Yes,Yes
+511,2025-05-21,RM8,Barking-Dagenham,Subscription,Elevate,Elevate,39.75,1,39.75,Morning,Yes,Yes
+512,2025-05-21,RM6,Barking-Dagenham,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Morning,Yes,Yes
+513,2025-05-21,E7,Stratford-EastHam,Subscription,Everjoy,Everjoy,18.99,1,18.99,Morning,Yes,Yes
+514,2025-05-21,IG1,Ilford-Redbridge,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,Yes,Yes
+515,2025-05-21,E2,Hackney-BethnalGreen,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,Yes,Yes
+516,2025-05-21,E2,Hackney-BethnalGreen,Subscription,Elevate,Elevate,39.75,1,39.75,Morning,Yes,Yes
+517,2025-05-21,IG4,Ilford-Redbridge,Subscription,Everjoy,Everjoy,18.99,1,18.99,Morning,No,Yes
+518,2025-05-21,IG1,Ilford-Redbridge,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Evening,Yes,Yes
+519,2025-05-21,IG11,Ilford-Redbridge,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,No,Yes
+520,2025-05-21,E10,Stratford-EastHam,Subscription,Everjoy,Everjoy,18.99,1,18.99,Morning,Yes,Yes
+521,2025-05-21,E14,Docklands,Subscription,Everjoy,Everjoy,18.99,1,18.99,Morning,Yes,Yes
+522,2025-05-21,IG6,Ilford-Redbridge,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,Yes,Yes
+523,2025-05-22,IG3,Ilford-Redbridge,Subscription,Elevate,Elevate,39.75,1,39.75,Morning,Yes,Yes
+524,2025-05-22,E6,Stratford-EastHam,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Morning,Yes,Yes
+525,2025-05-22,IG2,Ilford-Redbridge,OneTime,,Immunity Booster Platter,6.65,1,6.65,Evening,Yes,Yes
+526,2025-05-22,E8,Hackney-BethnalGreen,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Morning,Yes,Yes
+527,2025-05-22,E2,Hackney-BethnalGreen,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Morning,Yes,Yes
+528,2025-05-22,E3,Docklands,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,Yes,Yes
+529,2025-05-22,RM9,Barking-Dagenham,Subscription,Everjoy,Everjoy,18.99,1,18.99,Morning,Yes,Yes
+530,2025-05-22,IG6,Ilford-Redbridge,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Morning,No,No
+531,2025-05-22,E8,Hackney-BethnalGreen,Subscription,Everjoy,Everjoy,18.99,1,18.99,Morning,Yes,Yes
+532,2025-05-22,E8,Hackney-BethnalGreen,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,Yes,Yes
+533,2025-05-22,E13,Stratford-EastHam,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Morning,Yes,Yes
+534,2025-05-22,E12,Stratford-EastHam,Subscription,Elevate,Elevate,39.75,1,39.75,Evening,Yes,Yes
+535,2025-05-23,IG4,Ilford-Redbridge,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,Yes,Yes
+536,2025-05-23,E7,Stratford-EastHam,Subscription,Elevate,Elevate,39.75,1,39.75,Morning,Yes,Yes
+537,2025-05-23,IG4,Ilford-Redbridge,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Morning,Yes,Yes
+538,2025-05-23,IG11,Ilford-Redbridge,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Morning,Yes,Yes
+539,2025-05-23,E2,Hackney-BethnalGreen,Subscription,Everjoy,Everjoy,18.99,1,18.99,Morning,Yes,Yes
+540,2025-05-23,E3,Docklands,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Morning,Yes,Yes
+541,2025-05-23,IG6,Ilford-Redbridge,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Morning,Yes,Yes
+542,2025-05-23,IG3,Ilford-Redbridge,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Morning,Yes,Yes
+543,2025-05-23,IG6,Ilford-Redbridge,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,Yes,Yes
+544,2025-05-23,E9,Hackney-BethnalGreen,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,Yes,Yes
+545,2025-05-23,E3,Docklands,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Morning,Yes,Yes
+546,2025-05-24,E16,Docklands,OneTime,,Immunity Booster Platter,6.65,1,6.65,Evening,Yes,Yes
+547,2025-05-24,E10,Stratford-EastHam,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Morning,Yes,Yes
+548,2025-05-24,E6,Stratford-EastHam,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Morning,Yes,Yes
+549,2025-05-24,E3,Docklands,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,Yes,Yes
+550,2025-05-24,IG3,Ilford-Redbridge,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Evening,Yes,Yes
+551,2025-05-24,IG11,Ilford-Redbridge,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Morning,Yes,Yes
+552,2025-05-24,E8,Hackney-BethnalGreen,Subscription,Elevate,Elevate,39.75,1,39.75,Morning,Yes,Yes
+553,2025-05-25,E1,Docklands,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Morning,Yes,Yes
+554,2025-05-25,IG6,Ilford-Redbridge,Subscription,Elevate,Elevate,39.75,1,39.75,Morning,No,Yes
+555,2025-05-25,E16,Docklands,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Morning,Yes,Yes
+556,2025-05-25,E8,Hackney-BethnalGreen,Subscription,Essence,Essence,32.95,1,32.95,Morning,Yes,Yes
+557,2025-05-25,E12,Stratford-EastHam,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,Yes,Yes
+558,2025-05-25,E12,Stratford-EastHam,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Morning,Yes,Yes
+559,2025-05-25,E16,Docklands,Subscription,Elevate,Elevate,39.75,1,39.75,Morning,Yes,Yes
+560,2025-05-25,IG1,Ilford-Redbridge,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,Yes,Yes
+561,2025-05-25,IG1,Ilford-Redbridge,Subscription,Everjoy,Everjoy,18.99,1,18.99,Morning,Yes,Yes
+562,2025-05-25,IG3,Ilford-Redbridge,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Morning,Yes,Yes
+563,2025-05-26,IG6,Ilford-Redbridge,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Evening,Yes,Yes
+564,2025-05-26,E2,Hackney-BethnalGreen,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Evening,Yes,Yes
+565,2025-05-26,E16,Docklands,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Morning,Yes,Yes
+566,2025-05-26,E10,Stratford-EastHam,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Morning,Yes,Yes
+567,2025-05-26,E14,Docklands,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Morning,Yes,Yes
+568,2025-05-27,IG1,Ilford-Redbridge,Subscription,Essence,Essence,32.95,1,32.95,Morning,Yes,Yes
+569,2025-05-27,IG4,Ilford-Redbridge,Subscription,Elevate,Elevate,39.75,1,39.75,Morning,No,Yes
+570,2025-05-27,E14,Docklands,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,Yes,Yes
+571,2025-05-27,E1,Docklands,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Morning,Yes,Yes
+572,2025-05-27,RM9,Barking-Dagenham,Subscription,Everjoy,Everjoy,18.99,1,18.99,Morning,Yes,Yes
+573,2025-05-27,IG4,Ilford-Redbridge,Subscription,Elevate,Elevate,39.75,1,39.75,Evening,Yes,Yes
+574,2025-05-28,IG4,Ilford-Redbridge,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Morning,Yes,Yes
+575,2025-05-28,IG3,Ilford-Redbridge,Subscription,Elevate,Elevate,39.75,1,39.75,Morning,Yes,Yes
+576,2025-05-28,IG2,Ilford-Redbridge,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,Yes,Yes
+577,2025-05-28,E3,Docklands,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Morning,Yes,Yes
+578,2025-05-28,E8,Hackney-BethnalGreen,Subscription,Essence,Essence,32.95,1,32.95,Morning,Yes,Yes
+579,2025-05-28,IG3,Ilford-Redbridge,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,Yes,Yes
+580,2025-05-28,E16,Docklands,Subscription,Everjoy,Everjoy,18.99,1,18.99,Morning,Yes,Yes
+581,2025-05-29,IG2,Ilford-Redbridge,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,Yes,Yes
+582,2025-05-29,IG6,Ilford-Redbridge,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Morning,No,Yes
+583,2025-05-29,E6,Stratford-EastHam,Subscription,Essence,Essence,32.95,1,32.95,Evening,Yes,Yes
+584,2025-05-29,IG11,Ilford-Redbridge,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,Yes,Yes
+585,2025-05-29,E9,Hackney-BethnalGreen,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Morning,Yes,Yes
+586,2025-05-29,RM8,Barking-Dagenham,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Morning,Yes,Yes
+587,2025-05-29,E2,Hackney-BethnalGreen,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,Yes,Yes
+588,2025-05-29,IG1,Ilford-Redbridge,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,Yes,Yes
+589,2025-05-29,E13,Stratford-EastHam,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Morning,Yes,Yes
+590,2025-05-30,IG6,Ilford-Redbridge,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Morning,Yes,Yes
+591,2025-05-30,E6,Stratford-EastHam,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Morning,Yes,Yes
+592,2025-05-30,E14,Docklands,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Morning,Yes,Yes
+593,2025-05-30,E9,Hackney-BethnalGreen,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Morning,Yes,Yes
+594,2025-05-30,E14,Docklands,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,Yes,Yes
+595,2025-05-30,E13,Stratford-EastHam,Subscription,Elevate,Elevate,39.75,1,39.75,Morning,Yes,Yes
+596,2025-05-30,E11,Stratford-EastHam,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Morning,No,Yes
+597,2025-05-31,RM6,Barking-Dagenham,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Morning,Yes,Yes
+598,2025-05-31,E10,Stratford-EastHam,Subscription,Essence,Essence,32.95,1,32.95,Morning,No,Yes
+599,2025-05-31,IG2,Ilford-Redbridge,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Morning,Yes,Yes
+600,2025-05-31,E7,Stratford-EastHam,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,Yes,Yes
+601,2025-05-31,E14,Docklands,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Morning,No,Yes
+602,2025-06-01,E6,Stratford-EastHam,Subscription,Essence,Essence,32.95,1,32.95,Morning,Yes,Yes
+603,2025-06-01,E11,Stratford-EastHam,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Morning,Yes,Yes
+604,2025-06-01,IG4,Ilford-Redbridge,Subscription,Elevate,Elevate,39.75,1,39.75,Morning,Yes,Yes
+605,2025-06-01,IG4,Ilford-Redbridge,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,Yes,Yes
+606,2025-06-01,E3,Docklands,Subscription,Essence,Essence,32.95,1,32.95,Morning,No,Yes
+607,2025-06-01,IG4,Ilford-Redbridge,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,Yes,Yes
+608,2025-06-01,E16,Docklands,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Morning,Yes,Yes
+609,2025-06-02,E12,Stratford-EastHam,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,Yes,Yes
+610,2025-06-02,E12,Stratford-EastHam,Subscription,Essence,Essence,32.95,1,32.95,Morning,Yes,Yes
+611,2025-06-02,RM9,Barking-Dagenham,Subscription,Everjoy,Everjoy,18.99,1,18.99,Morning,Yes,Yes
+612,2025-06-02,E6,Stratford-EastHam,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Morning,Yes,Yes
+613,2025-06-02,E16,Docklands,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Morning,Yes,Yes
+614,2025-06-02,E6,Stratford-EastHam,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Morning,Yes,Yes
+615,2025-06-03,E3,Docklands,Subscription,Elevate,Elevate,39.75,1,39.75,Morning,Yes,Yes
+616,2025-06-03,E12,Stratford-EastHam,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Morning,Yes,Yes
+617,2025-06-03,E16,Docklands,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,Yes,Yes
+618,2025-06-03,E13,Stratford-EastHam,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,Yes,Yes
+619,2025-06-03,E8,Hackney-BethnalGreen,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Morning,Yes,Yes
+620,2025-06-03,IG3,Ilford-Redbridge,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,Yes,Yes
+621,2025-06-04,IG2,Ilford-Redbridge,Subscription,Elevate,Elevate,39.75,1,39.75,Evening,Yes,Yes
+622,2025-06-04,IG2,Ilford-Redbridge,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Morning,No,Yes
+623,2025-06-04,E16,Docklands,Subscription,Everjoy,Everjoy,18.99,1,18.99,Evening,Yes,Yes
+624,2025-06-04,IG2,Ilford-Redbridge,OneTime,,Immunity Booster Platter,6.65,1,6.65,Evening,Yes,Yes
+625,2025-06-04,IG1,Ilford-Redbridge,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Morning,Yes,Yes
+626,2025-06-05,E7,Stratford-EastHam,Subscription,Elevate,Elevate,39.75,1,39.75,Morning,Yes,Yes
+627,2025-06-05,E2,Hackney-BethnalGreen,Subscription,Elevate,Elevate,39.75,1,39.75,Morning,No,Yes
+628,2025-06-05,E11,Stratford-EastHam,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Morning,Yes,Yes
+629,2025-06-05,E13,Stratford-EastHam,Subscription,Essence,Essence,32.95,1,32.95,Morning,Yes,Yes
+630,2025-06-05,E6,Stratford-EastHam,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Evening,Yes,Yes
+631,2025-06-05,RM6,Barking-Dagenham,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,Yes,Yes
+632,2025-06-05,E14,Docklands,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,No,Yes
+633,2025-06-06,E10,Stratford-EastHam,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,Yes,Yes
+634,2025-06-06,E9,Hackney-BethnalGreen,OneTime,,Immunity Booster Platter,6.65,1,6.65,Evening,Yes,Yes
+635,2025-06-06,E3,Docklands,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Morning,Yes,Yes
+636,2025-06-06,E9,Hackney-BethnalGreen,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,Yes,Yes
+637,2025-06-06,E11,Stratford-EastHam,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Morning,Yes,Yes
+638,2025-06-06,IG3,Ilford-Redbridge,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,Yes,Yes
+639,2025-06-06,IG2,Ilford-Redbridge,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,Yes,Yes
+640,2025-06-06,IG2,Ilford-Redbridge,Subscription,Essence,Essence,32.95,1,32.95,Evening,Yes,Yes
+641,2025-06-07,E16,Docklands,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Morning,Yes,Yes
+642,2025-06-07,E12,Stratford-EastHam,Subscription,Elevate,Elevate,39.75,1,39.75,Morning,Yes,Yes
+643,2025-06-07,E11,Stratford-EastHam,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Morning,Yes,Yes
+644,2025-06-07,IG6,Ilford-Redbridge,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Morning,No,Yes
+645,2025-06-07,IG1,Ilford-Redbridge,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,Yes,Yes
+646,2025-06-07,RM9,Barking-Dagenham,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Morning,Yes,Yes
+647,2025-06-07,IG1,Ilford-Redbridge,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Morning,Yes,Yes
+648,2025-06-07,IG3,Ilford-Redbridge,OneTime,,Immunity Booster Platter,6.65,1,6.65,Evening,Yes,Yes
+649,2025-06-07,E2,Hackney-BethnalGreen,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,Yes,Yes
+650,2025-06-07,IG2,Ilford-Redbridge,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Morning,Yes,Yes
+651,2025-06-08,E6,Stratford-EastHam,Subscription,Everjoy,Everjoy,18.99,1,18.99,Evening,Yes,Yes
+652,2025-06-08,E11,Stratford-EastHam,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Morning,Yes,Yes
+653,2025-06-08,E13,Stratford-EastHam,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Morning,Yes,Yes
+654,2025-06-08,E3,Docklands,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Morning,Yes,Yes
+655,2025-06-08,E12,Stratford-EastHam,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Morning,No,Yes
+656,2025-06-08,E1,Docklands,Subscription,Elevate,Elevate,39.75,1,39.75,Morning,Yes,Yes
+657,2025-06-08,E10,Stratford-EastHam,Subscription,Essence,Essence,32.95,1,32.95,Morning,Yes,Yes
+658,2025-06-08,IG4,Ilford-Redbridge,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Morning,Yes,Yes
+659,2025-06-08,IG4,Ilford-Redbridge,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Morning,Yes,Yes
+660,2025-06-08,IG3,Ilford-Redbridge,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Morning,Yes,Yes
+661,2025-06-09,E9,Hackney-BethnalGreen,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Morning,Yes,Yes
+662,2025-06-09,E3,Docklands,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Morning,Yes,Yes
+663,2025-06-09,E2,Hackney-BethnalGreen,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,Yes,Yes
+664,2025-06-09,E1,Docklands,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,Yes,Yes
+665,2025-06-09,E13,Stratford-EastHam,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Morning,Yes,Yes
+666,2025-06-09,IG2,Ilford-Redbridge,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Morning,Yes,Yes
+667,2025-06-09,IG4,Ilford-Redbridge,Subscription,Essence,Essence,32.95,1,32.95,Morning,Yes,Yes
+668,2025-06-09,E3,Docklands,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Morning,Yes,Yes
+669,2025-06-10,E12,Stratford-EastHam,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Evening,Yes,Yes
+670,2025-06-10,E6,Stratford-EastHam,Subscription,Essence,Essence,32.95,1,32.95,Morning,Yes,Yes
+671,2025-06-10,IG6,Ilford-Redbridge,OneTime,,Immunity Booster Platter,6.65,1,6.65,Evening,Yes,Yes
+672,2025-06-10,E11,Stratford-EastHam,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Evening,Yes,Yes
+673,2025-06-10,RM8,Barking-Dagenham,Subscription,Essence,Essence,32.95,1,32.95,Morning,Yes,Yes
+674,2025-06-10,IG3,Ilford-Redbridge,OneTime,,Immunity Booster Platter,6.65,1,6.65,Evening,Yes,Yes
+675,2025-06-10,E13,Stratford-EastHam,Subscription,Essence,Essence,32.95,1,32.95,Morning,Yes,Yes
+676,2025-06-10,IG4,Ilford-Redbridge,Subscription,Everjoy,Everjoy,18.99,1,18.99,Evening,Yes,Yes
+677,2025-06-11,IG3,Ilford-Redbridge,Subscription,Everjoy,Everjoy,18.99,1,18.99,Evening,Yes,Yes
+678,2025-06-11,E13,Stratford-EastHam,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Evening,Yes,Yes
+679,2025-06-11,E12,Stratford-EastHam,Subscription,Essence,Essence,32.95,1,32.95,Evening,Yes,Yes
+680,2025-06-11,E12,Stratford-EastHam,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,Yes,Yes
+681,2025-06-11,E11,Stratford-EastHam,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Evening,Yes,Yes
+682,2025-06-11,IG6,Ilford-Redbridge,Subscription,Elevate,Elevate,39.75,1,39.75,Evening,Yes,Yes
+683,2025-06-11,E11,Stratford-EastHam,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Evening,Yes,Yes
+684,2025-06-11,E16,Docklands,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,Yes,Yes
+685,2025-06-11,E14,Docklands,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Evening,Yes,Yes
+686,2025-06-11,RM9,Barking-Dagenham,Subscription,Everjoy,Everjoy,18.99,1,18.99,Evening,Yes,Yes
+687,2025-06-12,E7,Stratford-EastHam,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,Yes,Yes
+688,2025-06-12,E14,Docklands,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Evening,Yes,Yes
+689,2025-06-12,RM8,Barking-Dagenham,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,Yes,Yes
+690,2025-06-12,E7,Stratford-EastHam,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,Yes,Yes
+691,2025-06-12,E11,Stratford-EastHam,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,Yes,Yes
+692,2025-06-12,E8,Hackney-BethnalGreen,Subscription,Essence,Essence,32.95,1,32.95,Evening,Yes,Yes
+693,2025-06-12,RM9,Barking-Dagenham,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Morning,Yes,Yes
+694,2025-06-12,IG11,Ilford-Redbridge,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,Yes,Yes
+695,2025-06-12,E6,Stratford-EastHam,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Evening,Yes,Yes
+696,2025-06-12,E14,Docklands,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Evening,Yes,Yes
+697,2025-06-12,E6,Stratford-EastHam,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Evening,Yes,Yes
+698,2025-06-13,E10,Stratford-EastHam,Subscription,Elevate,Elevate,39.75,1,39.75,Evening,Yes,Yes
+699,2025-06-13,E7,Stratford-EastHam,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,Yes,Yes
+700,2025-06-13,E16,Docklands,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Evening,Yes,Yes
+701,2025-06-13,IG1,Ilford-Redbridge,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Morning,Yes,Yes
+702,2025-06-13,E12,Stratford-EastHam,Subscription,Elevate,Elevate,39.75,1,39.75,Evening,Yes,Yes
+703,2025-06-13,RM9,Barking-Dagenham,OneTime,,Immunity Booster Platter,6.65,1,6.65,Evening,Yes,Yes
+704,2025-06-13,E16,Docklands,Subscription,Elevate,Elevate,39.75,1,39.75,Morning,Yes,Yes
+705,2025-06-13,E1,Docklands,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,No,Yes
+706,2025-06-13,E13,Stratford-EastHam,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,Yes,Yes
+707,2025-06-14,E12,Stratford-EastHam,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Evening,Yes,Yes
+708,2025-06-14,IG1,Ilford-Redbridge,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Evening,Yes,Yes
+709,2025-06-14,E8,Hackney-BethnalGreen,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,Yes,Yes
+710,2025-06-14,RM6,Barking-Dagenham,Subscription,Everjoy,Everjoy,18.99,1,18.99,Evening,Yes,Yes
+711,2025-06-14,IG11,Ilford-Redbridge,Subscription,Elevate,Elevate,39.75,1,39.75,Morning,Yes,Yes
+712,2025-06-14,IG1,Ilford-Redbridge,Subscription,Essence,Essence,32.95,1,32.95,Evening,Yes,Yes
+713,2025-06-14,IG1,Ilford-Redbridge,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Evening,Yes,Yes
+714,2025-06-14,RM8,Barking-Dagenham,Subscription,Essence,Essence,32.95,1,32.95,Morning,Yes,Yes
+715,2025-06-14,E16,Docklands,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Evening,Yes,Yes
+716,2025-06-14,E13,Stratford-EastHam,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Morning,Yes,Yes
+717,2025-06-15,RM8,Barking-Dagenham,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,Yes,Yes
+718,2025-06-15,IG11,Ilford-Redbridge,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Morning,Yes,Yes
+719,2025-06-15,E12,Stratford-EastHam,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Morning,Yes,Yes
+720,2025-06-15,E3,Docklands,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Morning,Yes,Yes
+721,2025-06-15,E11,Stratford-EastHam,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Evening,Yes,Yes
+722,2025-06-15,IG11,Ilford-Redbridge,Subscription,Elevate,Elevate,39.75,1,39.75,Evening,Yes,Yes
+723,2025-06-15,E10,Stratford-EastHam,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,Yes,Yes
+724,2025-06-15,IG11,Ilford-Redbridge,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Evening,Yes,Yes
+725,2025-06-15,IG4,Ilford-Redbridge,Subscription,Everjoy,Everjoy,18.99,1,18.99,Morning,Yes,Yes
+726,2025-06-15,E6,Stratford-EastHam,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Evening,Yes,Yes
+727,2025-06-15,E12,Stratford-EastHam,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Morning,Yes,Yes
+728,2025-06-15,E13,Stratford-EastHam,Subscription,Elevate,Elevate,39.75,1,39.75,Evening,Yes,Yes
+729,2025-06-16,E16,Docklands,Subscription,Essence,Essence,32.95,1,32.95,Morning,Yes,Yes
+730,2025-06-16,RM9,Barking-Dagenham,OneTime,,Immunity Booster Platter,6.65,1,6.65,Evening,Yes,Yes
+731,2025-06-16,E2,Hackney-BethnalGreen,Subscription,Essence,Essence,32.95,1,32.95,Evening,Yes,Yes
+732,2025-06-17,RM6,Barking-Dagenham,Subscription,Essence,Essence,32.95,1,32.95,Morning,Yes,Yes
+733,2025-06-17,RM8,Barking-Dagenham,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Morning,Yes,Yes
+734,2025-06-17,E13,Stratford-EastHam,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Morning,Yes,Yes
+735,2025-06-17,IG6,Ilford-Redbridge,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Morning,Yes,Yes
+736,2025-06-17,E13,Stratford-EastHam,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Evening,Yes,Yes
+737,2025-06-17,IG11,Ilford-Redbridge,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,Yes,Yes
+738,2025-06-17,E1,Docklands,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Evening,Yes,Yes
+739,2025-06-17,IG4,Ilford-Redbridge,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,Yes,Yes
+740,2025-06-17,E14,Docklands,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Evening,Yes,Yes
+741,2025-06-17,E1,Docklands,OneTime,,Immunity Booster Platter,6.65,1,6.65,Evening,Yes,Yes
+742,2025-06-17,E9,Hackney-BethnalGreen,Subscription,Elevate,Elevate,39.75,1,39.75,Evening,Yes,Yes
+743,2025-06-18,E3,Docklands,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Morning,Yes,Yes
+744,2025-06-18,IG11,Ilford-Redbridge,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Evening,No,Yes
+745,2025-06-18,E1,Docklands,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Evening,Yes,Yes
+746,2025-06-18,E1,Docklands,Subscription,Elevate,Elevate,39.75,1,39.75,Evening,Yes,Yes
+747,2025-06-18,IG11,Ilford-Redbridge,Subscription,Elevate,Elevate,39.75,1,39.75,Evening,Yes,Yes
+748,2025-06-18,E14,Docklands,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Evening,Yes,Yes
+749,2025-06-19,RM8,Barking-Dagenham,Subscription,Everjoy,Everjoy,18.99,1,18.99,Evening,Yes,Yes
+750,2025-06-19,E11,Stratford-EastHam,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Morning,Yes,Yes
+751,2025-06-19,E9,Hackney-BethnalGreen,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Evening,Yes,Yes
+752,2025-06-19,E3,Docklands,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,Yes,Yes
+753,2025-06-19,IG4,Ilford-Redbridge,Subscription,Elevate,Elevate,39.75,1,39.75,Morning,Yes,Yes
+754,2025-06-19,E10,Stratford-EastHam,Subscription,Essence,Essence,32.95,1,32.95,Morning,Yes,Yes
+755,2025-06-19,IG1,Ilford-Redbridge,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Morning,Yes,Yes
+756,2025-06-20,E9,Hackney-BethnalGreen,Subscription,Elevate,Elevate,39.75,1,39.75,Evening,Yes,Yes
+757,2025-06-20,E1,Docklands,Subscription,Elevate,Elevate,39.75,1,39.75,Evening,Yes,Yes
+758,2025-06-20,E11,Stratford-EastHam,Subscription,Essence,Essence,32.95,1,32.95,Evening,Yes,Yes
+759,2025-06-20,E16,Docklands,OneTime,,Immunity Booster Platter,6.65,1,6.65,Evening,Yes,Yes
+760,2025-06-20,E2,Hackney-BethnalGreen,Subscription,Elevate,Elevate,39.75,1,39.75,Morning,Yes,Yes
+761,2025-06-20,E6,Stratford-EastHam,Subscription,Essence,Essence,32.95,1,32.95,Morning,Yes,Yes
+762,2025-06-20,E14,Docklands,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,Yes,Yes
+763,2025-06-20,IG11,Ilford-Redbridge,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Evening,Yes,Yes
+764,2025-06-20,IG11,Ilford-Redbridge,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Evening,Yes,Yes
+765,2025-06-20,IG3,Ilford-Redbridge,OneTime,,Immunity Booster Platter,6.65,1,6.65,Evening,Yes,Yes
+766,2025-06-21,E14,Docklands,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Evening,Yes,Yes
+767,2025-06-21,E11,Stratford-EastHam,Subscription,Essence,Essence,32.95,1,32.95,Evening,Yes,Yes
+768,2025-06-21,E11,Stratford-EastHam,Subscription,Elevate,Elevate,39.75,1,39.75,Morning,Yes,Yes
+769,2025-06-21,E12,Stratford-EastHam,Subscription,Everjoy,Everjoy,18.99,1,18.99,Morning,Yes,Yes
+770,2025-06-21,E8,Hackney-BethnalGreen,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Evening,Yes,Yes
+771,2025-06-21,IG1,Ilford-Redbridge,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Morning,Yes,Yes
+772,2025-06-21,E8,Hackney-BethnalGreen,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Evening,Yes,Yes
+773,2025-06-21,E14,Docklands,Subscription,Essence,Essence,32.95,1,32.95,Morning,Yes,Yes
+774,2025-06-21,E6,Stratford-EastHam,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,Yes,Yes
+775,2025-06-22,E14,Docklands,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Evening,Yes,Yes
+776,2025-06-22,IG3,Ilford-Redbridge,Subscription,Essence,Essence,32.95,1,32.95,Evening,Yes,Yes
+777,2025-06-22,IG4,Ilford-Redbridge,Subscription,Essence,Essence,32.95,1,32.95,Evening,Yes,Yes
+778,2025-06-22,IG4,Ilford-Redbridge,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Evening,Yes,Yes
+779,2025-06-22,IG3,Ilford-Redbridge,Subscription,Essence,Essence,32.95,1,32.95,Morning,Yes,Yes
+780,2025-06-23,IG11,Ilford-Redbridge,Subscription,Everjoy,Everjoy,18.99,1,18.99,Evening,Yes,Yes
+781,2025-06-23,E2,Hackney-BethnalGreen,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,Yes,Yes
+782,2025-06-23,IG11,Ilford-Redbridge,Subscription,Essence,Essence,32.95,1,32.95,Evening,Yes,Yes
+783,2025-06-23,E1,Docklands,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Evening,Yes,Yes
+784,2025-06-23,E2,Hackney-BethnalGreen,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,Yes,Yes
+785,2025-06-23,IG1,Ilford-Redbridge,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Evening,Yes,Yes
+786,2025-06-23,E1,Docklands,OneTime,,Immunity Booster Platter,6.65,1,6.65,Evening,Yes,Yes
+787,2025-06-23,IG4,Ilford-Redbridge,OneTime,,Immunity Booster Platter,6.65,1,6.65,Evening,Yes,Yes
+788,2025-06-24,E7,Stratford-EastHam,Subscription,Everjoy,Everjoy,18.99,1,18.99,Evening,Yes,Yes
+789,2025-06-24,IG2,Ilford-Redbridge,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Evening,Yes,Yes
+790,2025-06-24,IG3,Ilford-Redbridge,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Morning,No,Yes
+791,2025-06-24,E9,Hackney-BethnalGreen,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,Yes,Yes
+792,2025-06-25,E6,Stratford-EastHam,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Evening,Yes,Yes
+793,2025-06-25,E16,Docklands,Subscription,Essence,Essence,32.95,1,32.95,Morning,Yes,Yes
+794,2025-06-25,IG2,Ilford-Redbridge,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Evening,Yes,Yes
+795,2025-06-25,RM8,Barking-Dagenham,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Evening,Yes,Yes
+796,2025-06-25,E12,Stratford-EastHam,Subscription,Everjoy,Everjoy,18.99,1,18.99,Morning,Yes,Yes
+797,2025-06-25,RM8,Barking-Dagenham,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,Yes,Yes
+798,2025-06-25,E2,Hackney-BethnalGreen,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Morning,Yes,Yes
+799,2025-06-26,E13,Stratford-EastHam,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Evening,Yes,Yes
+800,2025-06-26,E11,Stratford-EastHam,Subscription,Essence,Essence,32.95,1,32.95,Morning,Yes,Yes
+801,2025-06-26,E3,Docklands,Subscription,Everjoy,Everjoy,18.99,1,18.99,Morning,Yes,Yes
+802,2025-06-26,IG1,Ilford-Redbridge,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Evening,Yes,Yes
+803,2025-06-26,IG4,Ilford-Redbridge,Subscription,Essence,Essence,32.95,1,32.95,Evening,No,Yes
+804,2025-06-26,IG2,Ilford-Redbridge,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Evening,Yes,Yes
+805,2025-06-26,RM9,Barking-Dagenham,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Morning,Yes,Yes
+806,2025-06-26,E9,Hackney-BethnalGreen,Subscription,Everjoy,Everjoy,18.99,1,18.99,Morning,Yes,Yes
+807,2025-06-26,E8,Hackney-BethnalGreen,Subscription,Elevate,Elevate,39.75,1,39.75,Evening,Yes,Yes
+808,2025-06-26,E8,Hackney-BethnalGreen,Subscription,Elevate,Elevate,39.75,1,39.75,Evening,Yes,Yes
+809,2025-06-27,IG2,Ilford-Redbridge,Subscription,Essence,Essence,32.95,1,32.95,Evening,Yes,Yes
+810,2025-06-27,E3,Docklands,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Evening,Yes,Yes
+811,2025-06-27,E7,Stratford-EastHam,Subscription,Elevate,Elevate,39.75,1,39.75,Morning,No,Yes
+812,2025-06-27,E16,Docklands,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Morning,Yes,Yes
+813,2025-06-27,RM6,Barking-Dagenham,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Evening,Yes,Yes
+814,2025-06-27,E2,Hackney-BethnalGreen,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Evening,Yes,Yes
+815,2025-06-27,E16,Docklands,Subscription,Essence,Essence,32.95,1,32.95,Evening,No,Yes
+816,2025-06-28,E10,Stratford-EastHam,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,Yes,Yes
+817,2025-06-28,IG1,Ilford-Redbridge,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,Yes,Yes
+818,2025-06-28,E13,Stratford-EastHam,Subscription,Elevate,Elevate,39.75,1,39.75,Morning,Yes,Yes
+819,2025-06-28,E6,Stratford-EastHam,Subscription,Essence,Essence,32.95,1,32.95,Evening,Yes,Yes
+820,2025-06-28,IG3,Ilford-Redbridge,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,Yes,Yes
+821,2025-06-28,E11,Stratford-EastHam,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Evening,Yes,Yes
+822,2025-06-28,E11,Stratford-EastHam,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Evening,Yes,Yes
+823,2025-06-28,IG1,Ilford-Redbridge,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Evening,Yes,Yes
+824,2025-06-29,E12,Stratford-EastHam,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Morning,Yes,Yes
+825,2025-06-29,E12,Stratford-EastHam,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Evening,Yes,Yes
+826,2025-06-29,RM9,Barking-Dagenham,Subscription,Essence,Essence,32.95,1,32.95,Evening,Yes,Yes
+827,2025-06-29,E7,Stratford-EastHam,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Evening,Yes,Yes
+828,2025-06-29,IG1,Ilford-Redbridge,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Morning,No,Yes
+829,2025-06-29,IG3,Ilford-Redbridge,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Morning,Yes,Yes
+830,2025-06-29,RM9,Barking-Dagenham,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Evening,Yes,Yes
+831,2025-06-29,E12,Stratford-EastHam,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Evening,Yes,Yes
+832,2025-06-29,RM8,Barking-Dagenham,Subscription,Elevate,Elevate,39.75,1,39.75,Evening,Yes,Yes
+833,2025-06-30,E9,Hackney-BethnalGreen,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Evening,Yes,Yes
+834,2025-06-30,E8,Hackney-BethnalGreen,Subscription,Elevate,Elevate,39.75,1,39.75,Morning,Yes,Yes
+835,2025-06-30,E8,Hackney-BethnalGreen,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Morning,Yes,Yes
+836,2025-06-30,E13,Stratford-EastHam,Subscription,Essence,Essence,32.95,1,32.95,Morning,Yes,Yes
+837,2025-06-30,IG6,Ilford-Redbridge,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Evening,Yes,Yes
+838,2025-06-30,IG3,Ilford-Redbridge,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Evening,Yes,Yes
+839,2025-06-30,E9,Hackney-BethnalGreen,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,No,Yes
+840,2025-06-30,IG6,Ilford-Redbridge,Subscription,Elevate,Elevate,39.75,1,39.75,Morning,Yes,Yes
+841,2025-06-30,E16,Docklands,OneTime,,Immunity Booster Platter,6.65,1,6.65,Evening,Yes,Yes
+842,2025-06-30,RM9,Barking-Dagenham,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Evening,Yes,Yes
+843,2025-07-01,IG1,Ilford-Redbridge,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Morning,Yes,Yes
+844,2025-07-01,E12,Stratford-EastHam,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Evening,Yes,Yes
+845,2025-07-01,IG3,Ilford-Redbridge,OneTime,,Immunity Booster Platter,6.65,1,6.65,Evening,Yes,Yes
+846,2025-07-01,E13,Stratford-EastHam,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,Yes,Yes
+847,2025-07-01,E14,Docklands,Subscription,Elevate,Elevate,39.75,1,39.75,Evening,Yes,Yes
+848,2025-07-01,E13,Stratford-EastHam,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Evening,Yes,Yes
+849,2025-07-01,E10,Stratford-EastHam,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Evening,Yes,Yes
+850,2025-07-01,IG11,Ilford-Redbridge,Subscription,Essence,Essence,32.95,1,32.95,Evening,No,No
+851,2025-07-01,RM8,Barking-Dagenham,OneTime,,Immunity Booster Platter,6.65,1,6.65,Evening,Yes,Yes
+852,2025-07-02,RM6,Barking-Dagenham,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Evening,Yes,Yes
+853,2025-07-03,E6,Stratford-EastHam,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Morning,Yes,Yes
+854,2025-07-03,IG1,Ilford-Redbridge,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Evening,Yes,Yes
+855,2025-07-03,E11,Stratford-EastHam,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Evening,Yes,Yes
+856,2025-07-03,E3,Docklands,Subscription,Essence,Essence,32.95,1,32.95,Evening,Yes,Yes
+857,2025-07-03,RM9,Barking-Dagenham,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Morning,Yes,Yes
+858,2025-07-03,IG11,Ilford-Redbridge,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Evening,Yes,Yes
+859,2025-07-03,E11,Stratford-EastHam,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Evening,Yes,Yes
+860,2025-07-04,RM9,Barking-Dagenham,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Morning,Yes,Yes
+861,2025-07-04,IG4,Ilford-Redbridge,OneTime,,Immunity Booster Platter,6.65,1,6.65,Evening,Yes,Yes
+862,2025-07-04,E6,Stratford-EastHam,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Evening,Yes,Yes
+863,2025-07-04,E7,Stratford-EastHam,Subscription,Essence,Essence,32.95,1,32.95,Morning,Yes,Yes
+864,2025-07-04,IG4,Ilford-Redbridge,Subscription,Elevate,Elevate,39.75,1,39.75,Evening,Yes,Yes
+865,2025-07-04,E9,Hackney-BethnalGreen,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Evening,Yes,Yes
+866,2025-07-04,E14,Docklands,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Evening,Yes,Yes
+867,2025-07-05,IG3,Ilford-Redbridge,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Morning,Yes,Yes
+868,2025-07-05,RM9,Barking-Dagenham,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Evening,Yes,Yes
+869,2025-07-05,E13,Stratford-EastHam,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Morning,Yes,Yes
+870,2025-07-05,E1,Docklands,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Morning,Yes,Yes
+871,2025-07-06,E16,Docklands,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Evening,Yes,Yes
+872,2025-07-06,E13,Stratford-EastHam,OneTime,,Immunity Booster Platter,6.65,1,6.65,Evening,Yes,Yes
+873,2025-07-06,E1,Docklands,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Morning,Yes,Yes
+874,2025-07-06,E14,Docklands,Subscription,Elevate,Elevate,39.75,1,39.75,Morning,Yes,Yes
+875,2025-07-06,E13,Stratford-EastHam,OneTime,,Hydration & Refreshment Platter,6.65,1,6.65,Morning,Yes,Yes
+876,2025-07-06,E7,Stratford-EastHam,Subscription,Essence,Essence,32.95,1,32.95,Morning,Yes,Yes
+877,2025-07-06,E16,Docklands,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,Yes,Yes
+878,2025-07-06,E6,Stratford-EastHam,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Morning,Yes,Yes
+879,2025-07-06,E8,Hackney-BethnalGreen,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Morning,Yes,Yes
+880,2025-07-06,E14,Docklands,OneTime,,Heart-Healthy & Vitality Platter,6.65,1,6.65,Evening,Yes,Yes
+881,2025-07-07,E12,Stratford-EastHam,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Morning,Yes,Yes
+882,2025-07-07,E12,Stratford-EastHam,OneTime,,Immunity Booster Platter,6.65,1,6.65,Morning,Yes,Yes
+883,2025-07-07,E16,Docklands,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Morning,Yes,Yes
+884,2025-07-07,RM8,Barking-Dagenham,Subscription,Everjoy,Everjoy,18.99,1,18.99,Evening,Yes,Yes
+885,2025-07-07,E14,Docklands,OneTime,,Glowing Skin & Healthy Hair Platter,6.65,1,6.65,Morning,Yes,Yes
+886,2025-07-07,E6,Stratford-EastHam,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Evening,Yes,Yes
+887,2025-07-07,E14,Docklands,OneTime,,Strength & Stamina Platter,6.65,1,6.65,Morning,Yes,Yes
+888,2025-07-07,E10,Stratford-EastHam,Subscription,Everjoy,Everjoy,18.99,1,18.99,Evening,Yes,Yes
+889,2025-07-07,E1,Docklands,OneTime,,Gut Health & Digestion Friendly Platter,6.65,1,6.65,Morning,Yes,Yes
+890,2025-07-07,RM6,Barking-Dagenham,Subscription,Essence,Essence,32.95,1,32.95,Evening,Yes,Yes
