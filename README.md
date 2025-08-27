@@ -18,7 +18,7 @@ This project simulates how data analytics supported Fruvibe’s business strateg
 - `OrderDate` (2025-03-16 to 2025-07-07)  
 - `PostcodeDistrict`, `AreaGroup`  
 - `OrderType` (Subscription / OneTime)  
-- `Plan` (Essence £32.95, Elevate £39.75, Everjoy £18.99)  
+- `Plans` (Essence £32.95, Elevate £39.75, Everjoy £18.99)  
 - `Product` (subscription plan or 1 of 6 Platters @ £6.65)  
 - `Revenue` (per order)  
 - `DeliverySlot` (Morning / Evening)  
