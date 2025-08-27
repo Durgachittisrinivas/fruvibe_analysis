@@ -1,0 +1,277 @@
+RespondentID,Age,Income_Level,PostcodeDistrict,AreaGroup,Preferred_Type,Preferred_Plan,Preferred_Platter,Subscription_Interest,DeliveryWindow_Preference,Purchase_Frequency,Age_Group,Loyalty_Score,Loyalty_Segment
+1,47,20k-40k,E14,Docklands,Subscription,Essence,,Yes,Morning,Bi-Weekly,46-60,2,Medium
+2,59,<20k,IG3,Ilford-Redbridge,OneTime,,Immunity Booster Platter,No,Evening,Bi-Weekly,46-60,2,Medium
+3,19,<20k,E2,Hackney-BethnalGreen,OneTime,,Heart-Healthy & Vitality Platter,No,Evening,Bi-Weekly,18-25,2,Medium
+4,18,40k-60k,E1,Docklands,Subscription,Everjoy,,Yes,Morning,Monthly,18-25,1,Low
+5,29,<20k,E7,Stratford-EastHam,OneTime,,Immunity Booster Platter,Yes,Evening,Weekly,26-35,3,High
+6,36,20k-40k,IG4,Ilford-Redbridge,OneTime,,Heart-Healthy & Vitality Platter,No,Evening,Monthly,36-45,1,Low
+7,19,<20k,E7,Stratford-EastHam,OneTime,,Hydration & Refreshment Platter,No,Evening,Monthly,18-25,1,Low
+8,47,20k-40k,E3,Docklands,Subscription,Essence,,Yes,Evening,Weekly,46-60,3,High
+9,23,40k-60k,IG3,Ilford-Redbridge,Subscription,Essence,,Yes,Evening,Weekly,18-25,3,High
+10,24,<20k,E16,Docklands,OneTime,,Glowing Skin & Healthy Hair Platter,Yes,Morning,Monthly,18-25,1,Low
+11,32,20k-40k,E6,Stratford-EastHam,Subscription,Everjoy,,Yes,Morning,Weekly,26-35,3,High
+12,32,60k+,E14,Docklands,OneTime,,Strength & Stamina Platter,Yes,Morning,Weekly,26-35,3,High
+13,51,20k-40k,E8,Hackney-BethnalGreen,OneTime,,Gut Health & Digestion Friendly Platter,No,Evening,Weekly,46-60,3,High
+14,29,20k-40k,E11,Stratford-EastHam,OneTime,,Hydration & Refreshment Platter,Yes,Evening,Weekly,26-35,3,High
+15,36,40k-60k,E14,Docklands,Subscription,Elevate,,Yes,Evening,Weekly,36-45,3,High
+16,29,40k-60k,RM9,Barking-Dagenham,OneTime,,Gut Health & Digestion Friendly Platter,Yes,Evening,Weekly,26-35,3,High
+17,34,20k-40k,E11,Stratford-EastHam,OneTime,,Heart-Healthy & Vitality Platter,Yes,Morning,Bi-Weekly,26-35,2,Medium
+18,24,40k-60k,E3,Docklands,OneTime,,Heart-Healthy & Vitality Platter,Yes,Morning,Bi-Weekly,18-25,2,Medium
+19,35,<20k,IG2,Ilford-Redbridge,Subscription,Essence,,Yes,Evening,Monthly,26-35,1,Low
+20,25,20k-40k,IG6,Ilford-Redbridge,Subscription,Essence,,Yes,Evening,Monthly,18-25,1,Low
+21,26,60k+,IG6,Ilford-Redbridge,OneTime,,Glowing Skin & Healthy Hair Platter,Yes,Evening,Monthly,26-35,1,Low
+22,32,20k-40k,E8,Hackney-BethnalGreen,OneTime,,Glowing Skin & Healthy Hair Platter,No,Evening,Weekly,26-35,3,High
+23,41,<20k,IG11,Ilford-Redbridge,OneTime,,Gut Health & Digestion Friendly Platter,Yes,Morning,Bi-Weekly,36-45,2,Medium
+24,38,<20k,E3,Docklands,Subscription,Elevate,,Yes,Evening,Bi-Weekly,36-45,2,Medium
+25,18,60k+,E3,Docklands,OneTime,,Immunity Booster Platter,No,Morning,Weekly,18-25,3,High
+26,21,<20k,IG4,Ilford-Redbridge,Subscription,Elevate,,Yes,Evening,Weekly,18-25,3,High
+27,53,20k-40k,IG3,Ilford-Redbridge,OneTime,,Gut Health & Digestion Friendly Platter,No,Evening,Weekly,46-60,3,High
+28,34,40k-60k,E14,Docklands,OneTime,,Heart-Healthy & Vitality Platter,No,Morning,Weekly,26-35,3,High
+29,31,<20k,IG2,Ilford-Redbridge,Subscription,Elevate,,Yes,Evening,Weekly,26-35,3,High
+30,21,20k-40k,E9,Hackney-BethnalGreen,OneTime,,Hydration & Refreshment Platter,Yes,Evening,Weekly,18-25,3,High
+31,56,40k-60k,RM8,Barking-Dagenham,OneTime,,Heart-Healthy & Vitality Platter,Yes,Evening,Weekly,46-60,3,High
+32,22,20k-40k,E12,Stratford-EastHam,OneTime,,Gut Health & Digestion Friendly Platter,No,Evening,Weekly,18-25,3,High
+33,46,20k-40k,IG4,Ilford-Redbridge,Subscription,Essence,,Yes,Morning,Weekly,46-60,3,High
+34,42,40k-60k,IG11,Ilford-Redbridge,Subscription,Essence,,Yes,Evening,Bi-Weekly,36-45,2,Medium
+35,39,40k-60k,E14,Docklands,OneTime,,Hydration & Refreshment Platter,Yes,Morning,Weekly,36-45,3,High
+36,23,20k-40k,E1,Docklands,OneTime,,Strength & Stamina Platter,Yes,Morning,Weekly,18-25,3,High
+37,59,<20k,IG4,Ilford-Redbridge,OneTime,,Gut Health & Digestion Friendly Platter,No,Evening,Monthly,46-60,1,Low
+38,43,<20k,RM8,Barking-Dagenham,Subscription,Everjoy,,Yes,Evening,Weekly,36-45,3,High
+39,25,20k-40k,E7,Stratford-EastHam,OneTime,,Strength & Stamina Platter,Yes,Morning,Monthly,18-25,1,Low
+40,56,40k-60k,RM9,Barking-Dagenham,OneTime,,Strength & Stamina Platter,No,Evening,Bi-Weekly,46-60,2,Medium
+41,57,60k+,E1,Docklands,OneTime,,Hydration & Refreshment Platter,No,Morning,Weekly,46-60,3,High
+42,45,20k-40k,IG3,Ilford-Redbridge,OneTime,,Glowing Skin & Healthy Hair Platter,No,Evening,Weekly,36-45,3,High
+43,33,<20k,RM6,Barking-Dagenham,OneTime,,Hydration & Refreshment Platter,Yes,Evening,Monthly,26-35,1,Low
+44,47,40k-60k,RM8,Barking-Dagenham,OneTime,,Strength & Stamina Platter,Yes,Morning,Weekly,46-60,3,High
+45,58,<20k,E1,Docklands,OneTime,,Glowing Skin & Healthy Hair Platter,No,Evening,Weekly,46-60,3,High
+46,51,<20k,RM6,Barking-Dagenham,Subscription,Everjoy,,Yes,Evening,Bi-Weekly,46-60,2,Medium
+47,42,<20k,IG3,Ilford-Redbridge,Subscription,Everjoy,,Yes,Evening,Weekly,36-45,3,High
+48,38,60k+,IG6,Ilford-Redbridge,OneTime,,Hydration & Refreshment Platter,Yes,Evening,Weekly,36-45,3,High
+49,39,40k-60k,E16,Docklands,Subscription,Essence,,Yes,Morning,Bi-Weekly,36-45,2,Medium
+50,43,<20k,E7,Stratford-EastHam,OneTime,,Strength & Stamina Platter,No,Evening,Weekly,36-45,3,High
+51,42,60k+,IG1,Ilford-Redbridge,OneTime,,Immunity Booster Platter,No,Evening,Bi-Weekly,36-45,2,Medium
+52,46,20k-40k,IG3,Ilford-Redbridge,OneTime,,Glowing Skin & Healthy Hair Platter,No,Evening,Bi-Weekly,46-60,2,Medium
+53,57,<20k,E9,Hackney-BethnalGreen,Subscription,Elevate,,Yes,Evening,Weekly,46-60,3,High
+54,18,40k-60k,E14,Docklands,OneTime,,Gut Health & Digestion Friendly Platter,No,Morning,Monthly,18-25,1,Low
+55,30,20k-40k,IG6,Ilford-Redbridge,Subscription,Elevate,,Yes,Morning,Weekly,26-35,3,High
+56,19,40k-60k,IG4,Ilford-Redbridge,Subscription,Essence,,Yes,Evening,Bi-Weekly,18-25,2,Medium
+57,50,20k-40k,E11,Stratford-EastHam,OneTime,,Gut Health & Digestion Friendly Platter,Yes,Morning,Bi-Weekly,46-60,2,Medium
+58,56,20k-40k,IG2,Ilford-Redbridge,Subscription,Elevate,,Yes,Evening,Weekly,46-60,3,High
+59,39,<20k,IG11,Ilford-Redbridge,Subscription,Essence,,Yes,Evening,Monthly,36-45,1,Low
+60,28,40k-60k,IG11,Ilford-Redbridge,Subscription,Elevate,,Yes,Evening,Weekly,26-35,3,High
+61,47,20k-40k,E2,Hackney-BethnalGreen,Subscription,Elevate,,Yes,Morning,Weekly,46-60,3,High
+62,36,20k-40k,E10,Stratford-EastHam,OneTime,,Glowing Skin & Healthy Hair Platter,No,Morning,Monthly,36-45,1,Low
+63,51,40k-60k,E8,Hackney-BethnalGreen,Subscription,Elevate,,Yes,Evening,Weekly,46-60,3,High
+64,26,20k-40k,E13,Stratford-EastHam,OneTime,,Glowing Skin & Healthy Hair Platter,Yes,Evening,Weekly,26-35,3,High
+65,54,60k+,E6,Stratford-EastHam,OneTime,,Hydration & Refreshment Platter,Yes,Morning,Monthly,46-60,1,Low
+66,32,40k-60k,E6,Stratford-EastHam,OneTime,,Hydration & Refreshment Platter,No,Evening,Weekly,26-35,3,High
+67,19,60k+,IG3,Ilford-Redbridge,OneTime,,Immunity Booster Platter,No,Evening,Weekly,18-25,3,High
+68,37,20k-40k,E12,Stratford-EastHam,OneTime,,Heart-Healthy & Vitality Platter,No,Morning,Weekly,36-45,3,High
+69,43,40k-60k,E8,Hackney-BethnalGreen,OneTime,,Strength & Stamina Platter,No,Evening,Bi-Weekly,36-45,2,Medium
+70,30,60k+,E3,Docklands,OneTime,,Hydration & Refreshment Platter,Yes,Morning,Bi-Weekly,26-35,2,Medium
+71,30,40k-60k,E10,Stratford-EastHam,Subscription,Essence,,Yes,Evening,Weekly,26-35,3,High
+72,48,20k-40k,IG6,Ilford-Redbridge,Subscription,Elevate,,Yes,Evening,Monthly,46-60,1,Low
+73,26,40k-60k,IG1,Ilford-Redbridge,OneTime,,Hydration & Refreshment Platter,Yes,Morning,Bi-Weekly,26-35,2,Medium
+74,22,40k-60k,IG6,Ilford-Redbridge,Subscription,Essence,,Yes,Evening,Weekly,18-25,3,High
+75,57,20k-40k,IG4,Ilford-Redbridge,OneTime,,Heart-Healthy & Vitality Platter,Yes,Morning,Monthly,46-60,1,Low
+76,32,40k-60k,RM9,Barking-Dagenham,OneTime,,Strength & Stamina Platter,Yes,Evening,Bi-Weekly,26-35,2,Medium
+77,34,<20k,E1,Docklands,OneTime,,Immunity Booster Platter,Yes,Evening,Monthly,26-35,1,Low
+78,49,<20k,IG2,Ilford-Redbridge,OneTime,,Gut Health & Digestion Friendly Platter,No,Evening,Bi-Weekly,46-60,2,Medium
+79,38,<20k,E6,Stratford-EastHam,Subscription,Elevate,,Yes,Evening,Monthly,36-45,1,Low
+80,32,<20k,E8,Hackney-BethnalGreen,OneTime,,Heart-Healthy & Vitality Platter,No,Morning,Weekly,26-35,3,High
+81,47,60k+,E2,Hackney-BethnalGreen,Subscription,Elevate,,Yes,Evening,Bi-Weekly,46-60,2,Medium
+82,48,20k-40k,IG3,Ilford-Redbridge,Subscription,Everjoy,,Yes,Morning,Bi-Weekly,46-60,2,Medium
+83,35,60k+,E1,Docklands,Subscription,Essence,,Yes,Evening,Weekly,26-35,3,High
+84,50,<20k,E16,Docklands,OneTime,,Heart-Healthy & Vitality Platter,Yes,Evening,Bi-Weekly,46-60,2,Medium
+85,43,<20k,E6,Stratford-EastHam,Subscription,Elevate,,Yes,Evening,Monthly,36-45,1,Low
+86,58,20k-40k,IG4,Ilford-Redbridge,OneTime,,Hydration & Refreshment Platter,Yes,Morning,Bi-Weekly,46-60,2,Medium
+87,55,40k-60k,E10,Stratford-EastHam,Subscription,Elevate,,Yes,Morning,Weekly,46-60,3,High
+88,48,40k-60k,E2,Hackney-BethnalGreen,Subscription,Essence,,Yes,Evening,Bi-Weekly,46-60,2,Medium
+89,44,<20k,RM8,Barking-Dagenham,OneTime,,Gut Health & Digestion Friendly Platter,Yes,Evening,Weekly,36-45,3,High
+90,25,20k-40k,E8,Hackney-BethnalGreen,OneTime,,Gut Health & Digestion Friendly Platter,No,Evening,Weekly,18-25,3,High
+91,58,<20k,E12,Stratford-EastHam,Subscription,Essence,,Yes,Morning,Weekly,46-60,3,High
+92,28,20k-40k,E6,Stratford-EastHam,OneTime,,Gut Health & Digestion Friendly Platter,No,Evening,Bi-Weekly,26-35,2,Medium
+93,49,20k-40k,E7,Stratford-EastHam,Subscription,Essence,,Yes,Morning,Weekly,46-60,3,High
+94,27,20k-40k,E13,Stratford-EastHam,OneTime,,Heart-Healthy & Vitality Platter,Yes,Morning,Bi-Weekly,26-35,2,Medium
+95,31,60k+,E1,Docklands,Subscription,Essence,,Yes,Evening,Bi-Weekly,26-35,2,Medium
+96,20,40k-60k,E1,Docklands,OneTime,,Hydration & Refreshment Platter,Yes,Morning,Monthly,18-25,1,Low
+97,30,<20k,E16,Docklands,OneTime,,Heart-Healthy & Vitality Platter,Yes,Morning,Weekly,26-35,3,High
+98,39,40k-60k,E11,Stratford-EastHam,Subscription,Elevate,,Yes,Morning,Monthly,36-45,1,Low
+99,36,20k-40k,RM8,Barking-Dagenham,OneTime,,Gut Health & Digestion Friendly Platter,No,Evening,Weekly,36-45,3,High
+100,50,<20k,RM8,Barking-Dagenham,OneTime,,Gut Health & Digestion Friendly Platter,Yes,Morning,Monthly,46-60,1,Low
+101,30,<20k,E1,Docklands,Subscription,Essence,,Yes,Evening,Bi-Weekly,26-35,2,Medium
+102,27,40k-60k,E16,Docklands,Subscription,Elevate,,Yes,Evening,Bi-Weekly,26-35,2,Medium
+103,27,40k-60k,E8,Hackney-BethnalGreen,Subscription,Elevate,,Yes,Evening,Weekly,26-35,3,High
+104,31,20k-40k,E2,Hackney-BethnalGreen,OneTime,,Strength & Stamina Platter,Yes,Morning,Weekly,26-35,3,High
+105,39,<20k,IG3,Ilford-Redbridge,Subscription,Elevate,,Yes,Morning,Bi-Weekly,36-45,2,Medium
+106,43,40k-60k,E12,Stratford-EastHam,OneTime,,Glowing Skin & Healthy Hair Platter,Yes,Evening,Bi-Weekly,36-45,2,Medium
+107,30,20k-40k,E9,Hackney-BethnalGreen,OneTime,,Glowing Skin & Healthy Hair Platter,No,Morning,Bi-Weekly,26-35,2,Medium
+108,24,40k-60k,E13,Stratford-EastHam,Subscription,Elevate,,Yes,Evening,Weekly,18-25,3,High
+109,55,40k-60k,E6,Stratford-EastHam,Subscription,Essence,,Yes,Evening,Bi-Weekly,46-60,2,Medium
+110,40,20k-40k,IG1,Ilford-Redbridge,OneTime,,Hydration & Refreshment Platter,No,Evening,Monthly,36-45,1,Low
+111,49,20k-40k,E10,Stratford-EastHam,OneTime,,Gut Health & Digestion Friendly Platter,No,Evening,Monthly,46-60,1,Low
+112,33,<20k,RM8,Barking-Dagenham,OneTime,,Heart-Healthy & Vitality Platter,Yes,Evening,Weekly,26-35,3,High
+113,45,20k-40k,E16,Docklands,Subscription,Elevate,,Yes,Morning,Bi-Weekly,36-45,2,Medium
+114,39,40k-60k,IG6,Ilford-Redbridge,OneTime,,Glowing Skin & Healthy Hair Platter,No,Evening,Monthly,36-45,1,Low
+115,43,40k-60k,RM8,Barking-Dagenham,OneTime,,Hydration & Refreshment Platter,No,Evening,Monthly,36-45,1,Low
+116,40,20k-40k,E2,Hackney-BethnalGreen,OneTime,,Heart-Healthy & Vitality Platter,No,Morning,Weekly,36-45,3,High
+117,46,20k-40k,IG4,Ilford-Redbridge,OneTime,,Immunity Booster Platter,No,Evening,Bi-Weekly,46-60,2,Medium
+118,41,40k-60k,E12,Stratford-EastHam,OneTime,,Heart-Healthy & Vitality Platter,Yes,Evening,Bi-Weekly,36-45,2,Medium
+119,23,40k-60k,E13,Stratford-EastHam,OneTime,,Immunity Booster Platter,No,Morning,Bi-Weekly,18-25,2,Medium
+120,46,20k-40k,E16,Docklands,OneTime,,Gut Health & Digestion Friendly Platter,No,Morning,Weekly,46-60,3,High
+121,32,<20k,IG1,Ilford-Redbridge,OneTime,,Glowing Skin & Healthy Hair Platter,Yes,Evening,Bi-Weekly,26-35,2,Medium
+122,57,60k+,IG6,Ilford-Redbridge,OneTime,,Strength & Stamina Platter,No,Morning,Bi-Weekly,46-60,2,Medium
+123,43,60k+,E6,Stratford-EastHam,Subscription,Essence,,Yes,Evening,Bi-Weekly,36-45,2,Medium
+124,54,40k-60k,E16,Docklands,Subscription,Elevate,,Yes,Morning,Weekly,46-60,3,High
+125,21,<20k,IG2,Ilford-Redbridge,Subscription,Essence,,Yes,Evening,Bi-Weekly,18-25,2,Medium
+126,27,20k-40k,E11,Stratford-EastHam,OneTime,,Strength & Stamina Platter,Yes,Morning,Weekly,26-35,3,High
+127,58,20k-40k,E3,Docklands,OneTime,,Hydration & Refreshment Platter,No,Morning,Bi-Weekly,46-60,2,Medium
+128,55,<20k,RM6,Barking-Dagenham,OneTime,,Glowing Skin & Healthy Hair Platter,No,Morning,Weekly,46-60,3,High
+129,56,20k-40k,E1,Docklands,OneTime,,Strength & Stamina Platter,Yes,Morning,Weekly,46-60,3,High
+130,58,20k-40k,IG1,Ilford-Redbridge,OneTime,,Heart-Healthy & Vitality Platter,No,Evening,Monthly,46-60,1,Low
+131,47,20k-40k,E16,Docklands,OneTime,,Glowing Skin & Healthy Hair Platter,No,Evening,Bi-Weekly,46-60,2,Medium
+132,42,20k-40k,IG1,Ilford-Redbridge,OneTime,,Strength & Stamina Platter,No,Evening,Weekly,36-45,3,High
+133,58,20k-40k,RM8,Barking-Dagenham,OneTime,,Gut Health & Digestion Friendly Platter,No,Evening,Bi-Weekly,46-60,2,Medium
+134,37,40k-60k,RM9,Barking-Dagenham,OneTime,,Gut Health & Digestion Friendly Platter,No,Evening,Weekly,36-45,3,High
+135,46,<20k,E7,Stratford-EastHam,Subscription,Essence,,Yes,Evening,Monthly,46-60,1,Low
+136,50,20k-40k,IG2,Ilford-Redbridge,OneTime,,Glowing Skin & Healthy Hair Platter,No,Evening,Bi-Weekly,46-60,2,Medium
+137,42,40k-60k,IG4,Ilford-Redbridge,Subscription,Essence,,Yes,Evening,Weekly,36-45,3,High
+138,39,<20k,E13,Stratford-EastHam,Subscription,Essence,,Yes,Morning,Monthly,36-45,1,Low
+139,49,<20k,IG2,Ilford-Redbridge,Subscription,Essence,,Yes,Evening,Bi-Weekly,46-60,2,Medium
+140,32,20k-40k,E1,Docklands,OneTime,,Immunity Booster Platter,Yes,Morning,Weekly,26-35,3,High
+141,19,20k-40k,E12,Stratford-EastHam,OneTime,,Glowing Skin & Healthy Hair Platter,Yes,Morning,Bi-Weekly,18-25,2,Medium
+142,30,<20k,E12,Stratford-EastHam,OneTime,,Heart-Healthy & Vitality Platter,Yes,Evening,Weekly,26-35,3,High
+143,54,<20k,IG4,Ilford-Redbridge,OneTime,,Immunity Booster Platter,Yes,Evening,Bi-Weekly,46-60,2,Medium
+144,51,20k-40k,E9,Hackney-BethnalGreen,Subscription,Everjoy,,Yes,Morning,Weekly,46-60,3,High
+145,56,<20k,RM6,Barking-Dagenham,OneTime,,Glowing Skin & Healthy Hair Platter,No,Evening,Monthly,46-60,1,Low
+146,33,20k-40k,IG2,Ilford-Redbridge,OneTime,,Strength & Stamina Platter,Yes,Evening,Weekly,26-35,3,High
+147,47,40k-60k,IG3,Ilford-Redbridge,OneTime,,Immunity Booster Platter,Yes,Evening,Weekly,46-60,3,High
+148,43,40k-60k,RM8,Barking-Dagenham,Subscription,Essence,,Yes,Evening,Bi-Weekly,36-45,2,Medium
+149,38,40k-60k,E14,Docklands,OneTime,,Heart-Healthy & Vitality Platter,Yes,Evening,Monthly,36-45,1,Low
+150,27,40k-60k,E14,Docklands,Subscription,Elevate,,Yes,Morning,Weekly,26-35,3,High
+151,44,<20k,E1,Docklands,OneTime,,Immunity Booster Platter,No,Evening,Monthly,36-45,1,Low
+152,47,20k-40k,E2,Hackney-BethnalGreen,OneTime,,Heart-Healthy & Vitality Platter,No,Morning,Weekly,46-60,3,High
+153,22,20k-40k,IG4,Ilford-Redbridge,OneTime,,Heart-Healthy & Vitality Platter,No,Evening,Weekly,18-25,3,High
+154,38,40k-60k,E16,Docklands,Subscription,Elevate,,Yes,Evening,Bi-Weekly,36-45,2,Medium
+155,18,20k-40k,IG3,Ilford-Redbridge,OneTime,,Glowing Skin & Healthy Hair Platter,Yes,Morning,Bi-Weekly,18-25,2,Medium
+156,57,40k-60k,E12,Stratford-EastHam,OneTime,,Heart-Healthy & Vitality Platter,Yes,Morning,Bi-Weekly,46-60,2,Medium
+157,49,40k-60k,E6,Stratford-EastHam,OneTime,,Heart-Healthy & Vitality Platter,Yes,Evening,Weekly,46-60,3,High
+158,32,20k-40k,E3,Docklands,Subscription,Everjoy,,Yes,Evening,Bi-Weekly,26-35,2,Medium
+159,28,60k+,RM6,Barking-Dagenham,Subscription,Essence,,Yes,Evening,Bi-Weekly,26-35,2,Medium
+160,42,20k-40k,IG3,Ilford-Redbridge,OneTime,,Strength & Stamina Platter,No,Morning,Bi-Weekly,36-45,2,Medium
+161,45,20k-40k,E3,Docklands,OneTime,,Heart-Healthy & Vitality Platter,No,Morning,Monthly,36-45,1,Low
+162,45,60k+,E9,Hackney-BethnalGreen,Subscription,Essence,,Yes,Evening,Weekly,36-45,3,High
+163,28,40k-60k,E6,Stratford-EastHam,Subscription,Elevate,,Yes,Morning,Weekly,26-35,3,High
+164,58,<20k,E10,Stratford-EastHam,OneTime,,Strength & Stamina Platter,Yes,Evening,Weekly,46-60,3,High
+165,25,20k-40k,IG1,Ilford-Redbridge,OneTime,,Strength & Stamina Platter,Yes,Morning,Monthly,18-25,1,Low
+166,56,40k-60k,E12,Stratford-EastHam,OneTime,,Strength & Stamina Platter,No,Morning,Weekly,46-60,3,High
+167,28,40k-60k,IG6,Ilford-Redbridge,Subscription,Essence,,Yes,Evening,Monthly,26-35,1,Low
+168,25,20k-40k,E2,Hackney-BethnalGreen,Subscription,Essence,,Yes,Evening,Monthly,18-25,1,Low
+169,54,60k+,E1,Docklands,OneTime,,Strength & Stamina Platter,Yes,Evening,Bi-Weekly,46-60,2,Medium
+170,25,20k-40k,IG4,Ilford-Redbridge,OneTime,,Hydration & Refreshment Platter,Yes,Evening,Weekly,18-25,3,High
+171,38,40k-60k,IG6,Ilford-Redbridge,Subscription,Essence,,Yes,Morning,Weekly,36-45,3,High
+172,36,20k-40k,IG1,Ilford-Redbridge,OneTime,,Gut Health & Digestion Friendly Platter,No,Evening,Monthly,36-45,1,Low
+173,39,20k-40k,E8,Hackney-BethnalGreen,OneTime,,Heart-Healthy & Vitality Platter,No,Morning,Monthly,36-45,1,Low
+174,28,20k-40k,E16,Docklands,Subscription,Elevate,,Yes,Morning,Weekly,26-35,3,High
+175,18,<20k,E2,Hackney-BethnalGreen,OneTime,,Glowing Skin & Healthy Hair Platter,Yes,Morning,Bi-Weekly,18-25,2,Medium
+176,32,<20k,E14,Docklands,OneTime,,Glowing Skin & Healthy Hair Platter,Yes,Evening,Monthly,26-35,1,Low
+177,18,<20k,E12,Stratford-EastHam,OneTime,,Heart-Healthy & Vitality Platter,Yes,Evening,Weekly,18-25,3,High
+178,26,20k-40k,E2,Hackney-BethnalGreen,OneTime,,Heart-Healthy & Vitality Platter,Yes,Evening,Weekly,26-35,3,High
+179,47,60k+,IG3,Ilford-Redbridge,OneTime,,Glowing Skin & Healthy Hair Platter,Yes,Morning,Weekly,46-60,3,High
+180,41,<20k,RM6,Barking-Dagenham,Subscription,Elevate,,Yes,Morning,Weekly,36-45,3,High
+181,39,20k-40k,E3,Docklands,Subscription,Elevate,,Yes,Morning,Bi-Weekly,36-45,2,Medium
+182,20,<20k,IG11,Ilford-Redbridge,OneTime,,Heart-Healthy & Vitality Platter,No,Evening,Bi-Weekly,18-25,2,Medium
+183,46,20k-40k,E2,Hackney-BethnalGreen,Subscription,Everjoy,,Yes,Morning,Bi-Weekly,46-60,2,Medium
+184,46,<20k,IG3,Ilford-Redbridge,Subscription,Everjoy,,Yes,Morning,Monthly,46-60,1,Low
+185,36,20k-40k,IG6,Ilford-Redbridge,OneTime,,Glowing Skin & Healthy Hair Platter,No,Morning,Weekly,36-45,3,High
+186,49,20k-40k,E14,Docklands,OneTime,,Hydration & Refreshment Platter,Yes,Evening,Weekly,46-60,3,High
+187,47,20k-40k,IG6,Ilford-Redbridge,OneTime,,Gut Health & Digestion Friendly Platter,No,Evening,Weekly,46-60,3,High
+188,36,<20k,RM8,Barking-Dagenham,OneTime,,Gut Health & Digestion Friendly Platter,Yes,Morning,Weekly,36-45,3,High
+189,24,20k-40k,E14,Docklands,Subscription,Essence,,Yes,Evening,Weekly,18-25,3,High
+190,25,<20k,E16,Docklands,OneTime,,Hydration & Refreshment Platter,No,Morning,Bi-Weekly,18-25,2,Medium
+191,42,60k+,RM6,Barking-Dagenham,OneTime,,Glowing Skin & Healthy Hair Platter,Yes,Evening,Weekly,36-45,3,High
+192,29,20k-40k,E9,Hackney-BethnalGreen,OneTime,,Gut Health & Digestion Friendly Platter,No,Evening,Bi-Weekly,26-35,2,Medium
+193,56,40k-60k,IG3,Ilford-Redbridge,OneTime,,Gut Health & Digestion Friendly Platter,No,Evening,Weekly,46-60,3,High
+194,37,40k-60k,IG2,Ilford-Redbridge,OneTime,,Strength & Stamina Platter,Yes,Morning,Monthly,36-45,1,Low
+195,19,20k-40k,IG2,Ilford-Redbridge,OneTime,,Hydration & Refreshment Platter,No,Morning,Monthly,18-25,1,Low
+196,51,40k-60k,IG1,Ilford-Redbridge,Subscription,Essence,,Yes,Evening,Bi-Weekly,46-60,2,Medium
+197,34,20k-40k,E8,Hackney-BethnalGreen,OneTime,,Strength & Stamina Platter,Yes,Morning,Monthly,26-35,1,Low
+198,40,40k-60k,IG11,Ilford-Redbridge,Subscription,Everjoy,,Yes,Evening,Weekly,36-45,3,High
+199,22,40k-60k,IG1,Ilford-Redbridge,Subscription,Elevate,,Yes,Morning,Weekly,18-25,3,High
+200,28,<20k,E10,Stratford-EastHam,Subscription,Essence,,Yes,Evening,Weekly,26-35,3,High
+201,44,40k-60k,E6,Stratford-EastHam,OneTime,,Heart-Healthy & Vitality Platter,No,Evening,Bi-Weekly,36-45,2,Medium
+202,59,20k-40k,IG3,Ilford-Redbridge,OneTime,,Strength & Stamina Platter,Yes,Evening,Weekly,46-60,3,High
+203,22,<20k,E1,Docklands,OneTime,,Heart-Healthy & Vitality Platter,Yes,Morning,Monthly,18-25,1,Low
+204,45,20k-40k,E14,Docklands,Subscription,Everjoy,,Yes,Morning,Bi-Weekly,36-45,2,Medium
+205,25,20k-40k,E7,Stratford-EastHam,OneTime,,Strength & Stamina Platter,No,Morning,Weekly,18-25,3,High
+206,57,40k-60k,RM6,Barking-Dagenham,Subscription,Everjoy,,Yes,Evening,Weekly,46-60,3,High
+207,33,20k-40k,IG3,Ilford-Redbridge,OneTime,,Glowing Skin & Healthy Hair Platter,No,Evening,Bi-Weekly,26-35,2,Medium
+208,56,<20k,E12,Stratford-EastHam,Subscription,Essence,,Yes,Evening,Monthly,46-60,1,Low
+209,44,40k-60k,E16,Docklands,OneTime,,Gut Health & Digestion Friendly Platter,Yes,Evening,Bi-Weekly,36-45,2,Medium
+210,39,<20k,E13,Stratford-EastHam,Subscription,Elevate,,Yes,Morning,Monthly,36-45,1,Low
+211,58,40k-60k,E2,Hackney-BethnalGreen,OneTime,,Gut Health & Digestion Friendly Platter,No,Morning,Monthly,46-60,1,Low
+212,32,40k-60k,E12,Stratford-EastHam,Subscription,Everjoy,,Yes,Morning,Bi-Weekly,26-35,2,Medium
+213,57,<20k,E16,Docklands,Subscription,Elevate,,Yes,Evening,Bi-Weekly,46-60,2,Medium
+214,29,40k-60k,E14,Docklands,OneTime,,Glowing Skin & Healthy Hair Platter,Yes,Morning,Weekly,26-35,3,High
+215,22,40k-60k,RM8,Barking-Dagenham,OneTime,,Hydration & Refreshment Platter,No,Evening,Weekly,18-25,3,High
+216,50,40k-60k,E11,Stratford-EastHam,OneTime,,Hydration & Refreshment Platter,No,Evening,Bi-Weekly,46-60,2,Medium
+217,47,60k+,E14,Docklands,OneTime,,Heart-Healthy & Vitality Platter,No,Evening,Bi-Weekly,46-60,2,Medium
+218,32,60k+,E11,Stratford-EastHam,OneTime,,Heart-Healthy & Vitality Platter,No,Morning,Monthly,26-35,1,Low
+219,43,20k-40k,IG11,Ilford-Redbridge,Subscription,Essence,,Yes,Evening,Bi-Weekly,36-45,2,Medium
+220,46,20k-40k,RM6,Barking-Dagenham,Subscription,Everjoy,,Yes,Evening,Weekly,46-60,3,High
+221,24,<20k,E13,Stratford-EastHam,OneTime,,Immunity Booster Platter,Yes,Evening,Weekly,18-25,3,High
+222,37,20k-40k,E6,Stratford-EastHam,OneTime,,Strength & Stamina Platter,Yes,Evening,Weekly,36-45,3,High
+223,19,40k-60k,E12,Stratford-EastHam,Subscription,Elevate,,Yes,Evening,Monthly,18-25,1,Low
+224,44,40k-60k,IG4,Ilford-Redbridge,Subscription,Elevate,,Yes,Evening,Bi-Weekly,36-45,2,Medium
+225,59,<20k,E11,Stratford-EastHam,OneTime,,Gut Health & Digestion Friendly Platter,Yes,Morning,Bi-Weekly,46-60,2,Medium
+226,52,20k-40k,RM6,Barking-Dagenham,OneTime,,Gut Health & Digestion Friendly Platter,Yes,Evening,Monthly,46-60,1,Low
+227,55,<20k,IG4,Ilford-Redbridge,Subscription,Essence,,Yes,Evening,Weekly,46-60,3,High
+228,59,60k+,E3,Docklands,Subscription,Elevate,,Yes,Evening,Weekly,46-60,3,High
+229,55,60k+,E14,Docklands,OneTime,,Immunity Booster Platter,No,Evening,Bi-Weekly,46-60,2,Medium
+230,36,<20k,IG11,Ilford-Redbridge,OneTime,,Strength & Stamina Platter,No,Evening,Weekly,36-45,3,High
+231,23,<20k,RM8,Barking-Dagenham,OneTime,,Immunity Booster Platter,No,Morning,Weekly,18-25,3,High
+232,52,40k-60k,E3,Docklands,OneTime,,Heart-Healthy & Vitality Platter,No,Evening,Monthly,46-60,1,Low
+233,26,20k-40k,E3,Docklands,Subscription,Everjoy,,Yes,Evening,Monthly,26-35,1,Low
+234,43,20k-40k,E13,Stratford-EastHam,Subscription,Everjoy,,Yes,Evening,Weekly,36-45,3,High
+235,43,60k+,E14,Docklands,OneTime,,Heart-Healthy & Vitality Platter,Yes,Evening,Weekly,36-45,3,High
+236,43,60k+,E8,Hackney-BethnalGreen,Subscription,Essence,,Yes,Evening,Monthly,36-45,1,Low
+237,32,20k-40k,RM6,Barking-Dagenham,OneTime,,Glowing Skin & Healthy Hair Platter,Yes,Morning,Bi-Weekly,26-35,2,Medium
+238,53,20k-40k,E7,Stratford-EastHam,OneTime,,Gut Health & Digestion Friendly Platter,Yes,Morning,Bi-Weekly,46-60,2,Medium
+239,39,60k+,IG2,Ilford-Redbridge,OneTime,,Immunity Booster Platter,No,Evening,Bi-Weekly,36-45,2,Medium
+240,35,60k+,IG3,Ilford-Redbridge,OneTime,,Gut Health & Digestion Friendly Platter,Yes,Evening,Bi-Weekly,26-35,2,Medium
+241,24,20k-40k,E1,Docklands,OneTime,,Strength & Stamina Platter,Yes,Evening,Weekly,18-25,3,High
+242,52,20k-40k,E1,Docklands,Subscription,Essence,,Yes,Morning,Bi-Weekly,46-60,2,Medium
+243,55,40k-60k,E16,Docklands,OneTime,,Hydration & Refreshment Platter,Yes,Morning,Bi-Weekly,46-60,2,Medium
+244,18,<20k,E3,Docklands,OneTime,,Heart-Healthy & Vitality Platter,No,Evening,Weekly,18-25,3,High
+245,22,20k-40k,E6,Stratford-EastHam,Subscription,Elevate,,Yes,Evening,Bi-Weekly,18-25,2,Medium
+246,35,<20k,IG11,Ilford-Redbridge,Subscription,Elevate,,Yes,Morning,Weekly,26-35,3,High
+247,59,<20k,E13,Stratford-EastHam,OneTime,,Gut Health & Digestion Friendly Platter,No,Evening,Monthly,46-60,1,Low
+248,34,<20k,E11,Stratford-EastHam,Subscription,Everjoy,,Yes,Evening,Weekly,26-35,3,High
+249,46,20k-40k,RM6,Barking-Dagenham,Subscription,Essence,,Yes,Evening,Bi-Weekly,46-60,2,Medium
+250,49,40k-60k,E12,Stratford-EastHam,Subscription,Essence,,Yes,Evening,Bi-Weekly,46-60,2,Medium
+251,48,60k+,E7,Stratford-EastHam,OneTime,,Glowing Skin & Healthy Hair Platter,Yes,Evening,Bi-Weekly,46-60,2,Medium
+252,45,<20k,E12,Stratford-EastHam,OneTime,,Heart-Healthy & Vitality Platter,No,Morning,Weekly,36-45,3,High
+253,57,<20k,E13,Stratford-EastHam,Subscription,Essence,,Yes,Evening,Monthly,46-60,1,Low
+254,34,20k-40k,IG6,Ilford-Redbridge,Subscription,Essence,,Yes,Evening,Bi-Weekly,26-35,2,Medium
+255,40,40k-60k,IG6,Ilford-Redbridge,OneTime,,Immunity Booster Platter,No,Evening,Bi-Weekly,36-45,2,Medium
+256,41,40k-60k,E7,Stratford-EastHam,OneTime,,Glowing Skin & Healthy Hair Platter,No,Evening,Weekly,36-45,3,High
+257,55,20k-40k,E12,Stratford-EastHam,Subscription,Everjoy,,Yes,Evening,Weekly,46-60,3,High
+258,27,60k+,RM8,Barking-Dagenham,Subscription,Elevate,,Yes,Evening,Monthly,26-35,1,Low
+259,31,<20k,E7,Stratford-EastHam,OneTime,,Glowing Skin & Healthy Hair Platter,Yes,Evening,Weekly,26-35,3,High
+260,37,20k-40k,E6,Stratford-EastHam,OneTime,,Heart-Healthy & Vitality Platter,No,Morning,Weekly,36-45,3,High
+261,43,<20k,E12,Stratford-EastHam,Subscription,Essence,,Yes,Morning,Weekly,36-45,3,High
+262,32,60k+,RM6,Barking-Dagenham,OneTime,,Heart-Healthy & Vitality Platter,No,Morning,Weekly,26-35,3,High
+263,40,60k+,E10,Stratford-EastHam,OneTime,,Gut Health & Digestion Friendly Platter,No,Evening,Bi-Weekly,36-45,2,Medium
+264,58,40k-60k,E14,Docklands,OneTime,,Hydration & Refreshment Platter,Yes,Evening,Monthly,46-60,1,Low
+265,24,40k-60k,E7,Stratford-EastHam,OneTime,,Heart-Healthy & Vitality Platter,Yes,Evening,Bi-Weekly,18-25,2,Medium
+266,47,40k-60k,E3,Docklands,Subscription,Essence,,Yes,Morning,Monthly,46-60,1,Low
+267,44,60k+,E10,Stratford-EastHam,OneTime,,Hydration & Refreshment Platter,No,Evening,Bi-Weekly,36-45,2,Medium
+268,34,40k-60k,E13,Stratford-EastHam,Subscription,Elevate,,Yes,Morning,Monthly,26-35,1,Low
+269,35,20k-40k,IG3,Ilford-Redbridge,OneTime,,Glowing Skin & Healthy Hair Platter,No,Morning,Weekly,26-35,3,High
+270,53,20k-40k,E12,Stratford-EastHam,Subscription,Elevate,,Yes,Evening,Monthly,46-60,1,Low
+271,34,40k-60k,IG4,Ilford-Redbridge,OneTime,,Hydration & Refreshment Platter,No,Morning,Bi-Weekly,26-35,2,Medium
+272,57,<20k,RM6,Barking-Dagenham,OneTime,,Glowing Skin & Healthy Hair Platter,Yes,Evening,Monthly,46-60,1,Low
+273,47,20k-40k,E2,Hackney-BethnalGreen,OneTime,,Immunity Booster Platter,No,Evening,Weekly,46-60,3,High
+274,36,<20k,IG2,Ilford-Redbridge,OneTime,,Gut Health & Digestion Friendly Platter,No,Evening,Weekly,36-45,3,High
+275,47,20k-40k,E8,Hackney-BethnalGreen,OneTime,,Glowing Skin & Healthy Hair Platter,No,Morning,Weekly,46-60,3,High
+276,58,60k+,E11,Stratford-EastHam,OneTime,,Heart-Healthy & Vitality Platter,Yes,Evening,Weekly,46-60,3,High
