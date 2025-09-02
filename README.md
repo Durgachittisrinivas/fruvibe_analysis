@@ -5,14 +5,20 @@ This project simulates FruVibe’s pilot in East London (Mar–Jul 2025) to answ
 **What should we sell, to whom, at what price, and how do we deliver on time?**
 
 <p align="center">
-  <img src="screenshots/executive_summary.png" alt="Executive Summary" width="900">
+  <img src="screenshots/executive_summary.png" alt="Executive Summary Dashboard" width="900">
 </p>
+
+---
+
+![Made with Python](https://img.shields.io/badge/Made%20with-Python-blue)
+![Power BI](https://img.shields.io/badge/Visualized%20in-Power%20BI-yellow)
+![Status](https://img.shields.io/badge/Project-Portfolio-success)
 
 ---
 
 ## ⚡ TL;DR Results
 - **890 orders**, **£13.06K revenue**, **31% subscription share**  
-- **On-Time = 92.5%**, **Fulfillment = 99.8%** (Evening beats Morning on both)  
+- **On-Time = 92.5%**, **Fulfillment = 99.8%**  
 - **Top area:** IG3 (highest orders & revenue)  
 - **Top one-time product:** Immunity Booster Platter  
 - **Best subscription plan AOV:** Elevate (£39.75 vs one-time £6.65)  
@@ -57,11 +63,11 @@ The key business questions were:
 
 | Page | Screenshot |
 |------|------------|
-| **Executive Summary** | ![Executive](screenshots/executive_summary.png) |
-| **Operations Dashboard** | ![Operations](screenshots/operations.png) |
-| **Customer Insights** | ![Customer](screenshots/customer_insights.png) |
-| **Product & Pricing** | ![Pricing](screenshots/product_pricing.png) |
-| **Geo Insights** | ![Geo](screenshots/geo_insights.png) |
+| **Executive Summary** | ![Executive Summary Dashboard](screenshots/executive_summary.png) |
+| **Operations Dashboard** | ![Operations Dashboard](screenshots/operations.png) |
+| **Customer Insights** | ![Customer Insights Dashboard](screenshots/customer_insights.png) |
+| **Product & Pricing** | ![Product & Pricing Dashboard](screenshots/product_pricing.png) |
+| **Geo Insights** | ![Geo Insights Dashboard](screenshots/geo_insights.png) |
 
 ➡️ Full interactive dashboard available in Power BI Service (link coming soon).  
 ➡️ `.pbix` file included in `dashboards/`.
