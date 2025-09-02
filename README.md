@@ -5,7 +5,7 @@ This project simulates FruVibe’s pilot in East London (Mar–Jul 2025) to answ
 **What should we sell, to whom, at what price, and how do we deliver on time?**
 
 <p align="center">
-  <img src="Screenshorts/executive_summary.png" alt="Executive Summary" width="900">
+  <img src="screenshots/executive_summary.png" alt="Executive Summary" width="900">
 </p>
 
 ---
