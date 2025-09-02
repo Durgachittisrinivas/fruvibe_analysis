@@ -1,6 +1,6 @@
 # FruVibe Analytics: Sales, Marketing & Operations Insights  
 
-📊 **End-to-end data analytics project** simulating FruVibe, a fruit platter subscription startup in East London.  
+📊 **End-to-end data analytics project** FruVibe, a fruit platter subscription startup in East London.  
 This project showcases how data-driven insights improve **subscriptions, customer loyalty, and delivery operations**.  
 
 ---
