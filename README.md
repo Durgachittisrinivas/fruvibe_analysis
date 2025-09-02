@@ -69,7 +69,7 @@ The key business questions were:
 | **Product & Pricing** | ![Product & Pricing Dashboard](screenshots/product_pricing.png) |
 | **Geo Insights** | ![Geo Insights Dashboard](screenshots/geo_insights.png) |
 
-➡️ Full interactive dashboard available in Power BI Service (link coming soon).  
+➡️ Full interactive dashboard available in Power BI Service (https://app.powerbi.com/groups/me/reports/fa809d76-cb5c-4f23-8f06-a50875bc0327/5f502cda05e12c019dea?experience=power-bi).
 ➡️ `.pbix` file included in `dashboards/`.
 
 ---
