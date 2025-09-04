@@ -41,7 +41,7 @@ The key business questions were:
 
 ---
 
-## 🛠 Tools & Methods
+##  Tools & Methods
 - **Python (Pandas, NumPy, Matplotlib)** → Data cleaning & processing  
 - **Power BI** → Data modeling & dashboards  
 - **Excel** → Data validation & quick checks  
