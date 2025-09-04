@@ -15,7 +15,7 @@ This project simulates FruVibe’s pilot in East London (Mar–Jul 2025) to answ
 
 ---
 
-## ⚡ TL;DR Results
+##  TL;DR Results
 - **890 orders**, **£13.06K revenue**, **31% subscription share**  
 - **On-Time = 92.5%**, **Fulfillment = 99.8%**  
 - **Top area:** IG3 (highest orders & revenue)  
@@ -24,7 +24,7 @@ This project simulates FruVibe’s pilot in East London (Mar–Jul 2025) to answ
 
 ---
 
-## 🚀 Business Problem
+##  Business Problem
 FruVibe needed to validate its **subscription model and operations** during a pilot in East London.  
 The key business questions were:
 1. Which products and plans generate the most revenue?  
@@ -34,7 +34,7 @@ The key business questions were:
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 - Clean and prepare raw order & survey data.  
 - Build dashboards for **Sales, Marketing, and Operations**.  
 - Translate data into **business recommendations**.  
@@ -49,16 +49,16 @@ The key business questions were:
 
 ---
 
-## 🔑 Key Insights
-- 📈 Subscriptions = **31% of orders but ~70% of revenue** → critical for growth  
-- 🍓 Immunity Booster Platter = **#1 one-time product**  
-- ⏰ Evening deliveries = fewer orders but **higher reliability (96%)**  
-- 🛒 60% of customers scored **High loyalty** in survey → strong retention potential  
-- ⚠️ RM6 flagged with **lowest On-Time % (82.6%)** → delivery risk zone  
+##  Key Insights
+- Subscriptions = **31% of orders but ~70% of revenue** → critical for growth  
+- Immunity Booster Platter = **#1 one-time product**  
+- Evening deliveries = fewer orders but **higher reliability (96%)**  
+- 60% of customers scored **High loyalty** in survey → strong retention potential  
+- RM6 flagged with **lowest On-Time % (82.6%)** → delivery risk zone  
 
 ---
 
-## 📊 Dashboards (Power BI)
+##  Dashboards (Power BI)
 
 | Page | Screenshot |
 |------|------------|
@@ -68,28 +68,28 @@ The key business questions were:
 | **Product & Pricing** | ![Product & Pricing Dashboard](screenshots/product_pricing.png) |
 | **Geo Insights** | ![Geo Insights Dashboard](screenshots/geo_insights.png) |
 
-➡️ Full interactive dashboard available in Power BI Service (https://app.powerbi.com/groups/me/reports/fa809d76-cb5c-4f23-8f06-a50875bc0327/5f502cda05e12c019dea?experience=power-bi).
-➡️ `.pbix` file included in `dashboards/`.
+➡ Full interactive dashboard available in Power BI Service (https://app.powerbi.com/groups/me/reports/fa809d76-cb5c-4f23-8f06-a50875bc0327/5f502cda05e12c019dea?experience=power-bi).
+➡ `.pbix` file included in `dashboards/`.
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 
 ---
 
-## 🧹 Data Preparation
+##  Data Preparation
 - **Orders dataset**  
-  - Parsed dates, standardized text  
-  - Engineered features: `IsSubscription`, `IsEvening`, `IsOnTime`, `Month`, `PrePostPilot`  
+   Parsed dates, standardized text  
+   Engineered features: `IsSubscription`, `IsEvening`, `IsOnTime`, `Month`, `PrePostPilot`  
 - **Survey dataset**  
-  - Age grouping, loyalty scoring, subscription intent  
+   Age grouping, loyalty scoring, subscription intent  
 - Outputs saved to `data/processed/`:  
-  - `orders_clean.csv`  
-  - `survey_clean.csv`  
+   `orders_clean.csv`  
+  `survey_clean.csv`  
 
 ---
 
-## 🧮 DAX Measures (examples)
+##  DAX Measures (examples)
 ```DAX
 Total Orders = COUNTROWS(orders_clean)
 Total Revenue = SUM(orders_clean[Revenue])
