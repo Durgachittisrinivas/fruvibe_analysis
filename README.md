@@ -12,7 +12,6 @@ This project simulates FruVibe’s pilot in East London (Mar–Jul 2025) to answ
 
 ![Made with Python](https://img.shields.io/badge/Made%20with-Python-blue)
 ![Power BI](https://img.shields.io/badge/Visualized%20in-Power%20BI-yellow)
-![Status](https://img.shields.io/badge/Project-Portfolio-success)
 
 ---
 
